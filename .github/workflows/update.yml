@@ -40,11 +40,11 @@ jobs:
       - name: modify
         run: node data/modify.js
 
-      - name: commit data
-        run: |
-          git add .
-          git commit -m 'update data.json'
-          git push 'https://${{ secrets.GITHUB_TOKEN }}@github.com/hotsixman/pcgk'
+      #- name: commit data
+        #run: |
+         # git add .
+          #git commit -m 'update data.json'
+          #git push 'https://${{ secrets.GITHUB_TOKEN }}@github.com/hotsixman/pcgk'
 
       - name: build
         run: |
