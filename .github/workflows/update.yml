@@ -32,13 +32,13 @@ jobs:
           git pull origin main
       
       - name: crawl
-        run: node src/lib/data/crawl.js
+        run: node data/crawl.js
 
       - name: combine
-        run: node src/lib/data/combine.js
+        run: node data/combine.js
 
       - name: modify
-        run: node src/lib/data/modify.js
+        run: node data/modify.js
 
       - name: commit data
         run: |
