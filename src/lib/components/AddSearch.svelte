@@ -67,4 +67,9 @@
 
         margin-block: 10px;
     }
+
+    input{
+        width: auto;
+        flex: 1 1 auto;
+    }
 </style>
