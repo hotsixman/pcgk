@@ -30,17 +30,17 @@
     }
 </script>
 
-<div bind:this={container} onclick={clickHandler} role="presentation"></div>
+<div class="container" bind:this={container} onclick={clickHandler} role="presentation"></div>
 
 <dialog bind:this={dialog}>
     <div class="dialog-container">
-        <img src={highDefURL.href} alt="" />
+        <img class="dialog-img" src={highDefURL.href} alt="" />
         <button class="close" bind:this={closeBtn}> 닫기 </button>
     </div>
 </dialog>
 
 <style>
-    div {
+    .container {
         width: 100%;
         cursor: pointer;
     }
@@ -50,11 +50,14 @@
     }
 
     dialog {
-        max-width: 100%;
+        width: 100%;
+        max-width: 400px;
+        max-height: calc(100% - 10px);
         border: 2px solid rgb(80, 140, 230);
         border-radius: 5px;
 
         padding: 10px;
+        box-sizing: border-box;
     }
 
     .dialog-container {
@@ -62,10 +65,15 @@
         flex-direction: column;
         align-items: center;
         row-gap: 10px;
+        max-height: 100%;
     }
 
     img {
         width: 100%;
+    }
+
+    .dialog-img{
+        max-height: calc(100% - 100px);
     }
 
     dialog::backdrop {

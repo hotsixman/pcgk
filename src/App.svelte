@@ -11,6 +11,12 @@
     const forceReload = writable<null | (() => Promise<void>)>(null);
 </script>
 
+<svelte:head>
+    <title>
+        포켓몬 카드 관리
+    </title>
+</svelte:head>
+
 <Export {forceReload}/>
 <ModeSelector bind:mode />
 {#if mode === "collection"}
