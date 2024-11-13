@@ -1,8 +1,15 @@
 <script lang="ts">
+    import type { Writable } from "svelte/store";
     import type { CollectedCardData } from "../types";
     import { collectedCardDB } from "../util/db";
     import CollectionCard from "./CollectionCard.svelte";
     import CollectionSearch from "./CollectionSearch.svelte";
+
+    interface Props{
+        forceReload: Writable<null | (() => Promise<void>)>
+    }
+
+    let {forceReload}: Props = $props();
 
     let keyword = $state("");
     let collectedDatas: CollectedCardData[] = $state([]);
@@ -13,6 +20,8 @@
     async function loadCollectedDatas() {
         collectedDatas = await collectedCardDB.cards.toArray();
     }
+
+    forceReload.set(loadCollectedDatas);
 
     function filterCollectedCardDatas(e: CollectedCardData, i: number) {
         if (!keyword) {

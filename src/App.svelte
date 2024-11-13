@@ -4,13 +4,17 @@
     import Add from "./lib/components/Add.svelte";
     import Collection from "./lib/components/Collection.svelte";
     import ModeSelector from "./lib/components/ModeSelector.svelte";
+    import Export from "./lib/components/Export.svelte";
+    import { writable } from "svelte/store";
 
     let mode: "collection" | "add" = $state("collection");
+    const forceReload = writable<null | (() => Promise<void>)>(null);
 </script>
 
+<Export {forceReload}/>
 <ModeSelector bind:mode />
 {#if mode === "collection"}
-    <Collection />
+    <Collection {forceReload}/>
 {:else}
     <Add />
 {/if}
