@@ -1,69 +1,162 @@
 [
   {
-    "name": "드래피온 V",
+    "name": "사다이사",
     "type": "pokemon",
     "detailedType": [
-      "기본",
-      "포켓몬 V"
+      "1진화"
     ],
-    "goods": "S12a",
-    "order": 227,
-    "regulation": "F",
-    "illustrator": "Yuka Morii",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001227 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_227.png?w=512",
-    "hp": 210,
+    "goods": "SV1S",
+    "order": 47,
+    "regulation": "G",
+    "illustrator": "Yuya Oka",
+    "rareGrade": "U",
+    "cardNum": "BS2023006047",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_047.png?w=512",
+    "hp": 140,
     "monType": [
-      "악"
+      "격투"
     ],
     "weakness": {
-      "type": "격투",
+      "type": "풀",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 3,
     "tech": [
       {
-        "name": "와일드스타일",
-        "energy": [],
-        "damage": null,
-        "effect": "상대 필드의 「일격」「연격」「퓨전」의 포켓몬의 수만큼 이 포켓몬이 기술을 사용하기 위한 (무색) 에너지는 적어진다."
-      },
-      {
-        "name": "다이내믹테일",
+        "name": "로켓박치기",
         "energy": [
-          "무색",
-          "무색",
-          "무색",
+          "격투",
+          "격투",
           "무색"
         ],
-        "damage": "190",
-        "effect": "자신의 포켓몬 1마리에게도 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+        "damage": "120",
+        "effect": null
       },
       {
-        "name": "V 룰",
-        "energy": [],
+        "name": "모래먼지분사",
+        "energy": [
+          "격투",
+          "격투",
+          "격투",
+          "무색"
+        ],
         "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다. 그 뒤, 상대의 배틀 포켓몬과 붙어 있는 모든 카드를 상대의 덱으로 되돌리고 섞는다."
       }
     ]
   },
   {
-    "name": "루카리오 VSTAR",
+    "name": "절벼게",
     "type": "pokemon",
     "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
+      "기본"
     ],
-    "goods": "S12a",
-    "order": 226,
-    "regulation": "F",
-    "illustrator": "hncl",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001226 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_226.png?w=512",
-    "hp": 270,
+    "goods": "SV1S",
+    "order": 48,
+    "regulation": "G",
+    "illustrator": "nagimiso",
+    "rareGrade": "R",
+    "cardNum": "BS2023006048",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_048.png?w=512",
+    "hp": 130,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "찝기",
+        "energy": [
+          "격투",
+          "격투"
+        ],
+        "damage": "50",
+        "effect": null
+      },
+      {
+        "name": "아드레나해머",
+        "energy": [
+          "격투",
+          "격투",
+          "격투"
+        ],
+        "damage": "130",
+        "effect": "이 포켓몬을 혼란으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "위대한엄니 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 ex"
+    ],
+    "goods": "SV1S",
+    "order": 49,
+    "regulation": "G",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "RR",
+    "cardNum": "BS2023006049",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_049.png?w=512",
+    "hp": 250,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "암반허물기",
+        "energy": [
+          "격투"
+        ],
+        "damage": "40",
+        "effect": "필드에 나와 있는 스타디움을 트래쉬한다."
+      },
+      {
+        "name": "기간트터스크",
+        "energy": [
+          "격투",
+          "격투",
+          "격투"
+        ],
+        "damage": "250",
+        "effect": "이 포켓몬에게도 50데미지를 준다."
+      },
+      {
+        "name": "ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "코라이돈 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 ex"
+    ],
+    "goods": "SV1S",
+    "order": 50,
+    "regulation": "G",
+    "illustrator": "aky CG Works",
+    "rareGrade": "RR",
+    "cardNum": "BS2023006050",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_050.png?w=512",
+    "hp": 230,
     "monType": [
       "격투"
     ],
@@ -75,869 +168,168 @@
     "retreat": 2,
     "tech": [
       {
-        "name": "파이팅너클",
+        "name": "디노크라이",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 1번 사용할 수 있으며, 사용하면 차례는 끝난다. 자신의 트래쉬에서 「기본 (격투) 에너지」를 2장까지 선택해서 자신의 (격투) 타입의 기본 포켓몬에게 원하는 대로 붙인다."
+      },
+      {
+        "name": "와일드임팩트",
         "energy": [
           "격투",
-          "무색",
-          "무색"
-        ],
-        "damage": "120+",
-        "effect": "상대의 배틀 포켓몬이 「포켓몬 V」라면 120데미지를 추가한다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
           "격투",
-          "무색"
-        ],
-        "damage": "70×",
-        "effect": "상대 필드의 포켓몬에게 붙어 있는 에너지의 개수 × 70데미지를 준다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "자시안 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 225,
-    "regulation": "E",
-    "illustrator": "Hataya",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001225 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_225.png?w=512",
-    "hp": 220,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "검의 포효",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 자신의 덱에서 (초) 에너지를 1장 선택해서 자신의 포켓몬에게 붙인다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "스톰슬래시",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "60+",
-        "effect": "이 포켓몬에게 붙어 있는 (초) 에너지의 개수 × 30데미지를 추가한다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "브리무음 VMAX\n[거다이맥스]",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VMAX"
-    ],
-    "goods": "S12a",
-    "order": 224,
-    "regulation": "F",
-    "illustrator": "sui",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001224 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_224.png?w=512",
-    "hp": 320,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "마녀의 영역",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 필드의 포켓몬에게 올려져 있는 데미지 카운터를 2개까지 선택해서 상대의 배틀 포켓몬에게 올린다."
-      },
-      {
-        "name": "거다이천벌",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "150",
-        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다."
-      },
-      {
-        "name": "VMAX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "테오키스 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 223,
-    "regulation": "F",
-    "illustrator": "DOM",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001223 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_223.png?w=512",
-    "hp": 270,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "사이코재블린",
-        "energy": [
-          "초",
-          "초",
-          "무색"
-        ],
-        "damage": "190",
-        "effect": "상대 벤치의 「포켓몬 V」 1마리에게도 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "초"
-        ],
-        "damage": "60×",
-        "effect": "서로의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 60데미지를 준다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "테오키스 VMAX\n[다이맥스]",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VMAX"
-    ],
-    "goods": "S12a",
-    "order": 222,
-    "regulation": "F",
-    "illustrator": "Akira Komayama",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001222 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_222.png?w=512",
-    "hp": 330,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "프로텍트DNA",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 자신의 포켓몬 전원이 상대의 「포켓몬 [VSTAR]」로부터 받는 기술의 데미지는 「-30」이 된다."
-      },
-      {
-        "name": "다이드레인",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "160",
-        "effect": "이 포켓몬의 HP를 「30」회복한다."
-      },
-      {
-        "name": "VMAX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "뮤츠 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 221,
-    "regulation": "F",
-    "illustrator": "GOSSAN",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001221 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_221.png?w=512",
-    "hp": 280,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "사이코퍼지",
-        "energy": [
-          "초",
-          "무색"
-        ],
-        "damage": "90×",
-        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (초) 에너지를 3장까지 트래쉬하고 그 장수 × 90데미지를 준다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "초",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 「포켓몬 V」 전원에게 각각 120데미지를 준다. 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "제라오라 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 220,
-    "regulation": "F",
-    "illustrator": "Ligton",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001220 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_220.png?w=512",
-    "hp": 270,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "크래시비트",
-        "energy": [
-          "번개",
-          "번개",
-          "무색"
-        ],
-        "damage": "190",
-        "effect": "원한다면 필드에 나와 있는 스타디움을 트래쉬한다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "번개",
-          "번개",
-          "번개",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬을 4번 선택해서 선택한 포켓몬 전원에게 약점, 저항력 계산을 하지 않고 선택한 횟수 × 60데미지를 준다. (1마리를 2번 이상 선택할 수 있다.) (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "제라오라 VMAX\n[다이맥스]",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VMAX"
-    ],
-    "goods": "S12a",
-    "order": 219,
-    "regulation": "F",
-    "illustrator": "aoki",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001219 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_219.png?w=512",
-    "hp": 320,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "리액트펄스",
-        "energy": [
-          "번개",
-          "번개"
-        ],
-        "damage": "60×",
-        "effect": "상대 필드의 특성을 가진 포켓몬의 수 × 60데미지를 준다."
-      },
-      {
-        "name": "다이피스트",
-        "energy": [
-          "번개",
-          "번개",
-          "무색"
-        ],
-        "damage": "240",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다."
-      },
-      {
-        "name": "VMAX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "라이코 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 218,
-    "regulation": "F",
-    "illustrator": "nagimiso",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001218 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_218.png?w=512",
-    "hp": 200,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "준족",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 1장 뽑는다."
-      },
-      {
-        "name": "라이트닝론도",
-        "energy": [
-          "번개",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "서로의 벤치 포켓몬의 수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "글레이시아 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 217,
-    "regulation": "F",
-    "illustrator": "Gemi",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001217 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_217.png?w=512",
-    "hp": 260,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "고드름샷",
-        "energy": [
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": "180",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "물",
-          "물",
           "무색"
         ],
         "damage": "220",
-        "effect": "상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
+        "effect": "자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
       },
       {
-        "name": "VSTAR 룰",
+        "name": "ex 룰",
         "energy": [],
         "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "네오라이트 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 216,
-    "regulation": "F",
-    "illustrator": "Jerky",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001216 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_216.png?w=512",
-    "hp": 170,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "루미너스사인",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 덱에서 서포트를 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "아쿠아리턴",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": "이 포켓몬과 붙어 있는 모든 카드를 자신의 덱으로 되돌리고 섞는다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "스이쿤 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 215,
-    "regulation": "E",
-    "illustrator": "Atsushi Furusawa",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001215 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_215.png?w=512",
-    "hp": 210,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "준족",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 1장 뽑는다."
-      },
-      {
-        "name": "블리자드론도",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "서로의 벤치 포켓몬의 수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "바오키 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 214,
-    "regulation": "F",
-    "illustrator": "nagano",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001214 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_214.png?w=512",
-    "hp": 260,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "불구슬피버",
-        "energy": [
-          "불꽃",
-          "무색",
-          "무색"
-        ],
-        "damage": "40+",
-        "effect": "원한다면 자신의 덱을 위에서부터 5장까지 트래쉬한다. 그 뒤, 트래쉬한 장수 × 40데미지를 추가한다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "불꽃"
-        ],
-        "damage": "30×",
-        "effect": "자신의 트래쉬에 있는 에너지의 장수 × 30데미지를 준다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "앤테이 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 213,
-    "regulation": "F",
-    "illustrator": "Shigenori Negishi",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001213 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_213.png?w=512",
-    "hp": 230,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "준족",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 1장 뽑는다."
-      },
-      {
-        "name": "버닝론도",
-        "energy": [
-          "불꽃",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "서로의 벤치 포켓몬의 수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "리자몽 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 212,
-    "regulation": "F",
-    "illustrator": "KIYOTAKA OSHIYAMA",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001212 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_212.png?w=512",
-    "hp": 280,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "폭렬파이어",
-        "energy": [
-          "불꽃",
-          "불꽃",
-          "무색"
-        ],
-        "damage": "130+",
-        "effect": "이 포켓몬에게 데미지 카운터가 올려져 있다면 100데미지를 추가한다."
-      },
-      {
-        "name": "VSTAR 파워",
-        "energy": [
-          "불꽃",
-          "불꽃",
-          "불꽃",
-          "무색"
-        ],
-        "damage": "320",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "리자몽 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "S12a",
-    "order": 211,
-    "regulation": "F",
-    "illustrator": "Oswaldo KATO",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001211 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_211.png?w=512",
-    "hp": 220,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "불태우기",
-        "energy": [
-          "불꽃",
-          "불꽃",
-          "무색"
-        ],
-        "damage": "90",
-        "effect": "데미지를 주기 전에 상대의 배틀 포켓몬에게 붙어 있는 「포켓몬의 도구」를 트래쉬한다."
-      },
-      {
-        "name": "히트블라스트",
-        "energy": [
-          "불꽃",
-          "불꽃",
-          "불꽃",
-          "무색"
-        ],
-        "damage": "180",
-        "effect": null
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "리피아 VSTAR",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VSTAR"
-    ],
-    "goods": "S12a",
-    "order": 210,
-    "regulation": "F",
-    "illustrator": "Jiro Sasumo",
-    "rareGrade": "SAR",
-    "cardNum": "BS2023001210 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_210.png?w=512",
-    "hp": 260,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "리프가드",
-        "energy": [
-          "풀",
-          "풀",
-          "무색"
-        ],
-        "damage": "180",
-        "effect": "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다."
-      },
-      {
-        "name": "VSTAR 파워\n아이비스타",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. (대전 중 자신은 [VSTAR] 파워를 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "VSTAR 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "메리프",
+    "name": "질퍽이",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "S12a",
-    "order": 209,
-    "regulation": "E",
+    "goods": "SV1S",
+    "order": 51,
+    "regulation": "G",
     "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001209 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_209.png?w=512",
-    "hp": 60,
+    "rareGrade": "C",
+    "cardNum": "BS2023006051",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_051.png?w=512",
+    "hp": 80,
     "monType": [
-      "번개"
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "독의숨",
+        "energy": [
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "50",
+        "effect": "상대의 배틀 포켓몬을 독으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "질뻐기",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SV1S",
+    "order": 52,
+    "regulation": "G",
+    "illustrator": "Haru Akasaka",
+    "rareGrade": "U",
+    "cardNum": "BS2023006052",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_052.png?w=512",
+    "hp": 140,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "독주머니",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬이 있는 한, 상대의 독 포켓몬은 진화・퇴화해도 독을 회복하지 않는다."
+      },
+      {
+        "name": "포이즌어택",
+        "energy": [
+          "악",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": "상대의 배틀 포켓몬을 독으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "세비퍼",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 53,
+    "regulation": "G",
+    "illustrator": "sui",
+    "rareGrade": "C",
+    "cardNum": "BS2023006053",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_053.png?w=512",
+    "hp": 120,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "독액",
+        "energy": [
+          "악"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 독으로 만든다."
+      },
+      {
+        "name": "베놈쇼크",
+        "energy": [
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "60+",
+        "effect": "상대의 배틀 포켓몬이 독이라면 120데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "삐딱구리",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 54,
+    "regulation": "G",
+    "illustrator": "Shiburingaru",
+    "rareGrade": "C",
+    "cardNum": "BS2023006054",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_054.png?w=512",
+    "hp": 70,
+    "monType": [
+      "악"
     ],
     "weakness": {
       "type": "격투",
@@ -947,38 +339,90 @@
     "retreat": 1,
     "tech": [
       {
-        "name": "뒤로 차기",
+        "name": "때리기",
         "energy": [
-          "무색"
+          "악"
         ],
         "damage": "10",
         "effect": null
       },
       {
-        "name": "일렉트릭볼",
+        "name": "때려눕히기",
         "energy": [
-          "번개",
+          "악",
+          "무색",
           "무색"
         ],
-        "damage": "30",
+        "damage": "40",
         "effect": null
       }
     ]
   },
   {
-    "name": "포챠나",
+    "name": "독개굴 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화",
+      "포켓몬 ex"
+    ],
+    "goods": "SV1S",
+    "order": 55,
+    "regulation": "G",
+    "illustrator": "Nisota Niso",
+    "rareGrade": "RR",
+    "cardNum": "BS2023006055",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_055.png?w=512",
+    "hp": 250,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "나쁜음모",
+        "energy": [
+          "악"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 원하는 카드를 2장까지 선택해서 패로 가져온다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "맹독리퍼",
+        "energy": [
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": "상대의 배틀 포켓몬을 독으로 만든다. 이 독으로 올리는 데미지 카운터의 수는 6개가 된다."
+      },
+      {
+        "name": "ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "자망칼",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "S12a",
-    "order": 208,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001208 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_208.png?w=512",
-    "hp": 60,
+    "goods": "SV1S",
+    "order": 56,
+    "regulation": "G",
+    "illustrator": "sowsow",
+    "rareGrade": "C",
+    "cardNum": "BS2023006056",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_056.png?w=512",
+    "hp": 70,
     "monType": [
       "악"
     ],
@@ -990,7 +434,7 @@
     "retreat": 1,
     "tech": [
       {
-        "name": "갉기",
+        "name": "할퀴기",
         "energy": [
           "무색"
         ],
@@ -998,87 +442,9 @@
         "effect": null
       },
       {
-        "name": "가벼운돌입",
+        "name": "궤찌르기",
         "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "이 포켓몬에게도 10데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "파라스",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 207,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001207 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_207.png?w=512",
-    "hp": 70,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "흡수",
-        "energy": [
-          "풀",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": "이 포켓몬의 HP를 「10」회복한다."
-      }
-    ]
-  },
-  {
-    "name": "모부기",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 206,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001206 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_206.png?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "물기",
-        "energy": [
-          "풀"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "머리박치기",
-        "energy": [
-          "풀",
+          "악",
           "무색"
         ],
         "damage": "20",
@@ -1087,252 +453,225 @@
     ]
   },
   {
-    "name": "피카츄",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 205,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001205 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_205.png?w=512",
-    "hp": 60,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "피카대시",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬에게 에너지가 붙어 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다."
-      },
-      {
-        "name": "변덕 태클",
-        "energy": [
-          "번개",
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
-  },
-  {
-    "name": "비버니",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 204,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001204 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_204.png?w=512",
-    "hp": 60,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "태연한 얼굴",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 벤치에 있는 한, 기술의 데미지를 받지 않는다."
-      },
-      {
-        "name": "필살앞니",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
-  },
-  {
-    "name": "해골몽",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 203,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001203 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_203.png?w=512",
-    "hp": 60,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "혼란시키기",
-        "energy": [
-          "초"
-        ],
-        "damage": "10",
-        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 혼란으로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "파비코",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 202,
-    "regulation": "E",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001202 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_202.png?w=512",
-    "hp": 50,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "허찌르기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
-  },
-  {
-    "name": "리오르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S12a",
-    "order": 201,
-    "regulation": "F",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001201 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_201.png?w=512",
-    "hp": 60,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "안다리걸기",
-        "energy": [
-          "격투",
-          "격투"
-        ],
-        "damage": "50",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "비버통",
+    "name": "절각참",
     "type": "pokemon",
     "detailedType": [
       "1진화"
     ],
-    "goods": "S12a",
-    "order": 200,
-    "regulation": "F",
-    "illustrator": "Amelicart",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001200 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_200.png?w=512",
+    "goods": "SV1S",
+    "order": 57,
+    "regulation": "G",
+    "illustrator": "Hideki Ishikawa",
+    "rareGrade": "C",
+    "cardNum": "BS2023006057",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_057.png?w=512",
     "hp": 120,
     "monType": [
-      "무색"
+      "악"
     ],
     "weakness": {
-      "type": "격투",
+      "type": "풀",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "일하는 앞니",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 패가 5장이 되도록 덱을 뽑는다."
+        "name": "다크커터",
+        "energy": [
+          "악"
+        ],
+        "damage": "40",
+        "effect": null
       },
       {
-        "name": "테일스매시",
+        "name": "양날베기",
         "energy": [
-          "무색",
-          "무색",
+          "악",
           "무색"
         ],
-        "damage": "100",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
+        "damage": "120",
+        "effect": "이 포켓몬에게도 30데미지를 준다."
       }
     ]
   },
   {
-    "name": "밀탱크",
+    "name": "대도각참",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "SV1S",
+    "order": 58,
+    "regulation": "G",
+    "illustrator": "Anesaki Dynamic",
+    "rareGrade": "R",
+    "cardNum": "BS2023006058",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_058.png?w=512",
+    "hp": 170,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "통솔력",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬이 있는 한, 자신의 기본 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+30」이 된다."
+      },
+      {
+        "name": "반토막내기",
+        "energy": [
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "160",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "부르롱",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "S12a",
-    "order": 199,
-    "regulation": "F",
-    "illustrator": "Yuu Nishida",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001199 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_199.png?w=512",
+    "goods": "SV1S",
+    "order": 59,
+    "regulation": "G",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": "C",
+    "cardNum": "BS2023006059",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_059.png?w=512",
+    "hp": 60,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "풀",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "독가스",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 독으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "부르롱",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 60,
+    "regulation": "G",
+    "illustrator": "nagimiso",
+    "rareGrade": "C",
+    "cardNum": "BS2023006060",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_060.png?w=512",
+    "hp": 80,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "풀",
+      "value": "-30"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "한방 먹이기",
+        "energy": [
+          "강철",
+          "무색",
+          "무색"
+        ],
+        "damage": "60",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "부르르룸",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SV1S",
+    "order": 61,
+    "regulation": "G",
+    "illustrator": "Anesaki Dynamic",
+    "rareGrade": "R",
+    "cardNum": "BS2023006061",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_061.png?w=512",
+    "hp": 140,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "풀",
+      "value": "-30"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "럼블엔진",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 자신의 패에서 에너지를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 패가 6장이 되도록 덱을 뽑는다."
+      },
+      {
+        "name": "띄워날리기",
+        "energy": [
+          "강철",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "90+",
+        "effect": "동전을 1번 던져서 앞면이 나오면 90데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "쟝고",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 62,
+    "regulation": "G",
+    "illustrator": "aoki",
+    "rareGrade": "U",
+    "cardNum": "BS2023006062",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_062.png?w=512",
     "hp": 110,
     "monType": [
       "무색"
@@ -1345,35 +684,172 @@
     "retreat": 2,
     "tech": [
       {
-        "name": "미라클바디",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 상대의 「포켓몬 V」로부터 기술의 데미지를 받지 않는다."
-      },
-      {
-        "name": "차서흩뜨리기",
+        "name": "끌어내기",
         "energy": [
           "무색",
           "무색"
         ],
-        "damage": "10+",
-        "effect": "상대의 벤치 포켓몬의 수 × 20데미지를 추가한다."
+        "damage": null,
+        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤, 새로 나온 포켓몬에게 30데미지를 준다."
+      },
+      {
+        "name": "슬래시크루",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": null
       }
     ]
   },
   {
-    "name": "노고치",
+    "name": "찌르꼬",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "S12a",
-    "order": 198,
-    "regulation": "E",
-    "illustrator": "Kurata So",
-    "rareGrade": "AR",
-    "cardNum": "BS2023001198 ",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S12a/S12a_198.png?w=512",
+    "goods": "SV1S",
+    "order": 63,
+    "regulation": "G",
+    "illustrator": "Yuka Morii",
+    "rareGrade": "C",
+    "cardNum": "BS2023006063",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_063.png?w=512",
+    "hp": 60,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "홰치기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "찌르버드",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SV1S",
+    "order": 64,
+    "regulation": "G",
+    "illustrator": "kantaro",
+    "rareGrade": "C",
+    "cardNum": "BS2023006064",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_064.png?w=512",
+    "hp": 80,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "날개치기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "40",
+        "effect": null
+      },
+      {
+        "name": "스피드비행",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "찌르호크",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "SV1S",
+    "order": 65,
+    "regulation": "G",
+    "illustrator": "Atsushi Furusawa",
+    "rareGrade": "U",
+    "cardNum": "BS2023006065",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_065.png?w=512",
+    "hp": 150,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "테일스핀 어웨이",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "60",
+        "effect": "상대의 다음 차례에 이 포켓몬은 기본 포켓몬으로부터 기술의 데미지를 받지 않는다."
+      },
+      {
+        "name": "파워블라스트",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "180",
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
+      }
+    ]
+  },
+  {
+    "name": "맛보돈",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 66,
+    "regulation": "G",
+    "illustrator": "Teeziro",
+    "rareGrade": "C",
+    "cardNum": "BS2023006066",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_066.png?w=512",
     "hp": 60,
     "monType": [
       "무색"
@@ -1386,20 +862,229 @@
     "retreat": 1,
     "tech": [
       {
-        "name": "이상한굴",
-        "energy": [],
+        "name": "상대회피스멜",
+        "energy": [
+          "무색"
+        ],
         "damage": null,
-        "effect": "이 포켓몬이 있는 한, 서로의 필드의 (무색) 포켓몬 전원의 약점은 모두 없어진다."
+        "effect": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
       },
       {
-        "name": "구르기",
+        "name": "밟기",
         "energy": [
           "무색",
           "무색"
         ],
-        "damage": "30",
+        "damage": "20",
         "effect": null
       }
     ]
+  },
+  {
+    "name": "맛보돈",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV1S",
+    "order": 67,
+    "regulation": "G",
+    "illustrator": "Mina Nakai",
+    "rareGrade": "C",
+    "cardNum": "BS2023006067",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_067.png?w=512",
+    "hp": 70,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "변덕 태클",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "70",
+        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
+      }
+    ]
+  },
+  {
+    "name": "퍼퓨돈 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화",
+      "포켓몬 ex"
+    ],
+    "goods": "SV1S",
+    "order": 68,
+    "regulation": "G",
+    "illustrator": "aky CG Works",
+    "rareGrade": "RR",
+    "cardNum": "BS2023006068",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_068.png?w=512",
+    "hp": 260,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "광란의향기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10+",
+        "effect": "상대의 벤치 포켓몬의 수 × 30데미지를 추가한다."
+      },
+      {
+        "name": "헤비스탬프",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "210",
+        "effect": "동전을 1번 던져서 뒷면이 나오면 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
+      },
+      {
+        "name": "ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "네스트볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "SV1S",
+    "order": 69,
+    "regulation": "G",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2023006069",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_069.png?w=512",
+    "effect": "자신의 덱에서 기본 포켓몬을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "친구수첩",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "SV1S",
+    "order": 70,
+    "regulation": "G",
+    "illustrator": "Studio Bora Inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2023006070",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_070.png?w=512",
+    "effect": "자신의 트래쉬에서 서포트를 2장까지 선택해서 상대에게 보여주고 덱으로 되돌리고 섞는다."
+  },
+  {
+    "name": "바위 가슴보호대",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "SV1S",
+    "order": 71,
+    "regulation": "G",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2023006071",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_071.png?w=512",
+    "effect": "이 카드를 붙이고 있는 (격투) 포켓몬이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-30」이 된다."
+  },
+  {
+    "name": "오기머리띠",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "SV1S",
+    "order": 72,
+    "regulation": "G",
+    "illustrator": "inose yukie",
+    "rareGrade": "U",
+    "cardNum": "BS2023006072",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_072.png?w=512",
+    "effect": "자신의 남은 프라이즈 장수가 상대의 남은 프라이즈 장수보다 많다면 이 카드를 붙이고 있는 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+30」이 된다."
+  },
+  {
+    "name": "학습장치",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "SV1S",
+    "order": 73,
+    "regulation": "G",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2023006073",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_073.png?w=512",
+    "effect": "자신의 배틀 포켓몬이 상대의 포켓몬으로부터 기술의 데미지를 받아 기절할 때마다 그 포켓몬에게 붙어 있는 기본 에너지를 1장 선택해서 이 카드를 붙이고 있는 포켓몬에게 붙여도 좋다."
+  },
+  {
+    "name": "모란",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV1S",
+    "order": 74,
+    "regulation": "G",
+    "illustrator": "yuu",
+    "rareGrade": "U",
+    "cardNum": "BS2023006074",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_074.png?w=512",
+    "effect": "자신의 필드의 기본 포켓몬을 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다."
+  },
+  {
+    "name": "박사의 연구(올림박사)",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV1S",
+    "order": 75,
+    "regulation": "G",
+    "illustrator": "kirisAki",
+    "rareGrade": "R",
+    "cardNum": "BS2023006075",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_075.png?w=512",
+    "effect": "자신의 패를 모두 트래쉬하고 덱을 7장 뽑는다."
+  },
+  {
+    "name": "스타단의 조무래기",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV1S",
+    "order": 76,
+    "regulation": "G",
+    "illustrator": "nagimiso",
+    "rareGrade": "U",
+    "cardNum": "BS2023006076",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV1S/SV1S_076.png?w=512",
+    "effect": "상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 상대의 덱의 위로 되돌린다."
   }
 ]
