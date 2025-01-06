@@ -1,5 +1,865 @@
 [
   {
+    "name": "개무소",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy6",
+    "order": 3,
+    "regulation": "XY",
+    "illustrator": "Naoyo Kimura",
+    "rareGrade": "C",
+    "cardNum": "BS2015004003",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY6/XY6_003.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "무리짓기",
+        "energy": [
+          "풀"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 「개무소」를 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+      }
+    ]
+  },
+  {
+    "name": "나시",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "xy6",
+    "order": 2,
+    "regulation": "XY",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": "C",
+    "cardNum": "BS2015004002",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY6/XY6_002.jpg?w=512",
+    "hp": 120,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "털어내기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "20×",
+        "effect": "상대의 필드에 있는 (무색) 포켓몬의 수 × 20데미지를 준다."
+      },
+      {
+        "name": "씨폭탄",
+        "energy": [
+          "풀",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "아라리",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy6",
+    "order": 1,
+    "regulation": "XY",
+    "illustrator": "Tomokazu Komiya",
+    "rareGrade": "C",
+    "cardNum": "BS2015004001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY6/XY6_001.jpg?w=512",
+    "hp": 40,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "싫어하기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "동전을 한 번 던져서 앞면이 나오면 이 포켓몬을 벤치 포켓몬과 교체한다."
+      },
+      {
+        "name": "부딪치기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "10",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "더블 아쿠아 에너지",
+    "type": "energy",
+    "detailedType": [
+      "특수 에너지"
+    ],
+    "goods": "cp1",
+    "order": 34,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2015003034",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_034.jpg?w=512",
+    "effect": ""
+  },
+  {
+    "name": "더블 마그마 에너지",
+    "type": "energy",
+    "detailedType": [
+      "특수 에너지"
+    ],
+    "goods": "cp1",
+    "order": 33,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2015003033",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_033.jpg?w=512",
+    "effect": ""
+  },
+  {
+    "name": "아쿠아단의 비밀기지",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "cp1",
+    "order": 32,
+    "regulation": "XY",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "U",
+    "cardNum": "BS2015003032",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_032.jpg?w=512",
+    "effect": "서로의 포켓몬 전원(「아쿠아단」은 제외)의 후퇴에 필요한 에너지는 각각 1개만큼 많아진다."
+  },
+  {
+    "name": "마그마단의 비밀기지",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "cp1",
+    "order": 31,
+    "regulation": "XY",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "U",
+    "cardNum": "BS2015003031",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_031.jpg?w=512",
+    "effect": "서로의 플레이어는 각각 패에서 기본 포켓몬(「마그마단」은 제외)을 벤치로 내보낼 때마다 그 포켓몬에게 데미지 카운터를 2개 올린다."
+  },
+  {
+    "name": "아쿠아단의 조무래기",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "cp1",
+    "order": 30,
+    "regulation": "XY",
+    "illustrator": "GAME FREAK inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2015003030",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_030.jpg?w=512",
+    "effect": "자신의 패를 1장 선택해서 트래쉬한다. 그 뒤 자신의 덱을 3장 뽑는다. 트래쉬한 카드가 「아쿠아단」의 포켓몬이라면 1장 더 뽑는다."
+  },
+  {
+    "name": "아쿠아단의 간부",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "cp1",
+    "order": 29,
+    "regulation": "XY",
+    "illustrator": "GAME FREAK inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2015003029",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_029.jpg?w=512",
+    "effect": "자신의 트래쉬에서 기본 에너지를 1장 선택해서 자신의 배틀필드에 있는 「아쿠아단」의 포켓몬에게 붙인다."
+  },
+  {
+    "name": "마그마단의 조무래기",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "cp1",
+    "order": 28,
+    "regulation": "XY",
+    "illustrator": "GAME FREAK inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2015003028",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_028.jpg?w=512",
+    "effect": "자신의 패를 1장 선택해서 트래쉬한다. 그 뒤 자신의 덱을 3장 뽑는다. 트래쉬한 카드가 「마그마단」의 포켓몬이라면 1장 더 뽑는다."
+  },
+  {
+    "name": "마그마단의 간부",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "cp1",
+    "order": 27,
+    "regulation": "XY",
+    "illustrator": "GAME FREAK inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2015003027",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_027.jpg?w=512",
+    "effect": "자신의 트래쉬에서 「마그마단」의 포켓몬을 3장 선택해서 상대에게 보여주고 패로 가져온다."
+  },
+  {
+    "name": "아쿠아디퓨저",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "cp1",
+    "order": 26,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015003026",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_026.jpg?w=512",
+    "effect": "이 카드를 붙이고 있는 「아쿠아단」의 포켓몬은 이 카드에 적혀 있는 기술을 사용할 수 있다. (기술을 사용하기 위한 에너지는 필요하다.)"
+  },
+  {
+    "name": "마그마포인터",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "cp1",
+    "order": 25,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015003025",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_025.jpg?w=512",
+    "effect": "이 카드를 붙이고 있는 「마그마단」의 포켓몬은 이 카드에 적혀 있는 기술을 사용할 수 있다. (기술을 사용하기 위한 에너지는 필요하다.)"
+  },
+  {
+    "name": "아쿠아단의 수퍼볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "cp1",
+    "order": 24,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015003024",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_024.jpg?w=512",
+    "effect": "자신의 덱에서 「아쿠아단」의 기본 포켓몬과 기본 (물) 에너지를 각각 1장씩 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "마그마단의 수퍼볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "cp1",
+    "order": 23,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015003023",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_023.jpg?w=512",
+    "effect": "자신의 덱에서 「마그마단」의 기본 포켓몬과 기본 (격투) 에너지를 각각 1장씩 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "마그마단의 쟝고",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 22,
+    "regulation": "XY",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": "C",
+    "cardNum": "BS2015003022",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_022.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "동료부르기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 「마그마단」의 기본 포켓몬을 2장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "팀플레이",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "20×",
+        "effect": "자신의 벤치에 있는 「마그마단」의 포켓몬의 수 × 20데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "아쿠아단의 샤크니아",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "cp1",
+    "order": 21,
+    "regulation": "XY",
+    "illustrator": "kawayoo",
+    "rareGrade": "R",
+    "cardNum": "BS2015003021",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_021.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 0,
+    "tech": [
+      {
+        "name": "아쿠아서치",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 덱에서 「아쿠아단」의 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다. 이 특성은 자신의 차례에 한 번 사용할 수 있다."
+      },
+      {
+        "name": "예리한이빨",
+        "energy": [
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "70",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "아쿠아단의 샤프니아",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 20,
+    "regulation": "XY",
+    "illustrator": "Sanosuke Sakuma",
+    "rareGrade": "C",
+    "cardNum": "BS2015003020",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_020.jpg?w=512",
+    "hp": 50,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "지느러미뺨치기",
+        "energy": [
+          "악"
+        ],
+        "damage": "10×",
+        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 10데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "아쿠아단의 그라에나",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "cp1",
+    "order": 19,
+    "regulation": "XY",
+    "illustrator": "Mitsuhiro Arita",
+    "rareGrade": "C",
+    "cardNum": "BS2015003019",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_019.jpg?w=512",
+    "hp": 100,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "팀임팩트",
+        "energy": [
+          "물",
+          "무색"
+        ],
+        "damage": "30×",
+        "effect": "자신의 필드에 있는 「아쿠아단」의 포켓몬의 수만큼 동전을 던져서 앞면이 나온 수 × 30데미지를 준다."
+      },
+      {
+        "name": "깨물어부수기",
+        "energy": [
+          "물",
+          "물",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 그라에나",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "cp1",
+    "order": 18,
+    "regulation": "XY",
+    "illustrator": "Hitoshi Ariga",
+    "rareGrade": "C",
+    "cardNum": "BS2015003018",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_018.jpg?w=512",
+    "hp": 100,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "물기",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      },
+      {
+        "name": "적대적이빨",
+        "energy": [
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "80+",
+        "effect": "상대의 배틀 포켓몬이 「아쿠아단」의 포켓몬이라면 40데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "아쿠아단의 포챠나",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 17,
+    "regulation": "XY",
+    "illustrator": "Kouki Saitou",
+    "rareGrade": "C",
+    "cardNum": "BS2015003017",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_017.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "울부짖기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
+      },
+      {
+        "name": "물기",
+        "energy": [
+          "물",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 포챠나",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 16,
+    "regulation": "XY",
+    "illustrator": "TOKIYA",
+    "rareGrade": "C",
+    "cardNum": "BS2015003016",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_016.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "잠입",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 패를 본다."
+      },
+      {
+        "name": "물기",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 그란돈 EX",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 EX"
+    ],
+    "goods": "cp1",
+    "order": 15,
+    "regulation": "XY",
+    "illustrator": "nagimiso",
+    "rareGrade": "RR",
+    "cardNum": "BS2015003015",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_015.jpg?w=512",
+    "hp": 190,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "파워세이버",
+        "energy": [],
+        "damage": null,
+        "effect": "서로의 필드에 있는 「마그마단」의 포켓몬의 합이 4마리 이하면 이 포켓몬은 기술을 사용할 수 없다."
+      },
+      {
+        "name": "마그마퀘이크",
+        "energy": [
+          "격투",
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "80+",
+        "effect": "데미지를 줄 때 이미 상대의 배틀 포켓몬에게 데미지 카운터가 올려져 있다면 80데미지를 추가한다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 보스로라",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "cp1",
+    "order": 14,
+    "regulation": "XY",
+    "illustrator": "TOKIYA",
+    "rareGrade": "R",
+    "cardNum": "BS2015003014",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_014.jpg?w=512",
+    "hp": 140,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "록스탬프",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "40×",
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (격투) 에너지를 원하는 만큼 트래쉬하고 트래쉬한 (격투) 에너지의 장수 × 40데미지를 준다."
+      },
+      {
+        "name": "암석바람",
+        "energy": [
+          "격투",
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": "데미지 카운터가 올려져 있는 상대의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 갱도라",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "cp1",
+    "order": 13,
+    "regulation": "XY",
+    "illustrator": "Masakazu Fukuda",
+    "rareGrade": "C",
+    "cardNum": "BS2015003013",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_013.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "갉기",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      },
+      {
+        "name": "돌진",
+        "energy": [
+          "격투",
+          "무색",
+          "무색"
+        ],
+        "damage": "60",
+        "effect": "이 포켓몬에게도 10데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 가보리",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 12,
+    "regulation": "XY",
+    "illustrator": "Akira Komayama",
+    "rareGrade": "C",
+    "cardNum": "BS2015003012",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_012.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "갉기",
+        "energy": [
+          "격투"
+        ],
+        "damage": "10",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 점토도리",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "cp1",
+    "order": 11,
+    "regulation": "XY",
+    "illustrator": "Masakazu Fukuda",
+    "rareGrade": "R",
+    "cardNum": "BS2015003011",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_011.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "마그마스위치",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 기본 에너지를 1개 선택해서 자신의 다른 「마그마단」의 포켓몬에게 붙인다. 이 특성은 자신의 차례에 한 번 사용할 수 있다."
+      },
+      {
+        "name": "파워빔",
+        "energy": [
+          "초",
+          "무색",
+          "무색"
+        ],
+        "damage": "70",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "마그마단의 오뚝군",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "cp1",
+    "order": 10,
+    "regulation": "XY",
+    "illustrator": "Mitsuhiro Arita",
+    "rareGrade": "C",
+    "cardNum": "BS2015003010",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_010.jpg?w=512",
+    "hp": 50,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "텔레키네시스",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 포켓몬을 1마리 선택해서 20데미지를 준다. 이 기술의 데미지는 약점 저항력 계산을 하지 않는다."
+      }
+    ]
+  },
+  {
     "name": "아쿠아단의 세비퍼",
     "type": "pokemon",
     "detailedType": [
@@ -81,893 +941,6 @@
         ],
         "damage": "60+",
         "effect": "상대의 배틀 포켓몬이 특수 상태라면 60데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "아쿠아단의 질퍽이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "cp1",
-    "order": 7,
-    "regulation": "XY",
-    "illustrator": "kawayoo",
-    "rareGrade": "C",
-    "cardNum": "BS2015003007",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_007.jpg?w=512",
-    "hp": 70,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "막치기",
-        "energy": [
-          "초"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "진흙뿌리기",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "아쿠아단의 가이오가 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "cp1",
-    "order": 6,
-    "regulation": "XY",
-    "illustrator": "nagimiso",
-    "rareGrade": "RR",
-    "cardNum": "BS2015003006",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_006.jpg?w=512",
-    "hp": 190,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "파워세이버",
-        "energy": [],
-        "damage": null,
-        "effect": "서로의 필드에 있는 「아쿠아단」의 포켓몬의 합이 4마리 이하라면 이 포켓몬은 기술을 사용할 수 없다."
-      },
-      {
-        "name": "아쿠아임팩트",
-        "energy": [
-          "물",
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": "80+",
-        "effect": "상대의 배틀 포켓몬의 후퇴에 필요한 에너지의 개수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "아쿠아단의 씨카이저",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "cp1",
-    "order": 5,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": "R",
-    "cardNum": "BS2015003005",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_005.jpg?w=512",
-    "hp": 140,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "파워블로",
-        "energy": [
-          "무색"
-        ],
-        "damage": "30×",
-        "effect": "이 포켓몬에게 붙어 있는 에너지의 개수 × 30데미지를 준다."
-      },
-      {
-        "name": "듀얼블리자드",
-        "energy": [
-          "물",
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지를 2개 트래쉬하고 상대의 포켓몬을 2마리 선택해서 각각 80데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      }
-    ]
-  },
-  {
-    "name": "아쿠아단의 씨레오",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "cp1",
-    "order": 4,
-    "regulation": "XY",
-    "illustrator": "Naoki Saito",
-    "rareGrade": "C",
-    "cardNum": "BS2015003004",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_004.jpg?w=512",
-    "hp": 90,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "물튀기기",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬을 1마리 선택해서 20데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "듀얼블리자드",
-        "energy": [
-          "물",
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지를 2개 트래쉬하고 상대의 포켓몬을 2마리 선택해서 각각 80데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      }
-    ]
-  },
-  {
-    "name": "아쿠아단의 대굴레오",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "cp1",
-    "order": 3,
-    "regulation": "XY",
-    "illustrator": "Sanosuke Sakuma",
-    "rareGrade": "C",
-    "cardNum": "BS2015003003",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_003.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "물대포",
-        "energy": [
-          "물"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "마그마단의 폭타",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "cp1",
-    "order": 2,
-    "regulation": "XY",
-    "illustrator": "Shin Nagasawa",
-    "rareGrade": "R",
-    "cardNum": "BS2015003002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_002.jpg?w=512",
-    "hp": 110,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "번드래프트",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 트래쉬에서 (불꽃)  또는 (격투) 에너지를 1장 선택해서 이 포켓몬에게 붙인다. 이 특성은 자신의 차례에 한 번 사용할 수 있다."
-      },
-      {
-        "name": "화염구슬",
-        "energy": [
-          "불꽃",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "이 포켓몬에게 붙어 있는 기본 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다."
-      }
-    ]
-  },
-  {
-    "name": "마그마단의 둔타",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "cp1",
-    "order": 1,
-    "regulation": "XY",
-    "illustrator": "Akira Komayama",
-    "rareGrade": "C",
-    "cardNum": "BS2015003001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/CP1/XY_CP1_001.jpg?w=512",
-    "hp": 70,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "불꽃세례",
-        "energy": [
-          "불꽃",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "털보박사의 관찰",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5t",
-    "order": 78,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002078",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_078.jpg?w=512",
-    "effect": "자신의 패를 모두 덱으로 되돌리고 덱을 섞는다. 동전을 한 번 던져서 앞면이 나오면 7장 뒷면이 나오면 4장 자신의 덱을 뽑는다."
-  },
-  {
-    "name": "아강의 비장의카드",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5t",
-    "order": 77,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002077",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_077.jpg?w=512",
-    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다. 자신의 트래쉬에서 (물) 포켓몬을 1장 선택해서 벤치로 내보낸다. 그 뒤 자신의 덱을 5장 뽑는다."
-  },
-  {
-    "name": "M가디안 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "M진화",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 76,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002076",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_076.jpg?w=512",
-    "hp": 210,
-    "monType": [
-      "페어리"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "악",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "M진화 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "M진화 포켓몬으로 진화하면 자신의 차례는 끝난다."
-      },
-      {
-        "name": "브릴리언트 애로",
-        "energy": [
-          "페어리",
-          "무색",
-          "무색"
-        ],
-        "damage": "30×",
-        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (페어리) 에너지를 합한 수 × 30데미지를 준다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "가디안 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 75,
-    "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002075",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_075.jpg?w=512",
-    "hp": 170,
-    "monType": [
-      "페어리"
-    ],
-    "weakness": {
-      "type": "강철",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "악",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "라이프리프",
-        "energy": [
-          "페어리"
-        ],
-        "damage": "20",
-        "effect": "상대의 배틀 포켓몬에게 준 데미지만큼 이 포켓몬의 HP를 회복한다."
-      },
-      {
-        "name": "빛나는바람",
-        "energy": [
-          "페어리",
-          "페어리",
-          "페어리"
-        ],
-        "damage": "100",
-        "effect": "상대의 다음 차례에 이 포켓몬의 약점은 없어진다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "샤크니아 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 74,
-    "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002074",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_074.jpg?w=512",
-    "hp": 0,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "기회노리기",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤 새로 나온 포켓몬에게 30데미지를 준다."
-      },
-      {
-        "name": "삐죽삐죽팽",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다. 그 뒤 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "원시가이오가 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "M진화",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 73,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002073",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_073.jpg?w=512",
-    "hp": 240,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "고대능력【α그로우】",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬에게 패에서 에너지를 붙일 때 동시에 2장까지 붙일 수 있다. (기술 특성 트레이너스로 붙일 때는 제외한다.)"
-      },
-      {
-        "name": "원시회귀 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "원시가이오가 EX로 진화하면 자신의 차례는 끝난다."
-      },
-      {
-        "name": "타이달스톰",
-        "energy": [
-          "물",
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": "150",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 자신의 벤치 포켓몬 1마리에게 붙인다. 상대의 벤치에 있는 「포켓몬 EX」 전원에게도 각각 30데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "가이오가 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 72,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002072",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_072.jpg?w=512",
-    "hp": 0,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "물의파동",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
-      },
-      {
-        "name": "거대한 소용돌이",
-        "energy": [],
-        "damage": "140",
-        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지를 2개 선택해서 패로 되돌린다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [
-          "물",
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "고래왕 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 71,
-    "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "SR",
-    "cardNum": "BS2015002071",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_071.jpg?w=512",
-    "hp": 250,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "수의베일",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 패에서 이 포켓몬에게 에너지를 붙일 때마다 이 포켓몬의 특수 상태를 모두 회복한다."
-      },
-      {
-        "name": "하이브리칭",
-        "energy": [
-          "물",
-          "물",
-          "물",
-          "물",
-          "물"
-        ],
-        "damage": "120",
-        "effect": "이 포켓몬을 잠듦으로 만든다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "원더 에너지",
-    "type": "energy",
-    "detailedType": [
-      "특수 에너지"
-    ],
-    "goods": "xy5t",
-    "order": 70,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2015002070",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_070.jpg?w=512",
-    "effect": ""
-  },
-  {
-    "name": "사일런트랩",
-    "type": "trainers",
-    "detailedType": [
-      "스타디움"
-    ],
-    "goods": "xy5t",
-    "order": 69,
-    "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "U",
-    "cardNum": "BS2015002069",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_069.jpg?w=512",
-    "effect": "서로의 필드 ･ 패 ･ 트래쉬에 있는 기본 포켓몬의 특성은 모두 없어진다."
-  },
-  {
-    "name": "넘실거리는 큰바다",
-    "type": "trainers",
-    "detailedType": [
-      "스타디움"
-    ],
-    "goods": "xy5t",
-    "order": 68,
-    "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "U",
-    "cardNum": "BS2015002068",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_068.jpg?w=512",
-    "effect": "서로의 플레이어는 자신의 차례에 한 번 자신의 (물) 포켓몬과 (번개) 포켓몬 전원의 HP를 각각 「30」회복해도 좋다."
-  },
-  {
-    "name": "털보박사의 관찰",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5t",
-    "order": 67,
-    "regulation": "XY",
-    "illustrator": "Yusuke Ohmura",
-    "rareGrade": "U",
-    "cardNum": "BS2015002067",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_067.jpg?w=512",
-    "effect": "자신의 패를 모두 덱으로 되돌리고 덱을 섞는다. 동전을 한 번 던져서 앞면이 나오면 7장 뒷면이 나오면 4장 자신의 덱을 뽑는다."
-  },
-  {
-    "name": "아강의 비장의카드",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5t",
-    "order": 66,
-    "regulation": "XY",
-    "illustrator": "Yusuke Ohmura",
-    "rareGrade": "U",
-    "cardNum": "BS2015002066",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_066.jpg?w=512",
-    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다. 자신의 트래쉬에서 (물) 포켓몬을 1장 선택해서 벤치로 내보낸다. 그 뒤 자신의 덱을 5장 뽑는다."
-  },
-  {
-    "name": "가이오가 소울링크",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 65,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2015002065",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_065.jpg?w=512",
-    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
-  },
-  {
-    "name": "가디안 소울링크",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 64,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2015002064",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_064.jpg?w=512",
-    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
-  },
-  {
-    "name": "학습장치",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 63,
-    "regulation": "XY",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2015002063",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_063.jpg?w=512",
-    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
-  },
-  {
-    "name": "맛있는물세트",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 62,
-    "regulation": "XY",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2015002062",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_062.jpg?w=512",
-    "effect": "자신의 포켓몬 전원의 HP를 각각 「20」회복한다."
-  },
-  {
-    "name": "동굴탈출로프",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 61,
-    "regulation": "XY",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2015002061",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_061.jpg?w=512",
-    "effect": "서로의 플레이어는 각각 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (교체는 상대부터 한다. 벤치 포켓몬이 없는 플레이어는 교체하지 않는다.）"
-  },
-  {
-    "name": "다이브볼",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "xy5t",
-    "order": 60,
-    "regulation": "XY",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2015002060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_060.jpg?w=512",
-    "effect": "자신의 덱에서 (물) 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-  },
-  {
-    "name": "비버통",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 59,
-    "regulation": "XY",
-    "illustrator": "kirisAki",
-    "rareGrade": "C",
-    "cardNum": "BS2015002059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_059.jpg?w=512",
-    "hp": 120,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "하품",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
-      },
-      {
-        "name": "연속박치기",
-        "energy": [],
-        "damage": "80×",
-        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 80데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "비버니",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 58,
-    "regulation": "XY",
-    "illustrator": "PLANETA",
-    "rareGrade": "C",
-    "cardNum": "BS2015002058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_058.jpg?w=512",
-    "hp": 70,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "고대능력【α회복】",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬의 HP를 회복할 때 회복할 수 있는 양은 2배가 된다."
-      },
-      {
-        "name": "흠뻑젖기",
-        "energy": [],
-        "damage": "20+",
-        "effect": "이 포켓몬에게 (물) 에너지가 붙어 있다면 20데미지를 추가한다."
       }
     ]
   }

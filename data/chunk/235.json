@@ -1,91 +1,147 @@
 [
   {
-    "name": "활력의 항아리",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S5I",
-    "order": 63,
-    "regulation": "E",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2021001063",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_063.png?w=512",
-    "effect": "자신의 트래쉬에서 「일격 에너지」를 2장까지 선택해서 상대에게 보여주고 덱으로 되돌리고 섞는다."
-  },
-  {
-    "name": "캠프세트",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S5I",
-    "order": 62,
-    "regulation": "E",
-    "illustrator": "sadaji",
-    "rareGrade": "U",
-    "cardNum": "BS2021001062",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_062.png?w=512",
-    "effect": "이 카드를 사용하면 자신의 차례는 끝난다.\n\n자신의 덱에서 원하는 카드를 1장 선택해서 패로 가져온다. 그리고 덱을 섞는다."
-  },
-  {
-    "name": "동굴탈출로프",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S5I",
-    "order": 61,
-    "regulation": "E",
-    "illustrator": "sadaji",
-    "rareGrade": "U",
-    "cardNum": "BS2021001061",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_061.png?w=512",
-    "effect": "서로의 플레이어는 각각 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (교체는 상대부터 한다. 벤치 포켓몬이 없는 플레이어는 교체하지 않는다.）"
-  },
-  {
-    "name": "할비롱",
+    "name": "비크티니 V",
     "type": "pokemon",
     "detailedType": [
-      "기본"
+      "기본",
+      "포켓몬 V"
     ],
-    "goods": "S5I",
-    "order": 60,
+    "goods": "S5R",
+    "order": 72,
     "regulation": "E",
-    "illustrator": "Eri Yamaki",
-    "rareGrade": "U",
-    "cardNum": "BS2021001060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_060.png?w=512",
-    "hp": 120,
+    "illustrator": "Saki Hayashiro",
+    "rareGrade": "SR",
+    "cardNum": "BS2021002072",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5R_072.png?w=512",
+    "hp": 190,
     "monType": [
-      "무색"
+      "불꽃"
     ],
     "weakness": {
-      "type": "격투",
+      "type": "물",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "동료부르기",
+        "name": "V불릿",
         "energy": [
-          "무색"
+          "불꽃"
         ],
-        "damage": null,
-        "effect": "자신의 덱에서 기본 포켓몬을 2장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+        "damage": "10+",
+        "effect": "상대의 배틀 포켓몬이 「포켓몬 V」라면 50데미지를 추가한다."
       },
       {
-        "name": "스파이럴러시",
+        "name": "플레어슈트",
         "energy": [
+          "불꽃",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "귀뚤톡크 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "S5R",
+    "order": 71,
+    "regulation": "E",
+    "illustrator": "Satoshi Shirai",
+    "rareGrade": "SR",
+    "cardNum": "BS2021002071",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5R_071.png?w=512",
+    "hp": 180,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "익사이팅 스테이지",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 패가 3장이 되도록 덱을 뽑는다. 이 포켓몬이 배틀필드에 있다면 4장이 되도록 뽑는다. 이 차례에 이미 다른 「익사이팅 스테이지」를 사용했다면 이 특성은 사용할 수 없다."
+      },
+      {
+        "name": "시저크로스",
+        "energy": [
+          "풀",
           "무색",
           "무색"
         ],
-        "damage": "30+",
-        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 30데미지를 추가한다."
+        "damage": "80+",
+        "effect": "동전을 1번 던져서 앞면이 나오면 80데미지를 추가한다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
+  },
+  {
+    "name": "회연",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 81,
+    "regulation": "E",
+    "illustrator": "Kagemaru Himeno",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001081",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_081.png?w=512",
+    "effect": "이 차례에 자신의 「포켓몬 VMAX」가 사용하는 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+  },
+  {
+    "name": "시바",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 80,
+    "regulation": "E",
+    "illustrator": "Ryuta Fuse",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001080",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_080.png?w=512",
+    "effect": "자신의 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 덱을 4장 뽑는다. 상대의 이전 차례에 자신의 포켓몬이 기절했다면 뽑는 장수는 7장이 된다."
+  },
+  {
+    "name": "마스터드 일격의 태세",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 79,
+    "regulation": "E",
+    "illustrator": "Mitsuhiro Arita",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001079",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_079.png?w=512",
+    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다._x000D_\n_x000D_\n자신의 덱에서 「일격」의 포켓몬을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다. 그 뒤, 자신의 덱을 5장 뽑는다."
   },
   {
     "name": "바랜드 V",
@@ -95,12 +151,12 @@
       "포켓몬 V"
     ],
     "goods": "S5I",
-    "order": 59,
+    "order": 78,
     "regulation": "E",
     "illustrator": "Eske Yoshinob",
-    "rareGrade": "RR",
-    "cardNum": "BS2021001059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_059.png?w=512",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001078",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_078.png?w=512",
     "hp": 210,
     "monType": [
       "무색"
@@ -142,510 +198,6 @@
     ]
   },
   {
-    "name": "내룸벨트",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 58,
-    "regulation": "E",
-    "illustrator": "Mina Nakai",
-    "rareGrade": "U",
-    "cardNum": "BS2021001058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_058.png?w=512",
-    "hp": 140,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "내룸초이스",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대는 상대 자신의 덱을 위에서부터 3장 트래쉬한다. 또는 상대는 상대 자신의 패를 3장 선택해서 트래쉬한다."
-      },
-      {
-        "name": "던져버리기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
-      }
-    ]
-  },
-  {
-    "name": "내루미",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 57,
-    "regulation": "E",
-    "illustrator": "HYOGONOSUKE",
-    "rareGrade": "C",
-    "cardNum": "BS2021001057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_057.png?w=512",
-    "hp": 110,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "혀로 막치기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
-      },
-      {
-        "name": "한방 먹이기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "80",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "깨비드릴조",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 56,
-    "regulation": "E",
-    "illustrator": "Yukiko Baba",
-    "rareGrade": "C",
-    "cardNum": "BS2021001056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_056.png?w=512",
-    "hp": 90,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "회전부리",
-        "energy": [
-          "무색"
-        ],
-        "damage": "70",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "깨비참",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 55,
-    "regulation": "E",
-    "illustrator": "Sekio",
-    "rareGrade": "C",
-    "cardNum": "BS2021001055",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_055.png?w=512",
-    "hp": 50,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "쪼기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "킬가르도",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "S5I",
-    "order": 54,
-    "regulation": "E",
-    "illustrator": "Naoyo Kimura",
-    "rareGrade": "U",
-    "cardNum": "BS2021001054",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_054.png?w=512",
-    "hp": 150,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "배틀스위치",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 패에서 「킬가르도」를 1장 선택해서 이 카드와 교체한다(붙어 있는 카드, 데미지 카운터, 특수 상태, 효과 등은 모두 이어받는다). 이 카드는 패로 되돌린다."
-      },
-      {
-        "name": "기간트배시",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": "상대의 다음 차례에 이 포켓몬은 「포켓몬 VMAX」로부터 기술의 데미지를 받지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "킬가르도",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "S5I",
-    "order": 53,
-    "regulation": "E",
-    "illustrator": "miki kudo",
-    "rareGrade": "R",
-    "cardNum": "BS2021001053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_053.png?w=512",
-    "hp": 150,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "배틀스위치",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 패에서 「킬가르도」를 1장 선택해서 이 카드와 교체한다(붙어 있는 카드, 데미지 카운터, 특수 상태, 효과 등은 모두 이어받는다). 이 카드는 패로 되돌린다."
-      },
-      {
-        "name": "풀메탈 블레이드",
-        "energy": [
-          "강철",
-          "강철",
-          "무색"
-        ],
-        "damage": "210",
-        "effect": "이 포켓몬에게 붙어 있는 (강철) 에너지를 2개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "쌍검킬",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 52,
-    "regulation": "E",
-    "illustrator": "Miki Tanaka",
-    "rareGrade": "C",
-    "cardNum": "BS2021001052",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_052.png?w=512",
-    "hp": 80,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "잘라내기",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "단칼빙",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 51,
-    "regulation": "E",
-    "illustrator": "sowsow",
-    "rareGrade": "C",
-    "cardNum": "BS2021001051",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_051.png?w=512",
-    "hp": 60,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "덮치기",
-        "energy": [
-          "강철"
-        ],
-        "damage": "10+",
-        "effect": "동전을 1번 던져서 앞면이 나오면 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "동탁군",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 50,
-    "regulation": "E",
-    "illustrator": "Hasuno",
-    "rareGrade": "R",
-    "cardNum": "BS2021001050",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_050.png?w=512",
-    "hp": 110,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "메탈트랜스",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 (강철) 에너지를 1개 선택해서 자신의 다른 포켓몬에게 붙인다."
-      },
-      {
-        "name": "사념의박치기",
-        "energy": [
-          "강철",
-          "무색",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "동미러",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 49,
-    "regulation": "E",
-    "illustrator": "Mizue",
-    "rareGrade": "C",
-    "cardNum": "BS2021001049",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_049.png?w=512",
-    "hp": 60,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "부딪치기",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "입치트",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 48,
-    "regulation": "E",
-    "illustrator": "kawayoo",
-    "rareGrade": "C",
-    "cardNum": "BS2021001048",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_048.png?w=512",
-    "hp": 90,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "바이스집게",
-        "energy": [
-          "강철"
-        ],
-        "damage": "20",
-        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
-      },
-      {
-        "name": "뚫기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "이 기술의 데미지는 약점, 저항력과 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "모르페코",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 47,
-    "regulation": "E",
-    "illustrator": "NC Empire",
-    "rareGrade": "C",
-    "cardNum": "BS2021001047",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_047.png?w=512",
-    "hp": 80,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "먹이줍기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 트래쉬에서 아이템을 1장 선택해서 상대에게 보여주고 패로 가져온다."
-      },
-      {
-        "name": "꼬르륵태클",
-        "energy": [
-          "악"
-        ],
-        "damage": "20+",
-        "effect": "자신의 패가 1장도 없다면 90데미지를 추가한다."
-      }
-    ]
-  },
-  {
     "name": "마기라스 V",
     "type": "pokemon",
     "detailedType": [
@@ -653,12 +205,12 @@
       "포켓몬 V"
     ],
     "goods": "S5I",
-    "order": 46,
+    "order": 77,
     "regulation": "E",
-    "illustrator": "Ayaka Yoshida",
-    "rareGrade": "RR",
-    "cardNum": "BS2021001046",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_046.png?w=512",
+    "illustrator": "HYOGONOSUKE",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001077",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_077.png?w=512",
     "hp": 230,
     "monType": [
       "악"
@@ -700,19 +252,20 @@
     ]
   },
   {
-    "name": "헬가",
+    "name": "마기라스 V",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "기본",
+      "포켓몬 V"
     ],
     "goods": "S5I",
-    "order": 45,
+    "order": 76,
     "regulation": "E",
-    "illustrator": "Ryota Murayama",
-    "rareGrade": "R",
-    "cardNum": "BS2021001045",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_045.png?w=512",
-    "hp": 130,
+    "illustrator": "Ayaka Yoshida",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001076",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_076.png?w=512",
+    "hp": 230,
     "monType": [
       "악"
     ],
@@ -721,370 +274,34 @@
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "일격의 포효",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「일격 에너지」를 1장 선택해서 자신의 「일격」의 포켓몬에게 붙인다. 그리고 덱을 섞는다. 그 뒤, 붙인 포켓몬에게 데미지 카운터를 2개 올린다."
-      },
-      {
-        "name": "어둠엄니",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "델빌",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 44,
-    "regulation": "E",
-    "illustrator": "Sanosuke Sakuma",
-    "rareGrade": "C",
-    "cardNum": "BS2021001044",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_044.png?w=512",
-    "hp": 60,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "물기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "돈크로우",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 43,
-    "regulation": "E",
-    "illustrator": "Miki Tanaka",
-    "rareGrade": "C",
-    "cardNum": "BS2021001043",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_043.png?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "불면",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 잠듦이 되지 않는다."
-      },
-      {
-        "name": "볼티지다이브",
-        "energy": [
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "80+",
-        "effect": "상대의 배틀 포켓몬에게 특수 에너지가 붙어 있다면 80데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "니로우",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 42,
-    "regulation": "E",
-    "illustrator": "Aya Kusube",
-    "rareGrade": "C",
-    "cardNum": "BS2021001042",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_042.png?w=512",
-    "hp": 70,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "살피기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 패를 본다."
-      },
-      {
-        "name": "쪼기",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "가라르 야도란",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 41,
-    "regulation": "E",
-    "illustrator": "Mitsuhiro Arita",
-    "rareGrade": "U",
-    "cardNum": "BS2021001041",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_041.png?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
     "retreat": 3,
     "tech": [
       {
-        "name": "흩날리는독",
-        "energy": [
-          "악"
-        ],
-        "damage": null,
-        "effect": "서로의 배틀 포켓몬을 각각 독으로 만든다."
-      },
-      {
-        "name": "히스테릭해머",
+        "name": "산붕괴",
         "energy": [
           "악",
           "무색",
           "무색"
         ],
-        "damage": "100+",
-        "effect": "이 포켓몬이 특수 상태라면 120데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "크로뱃",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "S5I",
-    "order": 40,
-    "regulation": "E",
-    "illustrator": "SATOSHI NAKAI",
-    "rareGrade": "R",
-    "cardNum": "BS2021001040",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_040.png?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
+        "damage": "60",
+        "effect": "상대의 덱을 위에서부터 2장 트래쉬한다."
+      },
       {
-        "name": "모조리드로",
+        "name": "일격크래시",
+        "energy": [
+          "악",
+          "악",
+          "무색",
+          "무색"
+        ],
+        "damage": "240",
+        "effect": "자신의 덱을 위에서부터 4장 트래쉬한다."
+      },
+      {
+        "name": "V 룰",
         "energy": [],
         "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다."
-      },
-      {
-        "name": "날개치기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "골뱃",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S5I",
-    "order": 39,
-    "regulation": "E",
-    "illustrator": "sui",
-    "rareGrade": "U",
-    "cardNum": "BS2021001039",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_039.png?w=512",
-    "hp": 80,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "살그머니드로",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱을 2장 뽑는다."
-      },
-      {
-        "name": "에어슬래시",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "주뱃",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S5I",
-    "order": 38,
-    "regulation": "E",
-    "illustrator": "Asako Ito",
-    "rareGrade": "C",
-    "cardNum": "BS2021001038",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_038.png?w=512",
-    "hp": 50,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "어둠에숨기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬을 벤치 포켓몬과 교체한다."
-      },
-      {
-        "name": "스피드비행",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "일격 우라오스 VMAX",
-    "type": "pokemon",
-    "detailedType": [
-      "V진화",
-      "포켓몬 VMAX"
-    ],
-    "goods": "S5I",
-    "order": 37,
-    "regulation": "E",
-    "illustrator": "PLANETA Tsuji",
-    "rareGrade": "RRR",
-    "cardNum": "BS2021001037",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_037.png?w=512",
-    "hp": 330,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "정권찌르기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": null
-      },
-      {
-        "name": "거다이일격",
-        "energy": [
-          "격투",
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "270",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다. 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
-      },
-      {
-        "name": "VMAX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
@@ -1096,12 +313,12 @@
       "포켓몬 V"
     ],
     "goods": "S5I",
-    "order": 36,
+    "order": 75,
     "regulation": "E",
-    "illustrator": "PLANETA Mochizuki",
-    "rareGrade": "RR",
-    "cardNum": "BS2021001036",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_036.png?w=512",
+    "illustrator": "kawayoo",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001075",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_075.png?w=512",
     "hp": 220,
     "monType": [
       "격투"
@@ -1140,93 +357,670 @@
     ]
   },
   {
-    "name": "돌헨진",
+    "name": "일격 우라오스 V",
     "type": "pokemon",
     "detailedType": [
-      "기본"
+      "기본",
+      "포켓몬 V"
     ],
     "goods": "S5I",
-    "order": 35,
+    "order": 74,
     "regulation": "E",
-    "illustrator": "Masakazu Fukuda",
-    "rareGrade": "U",
-    "cardNum": "BS2021001035",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_035.png?w=512",
-    "hp": 130,
+    "illustrator": "PLANETA Mochizuki",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001074",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_074.png?w=512",
+    "hp": 220,
     "monType": [
       "격투"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "예민해지기",
+        "energy": [
+          "격투"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 (격투) 에너지를 2장까지 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "임팩트블로",
+        "energy": [
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "180",
+        "effect": "자신의 다음 차례에 이 포켓몬은 「임팩트블로」를 사용할 수 없다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "따라큐 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "S5I",
+    "order": 73,
+    "regulation": "E",
+    "illustrator": "Eske Yoshinob",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001073",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_073.png?w=512",
+    "hp": 160,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "악",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "더미인형",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 상대의 다음 차례가 끝날 때까지 이 「따라큐 V」는 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
+      },
+      {
+        "name": "부러운눈동자",
+        "energy": [
+          "초"
+        ],
+        "damage": null,
+        "effect": "상대가 이미 가져간 프라이즈의 장수 × 3개만큼의 데미지 카운터를 상대의 배틀 포켓몬에게 올린다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "카푸꼬꼬꼭 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "S5I",
+    "order": 72,
+    "regulation": "E",
+    "illustrator": "Eske Yoshinob",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001072",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_072.png?w=512",
+    "hp": 210,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "일렉트릭볼",
+        "energy": [
+          "번개"
+        ],
+        "damage": "40",
+        "effect": null
+      },
+      {
+        "name": "스파이럴썬더",
+        "energy": [
+          "번개",
+          "번개",
+          "무색"
+        ],
+        "damage": "20+",
+        "effect": "상대 필드의 포켓몬에게 붙어 있는 에너지의 개수 × 40데미지를 추가한다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "애프룡 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "S5I",
+    "order": 71,
+    "regulation": "E",
+    "illustrator": "PLANETA Mochizuki",
+    "rareGrade": "SR",
+    "cardNum": "BS2021001071",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_071.png?w=512",
+    "hp": 190,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "새콤한타액",
+        "energy": [
+          "풀"
+        ],
+        "damage": "20",
+        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 기술을 사용하기 위한 에너지가 (무색) 에너지 2개만큼 많아진다."
+      },
+      {
+        "name": "날개치기",
+        "energy": [
+          "풀",
+          "무색",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": null
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "고릴타 VMAX",
+    "type": "pokemon",
+    "detailedType": [
+      "V진화",
+      "포켓몬 VMAX"
+    ],
+    "goods": "promo",
+    "order": 97,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SP000000097",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_097.png?w=512",
+    "hp": 330,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 3,
     "tech": [
       {
-        "name": "대지의고동",
+        "name": "거다이난타",
         "energy": [
-          "격투",
+          "풀",
+          "무색",
+          "무색",
           "무색"
         ],
-        "damage": "30+",
-        "effect": "필드에 스타디움이 나와 있다면 30데미지를 추가한다."
+        "damage": "180",
+        "effect": "상대의 벤치 포켓몬 2마리에게도 각각 40데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
       },
       {
-        "name": "기가해머",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": "자신의 다음 차례에 이 포켓몬은 「기가해머」를 사용할 수 없다."
+        "name": "VMAX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
       }
     ]
   },
   {
-    "name": "석탄산",
+    "name": "고릴타 V",
     "type": "pokemon",
     "detailedType": [
-      "2진화"
+      "기본",
+      "포켓몬 V"
     ],
-    "goods": "S5I",
-    "order": 34,
+    "goods": "promo",
+    "order": 96,
     "regulation": "E",
-    "illustrator": "AKIRA EGAWA",
-    "rareGrade": "R",
-    "cardNum": "BS2021001034",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_034.png?w=512",
-    "hp": 180,
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SP000000096",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_096.png?w=512",
+    "hp": 220,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "드레인펀치",
+        "energy": [
+          "풀",
+          "무색",
+          "무색"
+        ],
+        "damage": "60",
+        "effect": "이 포켓몬의 HP를 「30」회복한다."
+      },
+      {
+        "name": "드럼러시",
+        "energy": [
+          "풀",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "160",
+        "effect": null
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "에이스번 VMAX",
+    "type": "pokemon",
+    "detailedType": [
+      "V진화",
+      "포켓몬 VMAX"
+    ],
+    "goods": "promo",
+    "order": 95,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SP000000095",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_095.png?w=512",
+    "hp": 320,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "거다이화염구",
+        "energy": [
+          "불꽃",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "230",
+        "effect": "상대의 배틀 포켓몬을 화상으로 만든다. 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
+      },
+      {
+        "name": "VMAX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "에이스번 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "promo",
+    "order": 94,
+    "regulation": "E",
+    "illustrator": "aky CG Works",
+    "rareGrade": null,
+    "cardNum": "SP000000094",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_094.png?w=512",
+    "hp": 210,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "불꽃",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "50",
+        "effect": null
+      },
+      {
+        "name": "전력슛",
+        "energy": [
+          "불꽃",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "210",
+        "effect": "자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "연격 우라오스 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "promo",
+    "order": 93,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SP000000093",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_093.png?w=512",
+    "hp": 220,
     "monType": [
       "격투"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "초",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 4,
+    "retreat": 2,
     "tech": [
       {
-        "name": "석탄포",
-        "energy": [
-          "무색"
-        ],
-        "damage": "90×",
-        "effect": "이 포켓몬에게 붙어 있는 에너지의 개수만큼 동전을 던져서 앞면이 나온 수 × 90데미지를 준다."
-      },
-      {
-        "name": "와일드태클",
+        "name": "회전차기",
         "energy": [
           "격투",
-          "무색",
-          "무색",
           "무색"
         ],
-        "damage": "200",
-        "effect": "이 포켓몬에게도 50데미지를 준다."
+        "damage": "40",
+        "effect": null
+      },
+      {
+        "name": "음속연각",
+        "energy": [
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "90",
+        "effect": "상대의 벤치 포켓몬 2마리에게도 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
+  },
+  {
+    "name": "일격 우라오스V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "promo",
+    "order": 92,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SP000000092",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_092.png?w=512",
+    "hp": 220,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "안다리걸기",
+        "energy": [
+          "격투"
+        ],
+        "damage": "30",
+        "effect": null
+      },
+      {
+        "name": "완강너클",
+        "energy": [
+          "격투",
+          "격투",
+          "격투",
+          "격투"
+        ],
+        "damage": "180",
+        "effect": "이 기술의 데미지는 저항력 계산을 하지 않는다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "몬스터볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "promo",
+    "order": 91,
+    "regulation": "D",
+    "illustrator": "Studio Bora Inc.",
+    "rareGrade": null,
+    "cardNum": "SP000000091",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_091.png?w=512",
+    "effect": "동전을 1번 던져서 앞면이 나오면 자신의 덱에서 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "만병통치제",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "promo",
+    "order": 90,
+    "regulation": "D",
+    "illustrator": "Yoshinobu Saito",
+    "rareGrade": null,
+    "cardNum": "SP000000090",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S-P/S-P_090.png?w=512",
+    "effect": "자신의 배틀 포켓몬의 특수 상태를 모두 회복한다."
+  },
+  {
+    "name": "일격 에너지",
+    "type": "energy",
+    "detailedType": [
+      "특수 에너지"
+    ],
+    "goods": "S5I",
+    "order": 70,
+    "regulation": "E",
+    "illustrator": null,
+    "rareGrade": "U",
+    "cardNum": "BS2021001070",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_070.png?w=512",
+    "effect": ""
+  },
+  {
+    "name": "악의 탑",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "S5I",
+    "order": 69,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2021001069",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_069.png?w=512",
+    "effect": "서로의 플레이어는 자신의 차례마다 1번 자신의 패에서 「일격」의 카드를 1장 트래쉬한다면 자신의 덱을 2장 뽑아도 좋다."
+  },
+  {
+    "name": "회연",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 68,
+    "regulation": "E",
+    "illustrator": "GAME FREAK inc.",
+    "rareGrade": "U",
+    "cardNum": "BS2021001068",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_068.png?w=512",
+    "effect": "이 차례에 자신의 「포켓몬 VMAX」가 사용하는 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+  },
+  {
+    "name": "시바",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 67,
+    "regulation": "E",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": "U",
+    "cardNum": "BS2021001067",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_067.png?w=512",
+    "effect": "자신의 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 덱을 4장 뽑는다. 상대의 이전 차례에 자신의 포켓몬이 기절했다면 뽑는 장수는 7장이 된다."
+  },
+  {
+    "name": "마스터드 일격의 태세",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "S5I",
+    "order": 66,
+    "regulation": "E",
+    "illustrator": "Mitsuhiro Arita",
+    "rareGrade": "U",
+    "cardNum": "BS2021001066",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_066.png?w=512",
+    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다.\n\n자신의 덱에서 「일격」의 포켓몬을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다. 그 뒤, 자신의 덱을 5장 뽑는다."
+  },
+  {
+    "name": "학습장치",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "S5I",
+    "order": 65,
+    "regulation": "E",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2021001065",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_065.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "일격의 두루마리 분노의 권",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "S5I",
+    "order": 64,
+    "regulation": "E",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2021001064",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_064.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "활력의 항아리",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "S5I",
+    "order": 63,
+    "regulation": "E",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2021001063",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_063.png?w=512",
+    "effect": "자신의 트래쉬에서 「일격 에너지」를 2장까지 선택해서 상대에게 보여주고 덱으로 되돌리고 섞는다."
+  },
+  {
+    "name": "캠프세트",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "S5I",
+    "order": 62,
+    "regulation": "E",
+    "illustrator": "sadaji",
+    "rareGrade": "U",
+    "cardNum": "BS2021001062",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S5/S5I_062.png?w=512",
+    "effect": "이 카드를 사용하면 자신의 차례는 끝난다.\n\n자신의 덱에서 원하는 카드를 1장 선택해서 패로 가져온다. 그리고 덱을 섞는다."
   }
 ]
