@@ -1,137 +1,177 @@
 [
   {
-    "name": "밀로틱",
+    "name": "M가디안 EX",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "M진화",
+      "포켓몬 EX"
     ],
     "goods": "xy5t",
-    "order": 23,
+    "order": 76,
     "regulation": "XY",
-    "illustrator": "Sanosuke Sakuma",
-    "rareGrade": "R",
-    "cardNum": "BS2015002023",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_023.jpg?w=512",
-    "hp": 110,
+    "illustrator": "5ban Graphics",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002076",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_076.jpg?w=512",
+    "hp": 210,
     "monType": [
-      "물"
+      "페어리"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "강철",
       "value": "×2"
     },
-    "resistance": null,
-    "retreat": 0,
+    "resistance": {
+      "type": "악",
+      "value": "-20"
+    },
+    "retreat": 2,
     "tech": [
       {
-        "name": "반짝이는 파문",
+        "name": "M진화 룰",
         "energy": [],
         "damage": null,
-        "effect": "이 특성은 이 카드를 패에서 꺼내서 진화시켰을 때 한 번 사용할 수 있다. 자신의 트래쉬에서 원하는 카드를 1장 선택해서 상대에게 보여주고 패로 가져온다."
+        "effect": "M진화 포켓몬으로 진화하면 자신의 차례는 끝난다."
       },
       {
-        "name": "아쿠아스월",
+        "name": "브릴리언트 애로",
         "energy": [
-          "물",
+          "페어리",
           "무색",
           "무색"
         ],
-        "damage": "60",
-        "effect": "원한다면 상대의 배틀 포켓몬을 벤치 포켓몬과 교체해도 좋다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
+        "damage": "30×",
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (페어리) 에너지를 합한 수 × 30데미지를 준다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "빈티나",
+    "name": "가디안 EX",
     "type": "pokemon",
     "detailedType": [
-      "기본"
+      "기본",
+      "포켓몬 EX"
     ],
     "goods": "xy5t",
-    "order": 22,
+    "order": 75,
     "regulation": "XY",
-    "illustrator": "Suwama Chiaki",
-    "rareGrade": "C",
-    "cardNum": "BS2015002022",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_022.jpg?w=512",
-    "hp": 30,
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002075",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_075.jpg?w=512",
+    "hp": 170,
     "monType": [
-      "물"
+      "페어리"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "강철",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "악",
+      "value": "-20"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "라이프리프",
+        "energy": [
+          "페어리"
+        ],
+        "damage": "20",
+        "effect": "상대의 배틀 포켓몬에게 준 데미지만큼 이 포켓몬의 HP를 회복한다."
+      },
+      {
+        "name": "빛나는바람",
+        "energy": [
+          "페어리",
+          "페어리",
+          "페어리"
+        ],
+        "damage": "100",
+        "effect": "상대의 다음 차례에 이 포켓몬의 약점은 없어진다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "샤크니아 EX",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 EX"
+    ],
+    "goods": "xy5t",
+    "order": 74,
+    "regulation": "XY",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002074",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_074.jpg?w=512",
+    "hp": 0,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "번개",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 1,
     "tech": [
       {
-        "name": "두둥실",
+        "name": "기회노리기",
         "energy": [
-          "물"
-        ],
-        "damage": "10",
-        "effect": "동전을 한 번 던져서 뒷면이 나오면 이 포켓몬에게도 10데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "가재군",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 21,
-    "regulation": "XY",
-    "illustrator": "Shin Nagasawa",
-    "rareGrade": "C",
-    "cardNum": "BS2015002021",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_021.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "찝기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "탁쳐서떨구기",
-        "energy": [
-          "무색",
+          "악",
           "무색"
         ],
         "damage": null,
-        "effect": "상대의 패에서 앞면을 보지 않고 1장 선택해서 트래쉬한다."
+        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤 새로 나온 포켓몬에게 30데미지를 준다."
+      },
+      {
+        "name": "삐죽삐죽팽",
+        "energy": [
+          "악",
+          "악",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다. 그 뒤 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "메깅",
+    "name": "원시가이오가 EX",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "M진화",
+      "포켓몬 EX"
     ],
     "goods": "xy5t",
-    "order": 20,
+    "order": 73,
     "regulation": "XY",
-    "illustrator": "PLANETA",
-    "rareGrade": "U",
-    "cardNum": "BS2015002020",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_020.jpg?w=512",
-    "hp": 110,
+    "illustrator": "5ban Graphics",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002073",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_073.jpg?w=512",
+    "hp": 240,
     "monType": [
       "물"
     ],
@@ -149,42 +189,45 @@
         "effect": "이 포켓몬에게 패에서 에너지를 붙일 때 동시에 2장까지 붙일 수 있다. (기술 특성 트레이너스로 붙일 때는 제외한다.)"
       },
       {
-        "name": "물대포",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
+        "name": "원시회귀 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "원시가이오가 EX로 진화하면 자신의 차례는 끝난다."
       },
       {
-        "name": "지진",
+        "name": "타이달스톰",
         "energy": [
           "물",
           "물",
-          "무색",
+          "물",
           "무색"
         ],
-        "damage": "120",
-        "effect": "자신의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
+        "damage": "150",
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 자신의 벤치 포켓몬 1마리에게 붙인다. 상대의 벤치에 있는 「포켓몬 EX」 전원에게도 각각 30데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "메깅",
+    "name": "가이오가 EX",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "기본",
+      "포켓몬 EX"
     ],
     "goods": "xy5t",
-    "order": 19,
+    "order": 72,
     "regulation": "XY",
-    "illustrator": "Naoyo Kimura",
-    "rareGrade": "U",
-    "cardNum": "BS2015002019",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_019.jpg?w=512",
-    "hp": 100,
+    "illustrator": "5ban Graphics",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002072",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_072.jpg?w=512",
+    "hp": 0,
     "monType": [
       "물"
     ],
@@ -193,60 +236,33 @@
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 3,
+    "retreat": 4,
     "tech": [
       {
-        "name": "망각술",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": "상대의 배틀 포켓몬이 가지고 있는 기술을 1개 선택한다. 상대의 다음 차례에 이 기술을 받은 포켓몬은 선택된 기술을 사용할 수 없다."
-      },
-      {
-        "name": "밀어올리기",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "60+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "미꾸리",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 18,
-    "regulation": "XY",
-    "illustrator": "Kyoko Umemoto",
-    "rareGrade": "C",
-    "cardNum": "BS2015002018",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_018.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "물뿌리기",
+        "name": "물의파동",
         "energy": [
           "물",
           "무색"
         ],
         "damage": "30",
-        "effect": null
+        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
+      },
+      {
+        "name": "거대한 소용돌이",
+        "energy": [],
+        "damage": "140",
+        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지를 2개 선택해서 패로 되돌린다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [
+          "물",
+          "물",
+          "무색",
+          "무색"
+        ],
+        "damage": null,
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
@@ -258,12 +274,12 @@
       "포켓몬 EX"
     ],
     "goods": "xy5t",
-    "order": 17,
+    "order": 71,
     "regulation": "XY",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": "RR",
-    "cardNum": "BS2015002017",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_017.jpg?w=512",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "SR",
+    "cardNum": "BS2015002071",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_071.jpg?w=512",
     "hp": 250,
     "monType": [
       "물"
@@ -302,72 +318,431 @@
     ]
   },
   {
-    "name": "로파파",
-    "type": "pokemon",
+    "name": "원더 에너지",
+    "type": "energy",
     "detailedType": [
-      "2진화"
+      "특수 에너지"
     ],
     "goods": "xy5t",
-    "order": 16,
+    "order": 70,
     "regulation": "XY",
-    "illustrator": "kawayoo",
+    "illustrator": "5ban Graphics",
     "rareGrade": "U",
-    "cardNum": "BS2015002016",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_016.jpg?w=512",
-    "hp": 130,
+    "cardNum": "BS2015002070",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_070.jpg?w=512",
+    "effect": ""
+  },
+  {
+    "name": "사일런트랩",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "xy5t",
+    "order": 69,
+    "regulation": "XY",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "U",
+    "cardNum": "BS2015002069",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_069.jpg?w=512",
+    "effect": "서로의 필드 ･ 패 ･ 트래쉬에 있는 기본 포켓몬의 특성은 모두 없어진다."
+  },
+  {
+    "name": "넘실거리는 큰바다",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "xy5t",
+    "order": 68,
+    "regulation": "XY",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "U",
+    "cardNum": "BS2015002068",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_068.jpg?w=512",
+    "effect": "서로의 플레이어는 자신의 차례에 한 번 자신의 (물) 포켓몬과 (번개) 포켓몬 전원의 HP를 각각 「30」회복해도 좋다."
+  },
+  {
+    "name": "털보박사의 관찰",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "xy5t",
+    "order": 67,
+    "regulation": "XY",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": "U",
+    "cardNum": "BS2015002067",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_067.jpg?w=512",
+    "effect": "자신의 패를 모두 덱으로 되돌리고 덱을 섞는다. 동전을 한 번 던져서 앞면이 나오면 7장 뒷면이 나오면 4장 자신의 덱을 뽑는다."
+  },
+  {
+    "name": "아강의 비장의카드",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "xy5t",
+    "order": 66,
+    "regulation": "XY",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": "U",
+    "cardNum": "BS2015002066",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_066.jpg?w=512",
+    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다. 자신의 트래쉬에서 (물) 포켓몬을 1장 선택해서 벤치로 내보낸다. 그 뒤 자신의 덱을 5장 뽑는다."
+  },
+  {
+    "name": "가이오가 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 65,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2015002065",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_065.jpg?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "가디안 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 64,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "U",
+    "cardNum": "BS2015002064",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_064.jpg?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "학습장치",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 63,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002063",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_063.jpg?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "맛있는물세트",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 62,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002062",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_062.jpg?w=512",
+    "effect": "자신의 포켓몬 전원의 HP를 각각 「20」회복한다."
+  },
+  {
+    "name": "동굴탈출로프",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 61,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002061",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_061.jpg?w=512",
+    "effect": "서로의 플레이어는 각각 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (교체는 상대부터 한다. 벤치 포켓몬이 없는 플레이어는 교체하지 않는다.）"
+  },
+  {
+    "name": "다이브볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 60,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002060",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_060.jpg?w=512",
+    "effect": "자신의 덱에서 (물) 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "비버통",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "xy5t",
+    "order": 59,
+    "regulation": "XY",
+    "illustrator": "kirisAki",
+    "rareGrade": "C",
+    "cardNum": "BS2015002059",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_059.jpg?w=512",
+    "hp": 120,
     "monType": [
-      "물"
+      "무색"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "하품",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
+      },
+      {
+        "name": "연속박치기",
+        "energy": [],
+        "damage": "80×",
+        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 80데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "비버니",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy5t",
+    "order": 58,
+    "regulation": "XY",
+    "illustrator": "PLANETA",
+    "rareGrade": "C",
+    "cardNum": "BS2015002058",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_058.jpg?w=512",
+    "hp": 70,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 2,
     "tech": [
       {
-        "name": "놀래키기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 패에서 앞면을 보지 않고 1장 선택한다. 그 뒤 그 카드를 보고 나서 상대의 덱으로 되돌리고 덱을 섞는다."
+        "name": "고대능력【α회복】",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬의 HP를 회복할 때 회복할 수 있는 양은 2배가 된다."
       },
       {
-        "name": "스플래시댄스",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "자신의 다음 차례에 이 포켓몬이 사용하는 「스플래시댄스」의 데미지는 「+60」이 된다."
+        "name": "흠뻑젖기",
+        "energy": [],
+        "damage": "20+",
+        "effect": "이 포켓몬에게 (물) 에너지가 붙어 있다면 20데미지를 추가한다."
       }
     ]
   },
   {
-    "name": "대짱이",
+    "name": "비버니",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy5t",
+    "order": 57,
+    "regulation": "XY",
+    "illustrator": "Akira Komayama",
+    "rareGrade": "C",
+    "cardNum": "BS2015002057",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_057.jpg?w=512",
+    "hp": 70,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "갉기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": null
+      },
+      {
+        "name": "둥글둥글",
+        "energy": [],
+        "damage": null,
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지를 받지 않는다."
+      }
+    ]
+  },
+  {
+    "name": "얼루기",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy5t",
+    "order": 56,
+    "regulation": "XY",
+    "illustrator": "Mitsuhiro Arita",
+    "rareGrade": "C",
+    "cardNum": "BS2015002056",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_056.jpg?w=512",
+    "hp": 80,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "흔들흔들워크",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 혼란으로 만든다. 뒷면이 나오면 이 포켓몬을 혼란으로 만든다."
+      },
+      {
+        "name": "소란피기",
+        "energy": [],
+        "damage": null,
+        "effect": "상대의 포켓몬 전원에게 각각 10데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
+      }
+    ]
+  },
+  {
+    "name": "델케티",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "xy5t",
+    "order": 55,
+    "regulation": "XY",
+    "illustrator": "Atsuko Nishida",
+    "rareGrade": "U",
+    "cardNum": "BS2015002055",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_055.jpg?w=512",
+    "hp": 80,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "리플레이스",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 에너지를 원하는 만큼 선택해서 자신의 포켓몬에게 원하는 대로 붙인다."
+      },
+      {
+        "name": "치근거리기",
+        "energy": [],
+        "damage": "30+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "에나비",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xy5t",
+    "order": 54,
+    "regulation": "XY",
+    "illustrator": "Yuka Morii",
+    "rareGrade": "C",
+    "cardNum": "BS2015002054",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_054.jpg?w=512",
+    "hp": 50,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "애교부리기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬이 사용하는 기술의 데미지는 「-20」이 된다."
+      },
+      {
+        "name": "꼬리로 때리기",
+        "energy": [],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "킹드라",
     "type": "pokemon",
     "detailedType": [
       "2진화"
     ],
     "goods": "xy5t",
-    "order": 15,
+    "order": 53,
     "regulation": "XY",
-    "illustrator": "Shin Nagasawa",
+    "illustrator": "hatachu",
     "rareGrade": "R",
-    "cardNum": "BS2015002015",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_015.jpg?w=512",
-    "hp": 140,
+    "cardNum": "BS2015002053",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_053.jpg?w=512",
+    "hp": 130,
     "monType": [
-      "물"
+      "드래곤"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "페어리",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 3,
+    "retreat": 1,
     "tech": [
       {
         "name": "고대능력【α그로우】",
@@ -376,634 +751,88 @@
         "effect": "이 포켓몬에게 패에서 에너지를 붙일 때 동시에 2장까지 붙일 수 있다. (기술 특성 트레이너스로 붙일 때는 제외한다.)"
       },
       {
-        "name": "다이빙서치",
+        "name": "힘모으기",
         "energy": [],
         "damage": null,
-        "effect": "자신의 덱에서 원하는 카드를 1장 선택한다. 남은 덱을 섞고 선택한 카드를 덱의 위로 되돌린다. 이 특성은 자신의 차례에 한 번 사용할 수 있다."
+        "effect": "자신의 덱에서 기본 에너지를 4장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
       },
       {
-        "name": "하이드로펌프",
+        "name": "드래곤블라스트",
         "energy": [
-          "무색",
-          "무색",
           "무색"
         ],
-        "damage": "40+",
-        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지의 개수 × 30데미지를 추가한다."
+        "damage": null,
+        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지와 (번개) 에너지를 각각 1개씩 선택해서 트래쉬한다."
       }
     ]
   },
   {
-    "name": "대짱이",
+    "name": "킹드라",
     "type": "pokemon",
     "detailedType": [
       "2진화"
     ],
     "goods": "xy5t",
-    "order": 14,
+    "order": 52,
     "regulation": "XY",
-    "illustrator": "Shigenori Negishi",
+    "illustrator": "Suwama Chiaki",
     "rareGrade": "U",
-    "cardNum": "BS2015002014",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_014.jpg?w=512",
-    "hp": 150,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "워터애로",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬을 1마리 선택해서 60데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "폭포오르기",
-        "energy": [
-          "물",
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "늪짱이",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 13,
-    "regulation": "XY",
-    "illustrator": "sui",
-    "rareGrade": "C",
-    "cardNum": "BS2015002013",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_013.jpg?w=512",
-    "hp": 90,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "진흙뿌리기",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      },
-      {
-        "name": "죽기살기",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "40+",
-        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 20데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "물짱이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 12,
-    "regulation": "XY",
-    "illustrator": "Aya Kusube",
-    "rareGrade": "C",
-    "cardNum": "BS2015002012",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_012.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "몸통박치기",
-        "energy": [
-          "물"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "진흙뿌리기",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "별가사리",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 11,
-    "regulation": "XY",
-    "illustrator": "Tomokazu Komiya",
-    "rareGrade": "C",
-    "cardNum": "BS2015002011",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_011.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "덤벼들기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": "동전을 한 번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
-  },
-  {
-    "name": "시드라",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 10,
-    "regulation": "XY",
-    "illustrator": "Sanosuke Sakuma",
-    "rareGrade": "C",
-    "cardNum": "BS2015002010",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_010.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "기절침",
-        "energy": [
-          "물"
-        ],
-        "damage": "10+",
-        "effect": "동전을 두 번 던져서 모두 앞면이 나오면 40데미지를 추가한다."
-      },
-      {
-        "name": "물대포",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "쏘드라",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 9,
-    "regulation": "XY",
-    "illustrator": "kirisAki",
-    "rareGrade": "C",
-    "cardNum": "BS2015002009",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_009.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "거품",
-        "energy": [
-          "물"
-        ],
-        "damage": null,
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "비나방",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 8,
-    "regulation": "XY",
-    "illustrator": "Kanako Eo",
-    "rareGrade": "C",
-    "cardNum": "BS2015002008",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_008.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "소용돌이선회",
-        "energy": [
-          "풀"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다. 이 포켓몬을 벤치 포켓몬과 교체한다."
-      },
-      {
-        "name": "에어슬래시",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "비구술",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 7,
-    "regulation": "XY",
-    "illustrator": "Sumiyoshi Kizuki",
-    "rareGrade": "C",
-    "cardNum": "BS2015002007",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_007.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "밟기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "로파파",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "xy5t",
-    "order": 6,
-    "regulation": "XY",
-    "illustrator": "Mizue",
-    "rareGrade": "R",
-    "cardNum": "BS2015002006",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_006.jpg?w=512",
+    "cardNum": "BS2015002052",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_052.jpg?w=512",
     "hp": 130,
     "monType": [
-      "풀"
+      "드래곤"
     ],
     "weakness": {
-      "type": "불꽃",
+      "type": "페어리",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "매혹의 리듬",
-        "energy": [],
-        "damage": null,
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 이 특성은 자신의 차례에 한 번 사용할 수 있다."
-      },
-      {
-        "name": "솔라레이",
+        "name": "찢기",
         "energy": [
-          "풀",
-          "무색",
-          "무색"
-        ],
-        "damage": "80",
-        "effect": "자신의 포켓몬 전원의 HP를 각각 「20」회복한다."
-      }
-    ]
-  },
-  {
-    "name": "로토스",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 5,
-    "regulation": "XY",
-    "illustrator": "Naoyo Kimura",
-    "rareGrade": "C",
-    "cardNum": "BS2015002005",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_005.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "걸기",
-        "energy": [
-          "풀"
-        ],
-        "damage": "20",
-        "effect": null
-      },
-      {
-        "name": "때리기",
-        "energy": [
-          "무색",
-          "무색"
+          "물"
         ],
         "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "연꽃몬",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 4,
-    "regulation": "XY",
-    "illustrator": "Kanako Eo",
-    "rareGrade": "C",
-    "cardNum": "BS2015002004",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_004.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "때리기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "독침붕",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "xy5t",
-    "order": 3,
-    "regulation": "XY",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "C",
-    "cardNum": "BS2015002003",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_003.jpg?w=512",
-    "hp": 120,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "알레르기쇼크",
-        "energy": [
-          "풀"
-        ],
-        "damage": null,
-        "effect": "자신의 다음 차례에 이 기술을 받은 포켓몬은 기절한다."
+        "effect": "이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과의 계산을 하지 않는다."
       },
       {
-        "name": "더블니들",
-        "energy": [
-          "풀",
-          "풀"
-        ],
-        "damage": "50×",
-        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 50데미지를 준다."
+        "name": "회오리",
+        "energy": [],
+        "damage": "70",
+        "effect": "동전을 두 번 던져서 앞면이 나온 수만큼 상대의 배틀 포켓몬에게 붙어 있는 에너지를 선택해서 트래쉬한다. 모두 뒷면이 나오면 이 기술은 실패한다."
       }
     ]
   },
   {
-    "name": "딱충이",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 2,
-    "regulation": "XY",
-    "illustrator": "Kagemaru Himeno",
-    "rareGrade": "C",
-    "cardNum": "BS2015002002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_002.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "벌레먹음",
-        "energy": [
-          "풀"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "뿔충이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "xy5t",
-    "order": 1,
-    "regulation": "XY",
-    "illustrator": "Midori Harada",
-    "rareGrade": "C",
-    "cardNum": "BS2015002001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_001.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "증식하기",
-        "energy": [
-          "풀"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에서 「뿔충이」를 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
-      }
-    ]
-  },
-  {
-    "name": "선배&후배",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5g",
-    "order": 78,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001078",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_078.jpg?w=512",
-    "effect": "이 카드는 상대의 이전 차례에 자신의 포켓몬이 기절하지 않으면 사용할 수 없다. 자신의 덱에서 원하는 카드를 2장까지 선택해서 패로 가져온다. 그리고 덱을 섞는다."
-  },
-  {
-    "name": "마적의 히든볼트릭",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "xy5g",
-    "order": 77,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001077",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_077.jpg?w=512",
-    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다. 자신의 트래쉬에서 (격투) 포켓몬을 1장 선택해서 벤치로 내보낸다. 그 뒤 자신의 덱을 5장 뽑는다."
-  },
-  {
-    "name": "M보스로라 EX",
+    "name": "M가디안 EX",
     "type": "pokemon",
     "detailedType": [
       "M진화",
       "포켓몬 EX"
     ],
-    "goods": "xy5g",
-    "order": 76,
+    "goods": "xy5t",
+    "order": 51,
     "regulation": "XY",
     "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001076",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_076.jpg?w=512",
-    "hp": 240,
+    "rareGrade": "RR",
+    "cardNum": "BS2015002051",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_051.jpg?w=512",
+    "hp": 210,
     "monType": [
-      "강철"
+      "페어리"
     ],
     "weakness": {
-      "type": "불꽃",
+      "type": "강철",
       "value": "×2"
     },
     "resistance": {
-      "type": "초",
+      "type": "악",
       "value": "-20"
     },
-    "retreat": 4,
+    "retreat": 2,
     "tech": [
       {
         "name": "M진화 룰",
@@ -1012,240 +841,211 @@
         "effect": "M진화 포켓몬으로 진화하면 자신의 차례는 끝난다."
       },
       {
-        "name": "메가톤슬램",
-        "energy": [
-          "강철",
-          "강철",
-          "무색",
-          "무색"
-        ],
-        "damage": "120+",
-        "effect": "원한다면 동전을 한 번 던져도 좋다. 앞면이 나오면 120데미지를 추가한다. 뒷면이 나오면 자신의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
+        "name": "브릴리언트 애로",
+        "energy": [],
+        "damage": "30×",
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (페어리) 에너지를 합한 수 × 30데미지를 준다."
       },
       {
         "name": "포켓몬 EX 룰",
-        "energy": [],
+        "energy": [
+          "페어리",
+          "무색",
+          "무색"
+        ],
         "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다.상대는 프라이즈를 3장 가져간다."
+        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "보스로라 EX",
+    "name": "가디안 EX",
     "type": "pokemon",
     "detailedType": [
       "기본",
       "포켓몬 EX"
     ],
-    "goods": "xy5g",
-    "order": 75,
+    "goods": "xy5t",
+    "order": 50,
     "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001075",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_075.jpg?w=512",
-    "hp": 180,
+    "illustrator": "Eske Yoshinob",
+    "rareGrade": "RR",
+    "cardNum": "BS2015002050",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_050.jpg?w=512",
+    "hp": 170,
     "monType": [
-      "강철"
+      "페어리"
     ],
     "weakness": {
-      "type": "불꽃",
+      "type": "강철",
       "value": "×2"
     },
     "resistance": {
-      "type": "초",
+      "type": "악",
       "value": "-20"
     },
-    "retreat": 4,
+    "retreat": 2,
     "tech": [
       {
-        "name": "강철박치기",
+        "name": "라이프리프",
         "energy": [
-          "강철",
-          "무색",
-          "무색"
+          "페어리"
         ],
-        "damage": "50+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
+        "damage": "20",
+        "effect": "상대의 배틀 포켓몬에게 준 데미지만큼 이 포켓몬의 HP를 회복한다."
       },
       {
-        "name": "레이징해머",
-        "energy": [
-          "강철",
-          "강철",
-          "무색",
-          "무색"
-        ],
-        "damage": "60+",
-        "effect": "이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다."
+        "name": "빛나는바람",
+        "energy": [],
+        "damage": "100",
+        "effect": "상대의 다음 차례에 이 포켓몬의 약점은 없어진다."
       },
       {
         "name": "포켓몬 EX 룰",
-        "energy": [],
+        "energy": [
+          "페어리",
+          "페어리",
+          "페어리"
+        ],
         "damage": null,
         "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
   },
   {
-    "name": "원시그란돈 EX",
+    "name": "마릴리",
     "type": "pokemon",
     "detailedType": [
-      "M진화",
-      "포켓몬 EX"
+      "1진화"
     ],
-    "goods": "xy5g",
-    "order": 74,
+    "goods": "xy5t",
+    "order": 49,
     "regulation": "XY",
     "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001074",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_074.jpg?w=512",
-    "hp": 240,
+    "rareGrade": "R",
+    "cardNum": "BS2015002049",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_049.jpg?w=512",
+    "hp": 100,
     "monType": [
-      "격투"
+      "페어리"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "강철",
       "value": "×2"
     },
-    "resistance": null,
-    "retreat": 4,
+    "resistance": {
+      "type": "악",
+      "value": "-20"
+    },
+    "retreat": 2,
     "tech": [
       {
-        "name": "고대능력【Ω배리어】",
+        "name": "고대능력【α회복】",
         "energy": [],
         "damage": null,
-        "effect": "이 포켓몬은 상대가 사용하는 트레이너스의 효과를 받지 않는다. (포켓몬의 도구, 스타디움은 제외한다.)"
+        "effect": "이 포켓몬의 HP를 회복할 때 회복할 수 있는 양은 2배가 된다."
       },
       {
-        "name": "원시회귀 룰",
+        "name": "꼬리로 뺨치기",
         "energy": [],
-        "damage": null,
-        "effect": "원시그란돈 EX로 진화하면 자신의 차례는 끝난다."
+        "damage": "30×",
+        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 30데미지를 준다."
       },
       {
-        "name": "가이아 볼케이노",
+        "name": "썰물",
         "energy": [
-          "격투",
-          "격투",
-          "격투",
+          "페어리",
           "무색"
         ],
-        "damage": "100+",
-        "effect": "필드에 스타디움이 나와 있다면 100데미지를 추가한다. 그 뒤 그 스타디움을 트래쉬한다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+        "damage": "100-",
+        "effect": "이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지만큼 이 기술의 데미지는 작아진다."
       }
     ]
   },
   {
-    "name": "그란돈 EX",
+    "name": "마릴리",
     "type": "pokemon",
     "detailedType": [
-      "기본",
-      "포켓몬 EX"
+      "1진화"
     ],
-    "goods": "xy5g",
-    "order": 73,
+    "goods": "xy5t",
+    "order": 48,
     "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001073",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_073.jpg?w=512",
-    "hp": 180,
+    "illustrator": "MAHOU",
+    "rareGrade": "U",
+    "cardNum": "BS2015002048",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_048.jpg?w=512",
+    "hp": 90,
     "monType": [
-      "격투"
+      "페어리"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "강철",
       "value": "×2"
     },
-    "resistance": null,
-    "retreat": 4,
+    "resistance": {
+      "type": "악",
+      "value": "-20"
+    },
+    "retreat": 2,
     "tech": [
       {
-        "name": "파괴발톱",
+        "name": "거품광선",
         "energy": [
-          "격투",
+          "무색",
           "무색"
         ],
         "damage": "30",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
       },
       {
-        "name": "대절단",
-        "energy": [
-          "격투",
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "130",
-        "effect": null
-      },
-      {
-        "name": "포켓몬 EX 룰",
+        "name": "엄청난힘",
         "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다.상대는 프라이즈를 3장 가져간다."
+        "damage": "60+",
+        "effect": "원한다면 30데미지를 추가해도 좋다. 그 경우 이 포켓몬에게도 30데미지를 준다."
       }
     ]
   },
   {
-    "name": "폭타 EX",
+    "name": "마릴",
     "type": "pokemon",
     "detailedType": [
-      "기본",
-      "포켓몬 EX"
+      "기본"
     ],
-    "goods": "xy5g",
-    "order": 72,
+    "goods": "xy5t",
+    "order": 47,
     "regulation": "XY",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "SR",
-    "cardNum": "BS2015001072",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_GV_072.jpg?w=512",
-    "hp": 180,
+    "illustrator": "Shigenori Negishi",
+    "rareGrade": "C",
+    "cardNum": "BS2015002047",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_047.jpg?w=512",
+    "hp": 70,
     "monType": [
-      "불꽃"
+      "페어리"
     ],
     "weakness": {
-      "type": "물",
+      "type": "강철",
       "value": "×2"
     },
-    "resistance": null,
-    "retreat": 4,
+    "resistance": {
+      "type": "악",
+      "value": "-20"
+    },
+    "retreat": 2,
     "tech": [
       {
-        "name": "롤링어택",
+        "name": "몸통박치기",
         "energy": [
-          "불꽃",
           "무색"
         ],
-        "damage": "30+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
+        "damage": "10",
+        "effect": null
       },
       {
-        "name": "폭발분사",
-        "energy": [
-          "불꽃",
-          "불꽃",
-          "무색",
-          "무색"
-        ],
-        "damage": "50×",
-        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (불꽃) 에너지를 원하는 만큼 트래쉬하고 트래쉬한 장수 × 50데미지를 준다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
+        "name": "구르기",
         "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+        "damage": "20",
+        "effect": null
       }
     ]
   }

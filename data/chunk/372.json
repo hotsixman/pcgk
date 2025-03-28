@@ -1,59 +1,138 @@
 [
   {
-    "name": "님피아 GX",
+    "name": "쁘사이저",
     "type": "pokemon",
     "detailedType": [
-      "1진화",
-      "포켓몬 GX"
+      "기본"
     ],
-    "goods": "sm4plus",
-    "order": 73,
-    "regulation": "A",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011073",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_073.png?w=512",
-    "hp": 200,
+    "goods": "sm7a",
+    "order": 1,
+    "regulation": "B",
+    "illustrator": "Suwama Chiaki",
+    "rareGrade": "C",
+    "cardNum": "BS2018012001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_001.png?w=512",
+    "hp": 110,
     "monType": [
-      "페어리"
+      "풀"
     ],
     "weakness": {
-      "type": "강철",
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "찝어죄기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "20",
+        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
+      },
+      {
+        "name": "한방 먹이기",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "70",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "울트라네크로즈마",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "promo",
+    "order": 111,
+    "regulation": "B",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": null,
+    "cardNum": "SMP000000156",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SM-P_156.png?w=512",
+    "hp": 130,
+    "monType": [
+      "드래곤"
+    ],
+    "weakness": {
+      "type": "페어리",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "샤이닝버스트",
+        "energy": [
+          "초",
+          "초",
+          "강철",
+          "강철"
+        ],
+        "damage": "100+",
+        "effect": "서로의 남은 프라이즈 장수의 합계가 6장 이하라면 이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬하고 100데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "다크라이 GX",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 GX"
+    ],
+    "goods": "promo",
+    "order": 115,
+    "regulation": "A",
+    "illustrator": "PLANETA",
+    "rareGrade": null,
+    "cardNum": "SMP000000155",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SM-P_155.png?w=512",
+    "hp": 180,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
       "value": "×2"
     },
     "resistance": {
-      "type": "악",
+      "type": "초",
       "value": "-20"
     },
     "retreat": 2,
     "tech": [
       {
-        "name": "매지컬리본",
-        "energy": [
-          "페어리"
-        ],
+        "name": "레저렉션",
+        "energy": [],
         "damage": null,
-        "effect": "자신의 덱에서 원하는 카드를 3장까지 패로 가져온다. 그리고 덱을 섞는다."
+        "effect": "이 카드가 트래쉬에 있다면 자신의 차례에 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다. 그 뒤, 자신의 트래쉬에 있는 (악) 에너지를 1장 이 카드에 붙인다."
       },
       {
-        "name": "요정의바람",
+        "name": "어둠의틈",
         "energy": [
-          "페어리",
-          "무색",
+          "악",
+          "악",
           "무색"
         ],
-        "damage": "110",
-        "effect": null
+        "damage": "130",
+        "effect": "이 기술의 데미지는 저항력 계산을 하지 않는다."
       },
       {
-        "name": "프리옐 GX",
+        "name": "데드엔드 GX",
         "energy": [
-          "페어리",
-          "무색",
+          "악",
+          "악",
           "무색"
         ],
         "damage": null,
-        "effect": "상대의 벤치 포켓몬 2마리와 그 포켓몬에게 붙어 있는 모든 카드를 상대의 패로 되돌린다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
+        "effect": "상대의 배틀 포켓몬이 특수 상태라면 그 포켓몬을 기절시킨다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
       },
       {
         "name": "포켓몬 GX 룰",
@@ -64,49 +143,232 @@
     ]
   },
   {
-    "name": "마기아나",
+    "name": "카푸꼬꼬꼭 GX",
     "type": "pokemon",
     "detailedType": [
-      "기본"
+      "기본",
+      "포켓몬 GX"
     ],
-    "goods": "sm4plus",
-    "order": 72,
+    "goods": "promo",
+    "order": 114,
     "regulation": "A",
-    "illustrator": "kawayoo",
+    "illustrator": "5ban Graphics",
     "rareGrade": null,
-    "cardNum": "BS2018011072",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_072.png?w=512",
-    "hp": 90,
+    "cardNum": "SMP000000154",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SM-P_154.png?w=512",
+    "hp": 170,
     "monType": [
-      "강철"
+      "번개"
+    ],
+    "weakness": null,
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "에어로트레일",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 (번개) 에너지를 원하는 만큼 이 포켓몬에게 붙인다. 붙였을 경우, 이 포켓몬을 배틀 포켓몬과 교체한다."
+      },
+      {
+        "name": "천공의발톱",
+        "energy": [
+          "번개",
+          "번개",
+          "무색"
+        ],
+        "damage": "130",
+        "effect": null
+      },
+      {
+        "name": "카푸썬더 GX",
+        "energy": [
+          "번개",
+          "번개",
+          "무색"
+        ],
+        "damage": "50×",
+        "effect": "상대 필드의 포켓몬에게 붙어 있는 에너지의 개수 × 50데미지를 준다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
+      },
+      {
+        "name": "포켓몬 GX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "염뉴트 GX",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화",
+      "포켓몬 GX"
+    ],
+    "goods": "promo",
+    "order": 113,
+    "regulation": "A",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SMP000000153",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SM-P_153.png?w=512",
+    "hp": 200,
+    "monType": [
+      "불꽃"
     ],
     "weakness": {
-      "type": "불꽃",
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "마성의발톱",
+        "energy": [
+          "불꽃",
+          "불꽃"
+        ],
+        "damage": "50×",
+        "effect": "자신이 이미 가져온 프라이즈의 장수 × 50데미지를 준다."
+      },
+      {
+        "name": "히트블라스트",
+        "energy": [
+          "불꽃",
+          "불꽃"
+        ],
+        "damage": "110",
+        "effect": null
+      },
+      {
+        "name": "퀸헤이즈 GX",
+        "energy": [
+          "불꽃",
+          "불꽃"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)"
+      },
+      {
+        "name": "포켓몬 GX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "칠색조 GX",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 GX"
+    ],
+    "goods": "promo",
+    "order": 112,
+    "regulation": "A",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "SMP000000152",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SM-P_152.png?w=512",
+    "hp": 190,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "번개",
       "value": "×2"
     },
     "resistance": {
-      "type": "초",
+      "type": "격투",
       "value": "-20"
     },
-    "retreat": 1,
+    "retreat": 2,
     "tech": [
       {
-        "name": "갈아입히기",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 「포켓몬의 도구」를 1장 패로 되돌린다."
-      },
-      {
-        "name": "볼어택",
+        "name": "성스러운불꽃",
         "energy": [
-          "강철",
+          "불꽃",
           "무색",
           "무색"
         ],
-        "damage": "60",
-        "effect": null
+        "damage": null,
+        "effect": "상대의 포켓몬 1마리에게 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+      },
+      {
+        "name": "피닉스번",
+        "energy": [
+          "불꽃",
+          "불꽃",
+          "불꽃",
+          "무색"
+        ],
+        "damage": "180",
+        "effect": "자신의 다음 차례에 이 포켓몬은 「피닉스번」을 사용할 수 없다."
+      },
+      {
+        "name": "이터널라이트 GX",
+        "energy": [
+          "불꽃",
+          "무색",
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 트래쉬에 있는 (불꽃) 타입 「포켓몬 GX ･ EX」를 3장 벤치로 내보낸다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
+      },
+      {
+        "name": "포켓몬 GX 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
+  },
+  {
+    "name": "수련",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 120,
+    "regulation": "A",
+    "illustrator": "Kanako Eo",
+    "rareGrade": "SR",
+    "cardNum": "BS2018011120",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_120.png?w=512",
+    "effect": "(물) 에너지가 붙어 있는 자신의 포켓몬 전원의 HP를 각각 「50」회복한다."
+  },
+  {
+    "name": "릴리에",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 119,
+    "regulation": "A",
+    "illustrator": "Naoki Saito",
+    "rareGrade": "SR",
+    "cardNum": "BS2018011119",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_119.png?w=512",
+    "effect": "자신의 패가 6장이 되도록 덱을 뽑는다. 자신의 첫 번째 차례에 사용하면 8장이 되도록 뽑는다."
+  },
+  {
+    "name": "루자미네",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 118,
+    "regulation": "A",
+    "illustrator": "You Iribi",
+    "rareGrade": "SR",
+    "cardNum": "BS2018011118",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_118.png?w=512",
+    "effect": "자신의 트래쉬에 있는 서포트와 스타디움을 합계 2장 상대에게 보여주고 패로 가져온다."
   },
   {
     "name": "철화구야 GX",
@@ -116,12 +378,12 @@
       "포켓몬 GX"
     ],
     "goods": "sm4plus",
-    "order": 71,
+    "order": 117,
     "regulation": "A",
     "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011071",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_071.png?w=512",
+    "rareGrade": "SR",
+    "cardNum": "BS2018011117",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_117.png?w=512",
     "hp": 200,
     "monType": [
       "강철"
@@ -177,309 +439,56 @@
     ]
   },
   {
-    "name": "솔가레오 GX",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화",
-      "포켓몬 GX"
-    ],
-    "goods": "sm4plus",
-    "order": 70,
-    "regulation": "A",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011070",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_070.png?w=512",
-    "hp": 250,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "울트라로드",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다."
-      },
-      {
-        "name": "메테오드라이브",
-        "energy": [
-          "강철",
-          "강철",
-          "무색"
-        ],
-        "damage": "230",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다."
-      },
-      {
-        "name": "솔버스트 GX",
-        "energy": [
-          "강철"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에 있는 에너지를 5장까지 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "솔가레오",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "sm4plus",
-    "order": 69,
-    "regulation": "A",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS2018011069",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_069.png?w=512",
-    "hp": 160,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "샤이닝애로",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬 1마리에게 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "일륜의엄니",
-        "energy": [
-          "강철",
-          "강철",
-          "무색"
-        ],
-        "damage": "170",
-        "effect": "자신의 다음 차례에 이 포켓몬은 「일륜의엄니」를 사용할 수 없다."
-      }
-    ]
-  },
-  {
-    "name": "레지스틸",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 68,
-    "regulation": "A",
-    "illustrator": "Mitsuhiro Arita",
-    "rareGrade": null,
-    "cardNum": "BS2018011068",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_068.png?w=512",
-    "hp": 130,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "터보암",
-        "energy": [
-          "강철"
-        ],
-        "damage": "30",
-        "effect": "자신의 트래쉬에 있는 기본 에너지를 1장 벤치 포켓몬에게 붙인다."
-      },
-      {
-        "name": "쇠철주먹",
-        "energy": [
-          "강철",
-          "강철",
-          "무색"
-        ],
-        "damage": "90",
-        "effect": "자신의 벤치에 「레지아이스」가 있다면 이 포켓몬의 HP를 「30」회복한다."
-      }
-    ]
-  },
-  {
-    "name": "알로라닥트리오",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "sm4plus",
-    "order": 67,
-    "regulation": "A",
-    "illustrator": "match",
-    "rareGrade": null,
-    "cardNum": "BS2018011067",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_067.png?w=512",
-    "hp": 100,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "컬리헤어",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 상대의 배틀 포켓몬의 후퇴에 필요한 에너지는 1개만큼 많아진다."
-      },
-      {
-        "name": "땅으로 들어가기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬 1마리에게 50데미지를 준다. 이 기술의 데미지는 약점, 저항력을 계산하지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "알로라디그다",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 66,
-    "regulation": "A",
-    "illustrator": "Megumi Mizutani",
-    "rareGrade": null,
-    "cardNum": "BS2018011066",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_066.png?w=512",
-    "hp": 50,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "구멍더듬기",
-        "energy": [
-          "0코스트"
-        ],
-        "damage": null,
-        "effect": "자신의 덱을 위에서부터 3장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다."
-      },
-      {
-        "name": "진흙뿌리기",
-        "energy": [
-          "강철"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "악식킹 GX",
+    "name": "전수목 GX",
     "type": "pokemon",
     "detailedType": [
       "기본",
       "포켓몬 GX"
     ],
     "goods": "sm4plus",
-    "order": 65,
+    "order": 116,
     "regulation": "A",
     "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011065",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_065.png?w=512",
-    "hp": 210,
+    "rareGrade": "SR",
+    "cardNum": "BS2018011116",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_116.png?w=512",
+    "hp": 180,
     "monType": [
-      "악"
+      "번개"
     ],
     "weakness": {
       "type": "격투",
       "value": "×2"
     },
     "resistance": {
-      "type": "초",
+      "type": "강철",
       "value": "-20"
     },
-    "retreat": 4,
+    "retreat": 2,
     "tech": [
       {
-        "name": "흩뜨려먹기",
-        "energy": [
-          "악"
-        ],
+        "name": "플래시헤드",
+        "energy": [],
         "damage": null,
-        "effect": "자신의 덱을 위에서부터 5장 트래쉬하고 그 중에 있는 에너지를 모두 이 포켓몬에게 붙인다."
+        "effect": "이 포켓몬은 특수 에너지가 붙어 있는 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
       },
       {
-        "name": "타이런트홀",
+        "name": "럼블와이어",
         "energy": [
-          "악",
-          "악",
-          "악",
-          "무색",
+          "번개",
+          "번개",
           "무색"
-        ],
-        "damage": "180",
-        "effect": null
-      },
-      {
-        "name": "글러터니 GX",
-        "energy": [
-          "악",
-          "악",
-          "악",
-          "악",
-          "악"
         ],
         "damage": "100",
-        "effect": "이 기술의 데미지로 상대의 포켓몬이 기절했다면 프라이즈를 2장 더 가져온다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
+        "effect": "상대의 덱을 위에서부터 1장 트래쉬한다."
+      },
+      {
+        "name": "라이트닝 GX",
+        "energy": [
+          "번개"
+        ],
+        "damage": null,
+        "effect": "상대의 패를 보고 그 중에 있는 카드를 1장 뒷면으로 하여 상대의 프라이즈로 놓는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
       },
       {
         "name": "포켓몬 GX 룰",
@@ -490,368 +499,55 @@
     ]
   },
   {
-    "name": "다크라이 GX",
+    "name": "페로코체 GX",
     "type": "pokemon",
     "detailedType": [
       "기본",
       "포켓몬 GX"
     ],
     "goods": "sm4plus",
-    "order": 64,
-    "regulation": "A",
-    "illustrator": "PLANETA",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011064",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_064.png?w=512",
-    "hp": 180,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "레저렉션",
-        "energy": [],
-        "damage": null,
-        "effect": "이 카드가 트래쉬에 있다면 자신의 차례에 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다. 그 뒤, 자신의 트래쉬에 있는 (악) 에너지를 1장 이 카드에 붙인다."
-      },
-      {
-        "name": "어둠의틈",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "130",
-        "effect": "이 기술의 데미지는 저항력 계산을 하지 않는다."
-      },
-      {
-        "name": "데드엔드 GX",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬이 특수 상태라면 그 포켓몬을 기절시킨다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "깜까미",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 63,
-    "regulation": "A",
-    "illustrator": "Aya Kusube",
-    "rareGrade": null,
-    "cardNum": "BS2018011063",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_063.png?w=512",
-    "hp": 60,
-    "monType": [
-      "악"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "속박",
-        "energy": [
-          "악"
-        ],
-        "damage": null,
-        "effect": "상대의 다음 차례에 상대는 패에서 서포트를 꺼내서 사용할 수 없다."
-      },
-      {
-        "name": "할퀴기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "돈크로우",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "sm4plus",
-    "order": 62,
-    "regulation": "A",
-    "illustrator": "Hideki Ishikawa",
-    "rareGrade": null,
-    "cardNum": "BS2018011062",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_062.png?w=512",
-    "hp": 110,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "속여때리기",
-        "energy": [
-          "악"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬 1마리에게 30데미지를 준다. 이 기술의 데미지는 약점, 저항력과 데미지를 받는 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
-      },
-      {
-        "name": "레이븐크루",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "10+",
-        "effect": "상대 필드의 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "니로우",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 61,
-    "regulation": "A",
-    "illustrator": "Sekio",
-    "rareGrade": null,
-    "cardNum": "BS2018011061",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_061.png?w=512",
-    "hp": 70,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "날려버리기",
-        "energy": [
-          "악"
-        ],
-        "damage": "10",
-        "effect": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
-      }
-    ]
-  },
-  {
-    "name": "모래성이당",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "sm4plus",
-    "order": 60,
-    "regulation": "A",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": null,
-    "cardNum": "BS2018011060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_060.png?w=512",
-    "hp": 130,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "모래방벽",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 받는 기술의 데미지는 「-20」이 된다."
-      },
-      {
-        "name": "생기흡수",
-        "energy": [
-          "격투",
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "상대의 배틀 포켓몬에게 준 데미지만큼 이 포켓몬의 HP를 회복한다."
-      }
-    ]
-  },
-  {
-    "name": "모래꿍",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 59,
-    "regulation": "A",
-    "illustrator": "Akira Komayama",
-    "rareGrade": null,
-    "cardNum": "BS2018011059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_059.png?w=512",
-    "hp": 80,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "모래모으기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 트래쉬에 있는 (격투) 에너지를 1장 이 포켓몬에게 붙인다."
-      },
-      {
-        "name": "모래지옥",
-        "energy": [
-          "격투",
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      }
-    ]
-  },
-  {
-    "name": "내던숭이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 58,
-    "regulation": "A",
-    "illustrator": "Naoki Saito",
-    "rareGrade": null,
-    "cardNum": "BS2018011058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_058.png?w=512",
-    "hp": 110,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "내던지기",
-        "energy": [
-          "격투"
-        ],
-        "damage": null,
-        "effect": "상대의 벤치 포켓몬 1마리에게 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "팀플레이",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "10+",
-        "effect": "자신의 벤치의 「내던숭이」의 수 × 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "루가루암 GX",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화",
-      "포켓몬 GX"
-    ],
-    "goods": "sm4plus",
-    "order": 57,
+    "order": 115,
     "regulation": "A",
     "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_057.png?w=512",
-    "hp": 200,
+    "rareGrade": "SR",
+    "cardNum": "BS2018011115",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_115.png?w=512",
+    "hp": 170,
     "monType": [
-      "격투"
+      "풀"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "불꽃",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "블러디아이",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
-      },
-      {
-        "name": "발톱 베어가르기",
+        "name": "패스트레이드",
         "energy": [
-          "격투",
-          "무색",
-          "무색"
+          "풀"
         ],
-        "damage": "110",
-        "effect": null
+        "damage": "30",
+        "effect": "이 기술은 선공 플레이어의 첫 차례라도 사용할 수 있다."
       },
       {
-        "name": "데스로그 GX",
+        "name": "크루얼 스파이크",
         "energy": [
-          "격투",
-          "무색"
+          "풀",
+          "풀"
+        ],
+        "damage": "60",
+        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다."
+      },
+      {
+        "name": "뷰티 GX",
+        "energy": [
+          "풀",
+          "풀"
         ],
         "damage": "50×",
-        "effect": "상대의 벤치 포켓몬의 수 × 50데미지를 준다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
+        "effect": "상대가 이미 가져간 프라이즈의 장수 × 50데미지를 준다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
       },
       {
         "name": "포켓몬 GX 룰",
@@ -862,609 +558,273 @@
     ]
   },
   {
-    "name": "루가루암 GX",
-    "type": "pokemon",
+    "name": "더블 무색 에너지",
+    "type": "energy",
     "detailedType": [
-      "1진화",
-      "포켓몬 GX"
+      "특수 에너지"
     ],
     "goods": "sm4plus",
-    "order": 56,
+    "order": 114,
     "regulation": "A",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_056.png?w=512",
-    "hp": 200,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "깨물어부수기",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 트래쉬한다."
-      },
-      {
-        "name": "액셀록",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": null
-      },
-      {
-        "name": "갈팽 GX",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "200",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 트래쉬한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "암멍이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 55,
-    "regulation": "A",
-    "illustrator": "Naoki Saito",
+    "illustrator": null,
     "rareGrade": null,
-    "cardNum": "BS2018011055",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_055.png?w=512",
-    "hp": 60,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "몰아붙이기",
-        "energy": [
-          "격투"
-        ],
-        "damage": null,
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      },
-      {
-        "name": "발로차기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
+    "cardNum": "BS2018011114",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_114.png?w=512",
+    "effect": ""
   },
   {
-    "name": "레지락",
-    "type": "pokemon",
+    "name": "잔잔한물가언덕",
+    "type": "trainers",
     "detailedType": [
-      "기본"
+      "스타디움"
     ],
     "goods": "sm4plus",
-    "order": 54,
-    "regulation": "A",
-    "illustrator": "kawayoo",
-    "rareGrade": null,
-    "cardNum": "BS2018011054",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_054.png?w=512",
-    "hp": 130,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "바위산의 울림",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 자신의 「레지스틸」이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+10」이 된다."
-      },
-      {
-        "name": "하드스윙",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "110",
-        "effect": "이 기술의 데미지는 저항력 계산을 하지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "솔록",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 53,
-    "regulation": "A",
-    "illustrator": "Masakazu Fukuda",
-    "rareGrade": null,
-    "cardNum": "BS2018011053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_053.png?w=512",
-    "hp": 90,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "더블드로",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 덱을 2장 뽑는다."
-      },
-      {
-        "name": "솔라히트",
-        "energy": [
-          "격투"
-        ],
-        "damage": "20+",
-        "effect": "필드에 스타디움이 나와 있다면 20데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "루나톤",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 52,
-    "regulation": "A",
-    "illustrator": "Shin Nagasawa",
-    "rareGrade": null,
-    "cardNum": "BS2018011052",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_052.png?w=512",
-    "hp": 90,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "회복봉인",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 필드에 「솔록」이 있다면 서로의 포켓몬 전원의 HP는 회복되지 않는다."
-      },
-      {
-        "name": "루나블라스트",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "꼬지모",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm4plus",
-    "order": 51,
-    "regulation": "A",
-    "illustrator": "Hajime Kusajima",
-    "rareGrade": null,
-    "cardNum": "BS2018011051",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_051.png?w=512",
-    "hp": 100,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "길막기",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 상대가 벤치에 내보낼 수 있는 포켓몬의 수는 4마리가 된다. 상대 벤치가 5마리 이상이면 상대는 벤치에 4마리가 될 때까지 포켓몬을 트래쉬한다. (벤치의 수를 변경하는 효과는 적은 수를 우선한다.)"
-      },
-      {
-        "name": "돌떨구기",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "네크로즈마 GX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 GX"
-    ],
-    "goods": "sm4plus",
-    "order": 50,
-    "regulation": "A",
-    "illustrator": "PLANETA",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011050",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_050.png?w=512",
-    "hp": 180,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "빛의 끝",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 (무색) 포켓몬으로부터 기술의 데미지를 받지 않는다."
-      },
-      {
-        "name": "프리즘버스트",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "10+",
-        "effect": "이 포켓몬에게 붙어 있는 (초) 에너지를 모두 트래쉬하고 그 장수 × 60데미지를 추가한다."
-      },
-      {
-        "name": "블랙레이 GX",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 「포켓몬 GX ･ EX」전원에게 각각 100데미지를 준다. 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "루나아라 GX",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화",
-      "포켓몬 GX"
-    ],
-    "goods": "sm4plus",
-    "order": 49,
-    "regulation": "A",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011049",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_049.png?w=512",
-    "hp": 250,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "사이코트랜스",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 (초) 에너지를 1개 자신의 다른 포켓몬에게 붙인다."
-      },
-      {
-        "name": "섀도레이",
-        "energy": [
-          "초",
-          "초",
-          "초",
-          "초"
-        ],
-        "damage": "120",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬의 HP는 회복되지 않는다."
-      },
-      {
-        "name": "루나폴 GX",
-        "energy": [
-          "초",
-          "초",
-          "초"
-        ],
-        "damage": null,
-        "effect": "상대의 기본 포켓몬(「포켓몬 GX」는 제외)을 1마리, 기절시킨다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "루나아라",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "sm4plus",
-    "order": 48,
+    "order": 112,
     "regulation": "A",
     "illustrator": "5ban Graphics",
     "rareGrade": null,
-    "cardNum": "BS2018011048",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_048.png?w=512",
-    "hp": 160,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "버스트볼",
-        "energy": [
-          "초"
-        ],
-        "damage": "40×",
-        "effect": "이 포켓몬에게 붙어 있는 (초) 에너지의 개수 × 40데미지를 준다."
-      },
-      {
-        "name": "월륜의날개",
-        "energy": [
-          "초",
-          "초",
-          "초"
-        ],
-        "damage": "130",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 모두 벤치 포켓몬에게 원하는 대로 붙인다."
-      }
-    ]
+    "cardNum": "BS2018011113",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_113.png?w=512",
+    "effect": "서로의 플레이어는 자신의 차례에 1번 자신의 덱에 있는 (물)  또는 (격투) 타입의 기본 포켓몬을 1장 벤치로 내보내도 좋다. 그 경우 , 덱을 섞는다."
   },
   {
-    "name": "코스모움",
-    "type": "pokemon",
+    "name": "일륜의 제단",
+    "type": "trainers",
     "detailedType": [
-      "1진화"
+      "스타디움"
     ],
     "goods": "sm4plus",
-    "order": 47,
+    "order": 113,
+    "regulation": "A",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS2018011112",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_112.png?w=512",
+    "effect": "서로의 필드의 (불꽃) 포켓몬과 (강철) 포켓몬 전원의 약점은 모두 없어진다."
+  },
+  {
+    "name": "월륜의 제단",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "sm4plus",
+    "order": 111,
+    "regulation": "A",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS2018011111",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_111.png?w=512",
+    "effect": "(초)  또는 (악) 에너지가 붙어 있는 서로의 포켓몬 전원의 후퇴에 필요한 에너지는 각각 2개씩 적어진다."
+  },
+  {
+    "name": "에테르파라다이스 보호구",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "sm4plus",
+    "order": 110,
+    "regulation": "A",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS2018011110",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_110.png?w=512",
+    "effect": "서로의 (풀)  또는 (번개) 타입의 기본포켓몬이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-30」이 된다."
+  },
+  {
+    "name": "키아웨",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 104,
+    "regulation": "A",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS2018011109",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_109.png?w=512",
+    "effect": "이 카드를 사용하면 자신의 차례는 끝난다. 자신의 덱에 있는 (불꽃) 에너지를 4장까지 자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "아세로라",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 103,
+    "regulation": "A",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS2018011108",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_108.png?w=512",
+    "effect": "데미지 카운터가 올려져 있는 자신의 포켓몬 1마리와 붙어 있는 모든 카드를 패로 되돌린다."
+  },
+  {
+    "name": "수련",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 106,
+    "regulation": "A",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS2018011107",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_107.png?w=512",
+    "effect": "(물) 에너지가 붙어 있는 자신의 포켓몬 전원의 HP를 각각 「50」회복한다."
+  },
+  {
+    "name": "마오",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 107,
+    "regulation": "A",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS2018011106",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_106.png?w=512",
+    "effect": "자신의 덱에서 원하는 카드를 2장 선택한다. 남은 덱을 섞고 선택한 카드를 원하는 순서대로 덱의 위로 되돌린다."
+  },
+  {
+    "name": "릴리에",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "sm4plus",
+    "order": 108,
     "regulation": "A",
     "illustrator": "Sanosuke Sakuma",
     "rareGrade": null,
-    "cardNum": "BS2018011047",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_047.png?w=512",
-    "hp": 90,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "순간이동",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬을 벤치 포켓몬과 교체한다."
-      }
-    ]
+    "cardNum": "BS2018011105",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_105.png?w=512",
+    "effect": "자신의 패가 6장이 되도록 덱을 뽑는다. 자신의 첫 번째 차례에 사용하면 8장이 되도록 뽑는다."
   },
   {
-    "name": "코스모그",
-    "type": "pokemon",
+    "name": "루자미네",
+    "type": "trainers",
     "detailedType": [
-      "기본"
+      "서포트"
     ],
     "goods": "sm4plus",
-    "order": 46,
+    "order": 109,
     "regulation": "A",
-    "illustrator": "Shin Nagasawa",
+    "illustrator": "take",
     "rareGrade": null,
-    "cardNum": "BS2018011046",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_046.png?w=512",
-    "hp": 60,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "순간이동",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬을 벤치 포켓몬과 교체한다."
-      }
-    ]
+    "cardNum": "BS2018011104",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_104.png?w=512",
+    "effect": "자신의 트래쉬에 있는 서포트와 스타디움을 합계 2장 상대에게 보여주고 패로 가져온다."
   },
   {
-    "name": "카푸나비나 GX",
-    "type": "pokemon",
+    "name": "구즈마",
+    "type": "trainers",
     "detailedType": [
-      "기본",
-      "포켓몬 GX"
+      "서포트"
     ],
     "goods": "sm4plus",
-    "order": 45,
+    "order": 105,
+    "regulation": "A",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS2018011103",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_103.png?w=512",
+    "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤, 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다."
+  },
+  {
+    "name": "파이어메모리",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm4plus",
+    "order": 102,
     "regulation": "A",
     "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2018011045",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_045.png?w=512",
-    "hp": 170,
-    "monType": [
-      "초"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "원더터치",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 덱에 있는 서포트를 1장 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "에너지 드라이브",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "20×",
-        "effect": "서로의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 준다. 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다."
-      },
-      {
-        "name": "카푸큐어 GX",
-        "energy": [
-          "초"
-        ],
-        "damage": null,
-        "effect": "자신의 벤치 포켓몬 2마리의 HP를 모두 회복한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)"
-      },
-      {
-        "name": "포켓몬 GX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
+    "rareGrade": null,
+    "cardNum": "BS2018011102",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_102.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
   },
   {
-    "name": "타타륜",
-    "type": "pokemon",
+    "name": "일렉트릭메모리",
+    "type": "trainers",
     "detailedType": [
-      "기본"
+      "아이템"
     ],
     "goods": "sm4plus",
-    "order": 44,
+    "order": 99,
     "regulation": "A",
-    "illustrator": "Hasuno",
+    "illustrator": "5ban Graphics",
     "rareGrade": null,
-    "cardNum": "BS2018011044",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_044.png?w=512",
-    "hp": 120,
-    "monType": [
-      "초"
+    "cardNum": "BS2018011101",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_101.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "구애머리띠",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
     ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "강철술사",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 자신의 (강철) 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+10」이 된다."
-      },
-      {
-        "name": "앵커숏",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      }
-    ]
+    "goods": "sm4plus",
+    "order": 101,
+    "regulation": "A",
+    "illustrator": "Eske Yoshinob",
+    "rareGrade": null,
+    "cardNum": "BS2018011100",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_100.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "고대의 크리스탈",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm4plus",
+    "order": 100,
+    "regulation": "A",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS2018011099",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_099.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "필드블로어",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm4plus",
+    "order": 93,
+    "regulation": "A",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS2018011098",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_098.png?w=512",
+    "effect": "필드에 있는 「포켓몬의 도구」또는 「스타디움」을 2장까지 트래쉬한다."
+  },
+  {
+    "name": "풀회복약",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm4plus",
+    "order": 96,
+    "regulation": "A",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS2018011097",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM4+/SM4plus_097.png?w=512",
+    "effect": "자신의 포켓몬 1마리의 HP를 모두 회복한다. 그 뒤, 그 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다."
   }
 ]
