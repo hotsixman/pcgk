@@ -1,1353 +1,452 @@
 [
   {
-    "name": "지라치",
-    "type": "pokemon",
+    "name": "오컬트마니아",
+    "type": "trainers",
     "detailedType": [
-      "기본"
+      "서포트"
     ],
     "goods": "smxy",
-    "order": 80,
+    "order": 143,
     "regulation": "XY",
-    "illustrator": "sui",
+    "illustrator": "Yusuke Ohmura",
     "rareGrade": null,
-    "cardNum": "BS201707080",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_080.png?w=512",
-    "hp": 60,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "스타더스트",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": "상대의 배틀 포켓몬에게 붙어 있는 특수 에너지를 1개 선택해서 트래쉬한다. 트래쉬한 경우 , 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다."
-      },
-      {
-        "name": "꿈춤",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": "서로의 배틀 포켓몬을 각각 잠듦으로 만든다."
-      }
-    ]
+    "cardNum": "BS201707143",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_143.png?w=512",
+    "effect": "상대의 다음 차례가 끝날 때까지 서로의 필드 ･ 패 ･ 트래쉬의 카드에 적혀 있는 특성은 모두 없어진다. (새로 필드에 내보낸 카드도 포함.)"
   },
   {
-    "name": "이벨타르 EX",
-    "type": "pokemon",
+    "name": "선배&후배",
+    "type": "trainers",
     "detailedType": [
-      "기본",
-      "포켓몬 EX"
+      "서포트"
     ],
     "goods": "smxy",
-    "order": 79,
+    "order": 142,
     "regulation": "XY",
-    "illustrator": "5ban Graphics",
+    "illustrator": "Megumi Mizutani",
     "rareGrade": null,
-    "cardNum": "BS201707079",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_079.png?w=512",
-    "hp": 170,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "이블볼",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "서로의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "사이클론Y",
-        "energy": [
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "90",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
+    "cardNum": "BS201707142",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_142.png?w=512",
+    "effect": "이 카드는 상대의 이전 차례에 자신의 포켓몬이 기절하지 않으면 사용할 수 없다. 자신의 덱에서 원하는 카드를 2장까지 선택해서 패로 가져온다. 그리고 덱을 섞는다."
   },
   {
-    "name": "이벨타르",
-    "type": "pokemon",
+    "name": "사나",
+    "type": "trainers",
     "detailedType": [
-      "기본"
+      "서포트"
     ],
     "goods": "smxy",
-    "order": 78,
-    "regulation": "XY",
-    "illustrator": "Hajime Kusajima",
-    "rareGrade": null,
-    "cardNum": "BS201707078",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_078.png?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "데스윙",
-        "energy": [
-          "악"
-        ],
-        "damage": "30",
-        "effect": "자신의 트래쉬에서 (악) 에너지를 1장 선택해서 벤치 포켓몬에게 붙인다."
-      },
-      {
-        "name": "어둠의 칼날",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "동전을 한 번 던져서 뒷면이 나오면 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
-      }
-    ]
-  },
-  {
-    "name": "이벨타르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 77,
-    "regulation": "XY",
-    "illustrator": "TOKIYA",
-    "rareGrade": null,
-    "cardNum": "BS201707077",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_077.png?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "플라이트 나이트",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있는 한 서로의 필드에 있는 「포켓몬의 도구」의 효과는 모두 없어진다."
-      },
-      {
-        "name": "칠흑의창",
-        "energy": [
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "상대의 벤치에 있는 「포켓몬 EX」를 1마리 선택해서 그 포켓몬에게도 60데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      }
-    ]
-  },
-  {
-    "name": "칼라마네로 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 76,
-    "regulation": "XY",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": null,
-    "cardNum": "BS201707076",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_076.png?w=512",
-    "hp": 170,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "강력최면",
-        "energy": [],
-        "damage": null,
-        "effect": "이 특성은 자신의 패에서 에너지를 이 포켓몬에게 붙일 때마다 한 번 사용할 수 있다. 상대의 배틀 포켓몬을 잠듦으로 만든다."
-      },
-      {
-        "name": "엉키기MAX",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "60×",
-        "effect": "이 포켓몬에게 붙어 있는 에너지의 개수만큼 동전을 던져서 앞면이 나온 수 × 60데미지를 준다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "조로아크 BREAK",
-    "type": "pokemon",
-    "detailedType": [
-      "BREAK진화"
-    ],
-    "goods": "smxy",
-    "order": 75,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707075",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_075.png?w=512",
-    "hp": 140,
-    "monType": [
-      "악"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "BREAK진화 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "BREAK진화 전의 조로아크가 가진 「기술 ･ 특성 ･ 약점 ･ 저항력 ･ 후퇴」를 이어받는다."
-      },
-      {
-        "name": "속임수",
-        "energy": [
-          "악"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬이 가지고 있는 기술을 1개 선택해서 이 기술로써 사용한다."
-      }
-    ]
-  },
-  {
-    "name": "조로아크",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "smxy",
-    "order": 74,
-    "regulation": "XY",
-    "illustrator": "kawayoo",
-    "rareGrade": null,
-    "cardNum": "BS201707074",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_074.png?w=512",
-    "hp": 100,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "대신하기",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬을 자신의 배틀 포켓몬과 교체한다. 이 특성은 이 포켓몬이 벤치에 있다면 자신의 차례에 한 번 사용할 수 있다."
-      },
-      {
-        "name": "마인드잭",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "10＋",
-        "effect": "상대의 벤치 포켓몬의 수 × 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "조로아",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 73,
-    "regulation": "XY",
-    "illustrator": "Hitoshi Ariga",
-    "rareGrade": null,
-    "cardNum": "BS201707073",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_073.png?w=512",
-    "hp": 60,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "어둠속달리기",
-        "energy": [
-          "악"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다."
-      },
-      {
-        "name": "다크에지",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "다크라이 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 72,
-    "regulation": "XY",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": null,
-    "cardNum": "BS201707072",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_072.png?w=512",
-    "hp": 180,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "초",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "악의파동",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (악) 에너지를 합한 수 × 20데미지를 추가한다."
-      },
-      {
-        "name": "다크헤드",
-        "energy": [
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "80+",
-        "effect": "상대의 배틀 포켓몬이 잠듦이라면 80데미지를 추가한다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "M샤크니아 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "M진화",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 71,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707071",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_071.png?w=512",
-    "hp": 210,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "M진화 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "M진화 포켓몬으로 진화하면 자신의 차례는 끝난다."
-      },
-      {
-        "name": "토피도다이브",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": "상대의 벤치 포켓몬 전원에게도 각각 후퇴에 필요한 에너지의 개수× 10데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "샤크니아 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 70,
-    "regulation": "XY",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": null,
-    "cardNum": "BS201707070",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_070.png?w=512",
-    "hp": 170,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "기회노리기",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤 새로 나온 포켓몬에게 30데미지를 준다."
-      },
-      {
-        "name": "삐죽삐죽팽",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다. 그 뒤 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "지가르데 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 69,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707069",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_069.png?w=512",
-    "hp": 190,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "대지의고동",
-        "energy": [
-          "격투"
-        ],
-        "damage": "20+",
-        "effect": "필드에 스타디움이 나와 있다면 20데미지를 추가한다."
-      },
-      {
-        "name": "셀스톰",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "이 포켓몬의 HP를 「30」회복한다."
-      },
-      {
-        "name": "그라운드포스",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": null
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "지가르데",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 68,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707068",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_068.png?w=512",
-    "hp": 90,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "땅울림",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      },
-      {
-        "name": "지오스트라이크",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": "자신의 벤치 포켓몬 전원에게도 각각 10데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      }
-    ]
-  },
-  {
-    "name": "멜리시 BREAK",
-    "type": "pokemon",
-    "detailedType": [
-      "BREAK진화"
-    ],
-    "goods": "smxy",
-    "order": 67,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707067",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_067.png?w=512",
-    "hp": 110,
-    "monType": [
-      "격투"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "BREAK진화 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "BREAK진화 전의 멜리시가 가진 「기술 ･ 특성 ･ 약점 ･ 저항력 ･ 후퇴」를 이어받는다."
-      },
-      {
-        "name": "다이아몬드 기프트",
-        "energy": [
-          "격투"
-        ],
-        "damage": "20",
-        "effect": "자신의 트래쉬에서 에너지를 2장 선택해서 자신의 (격투) 포켓몬 1마리에게 붙인다."
-      }
-    ]
-  },
-  {
-    "name": "멜리시",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 66,
-    "regulation": "XY",
-    "illustrator": "Yuka Morii",
-    "rareGrade": null,
-    "cardNum": "BS201707066",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_066.png?w=512",
-    "hp": 80,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "에너지키퍼",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 자신의 기본 포켓몬에게 붙어 있는 기본 포켓몬 에너지는 상대의 기술?특성?트레이너스의 트래쉬하는 효과를 받지 않는다."
-      },
-      {
-        "name": "스톤에지",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "60＋",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "멜리시",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 65,
-    "regulation": "XY",
-    "illustrator": "kawayoo",
-    "rareGrade": null,
-    "cardNum": "BS201707065",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_065.png?w=512",
-    "hp": 90,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "신비의부적",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 상대의 「포켓몬 EX」로부터 기술의 데미지나 효과를 받지 않는다."
-      },
-      {
-        "name": "파워젬",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "랜드로스",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 64,
-    "regulation": "XY",
-    "illustrator": "PLANETA",
-    "rareGrade": null,
-    "cardNum": "BS201707064",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_064.png?w=512",
-    "hp": 120,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "스카이래리엇",
-        "energy": [
-          "격투"
-        ],
-        "damage": "20",
-        "effect": "자신의 트래쉬에서 기본 포켓몬 에너지를 1장 선택해서 벤치 포켓몬에게 붙인다."
-      }
-    ]
-  },
-  {
-    "name": "M루카리오 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "M진화",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 63,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707063",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_063.png?w=512",
-    "hp": 220,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "라이징피스트",
-        "energy": [
-          "격투",
-          "격투",
-          "격투"
-        ],
-        "damage": null,
-        "effect": "M진화 포켓몬으로 진화하면 자신의 차례는 끝난다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "루카리오 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 62,
-    "regulation": "XY",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": null,
-    "cardNum": "BS201707062",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_062.png?w=512",
-    "hp": 180,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "스크루블로",
-        "energy": [
-          "격투"
-        ],
-        "damage": "30",
-        "effect": "이 기술의 데미지는 저항력 계산을 하지 않는다."
-      },
-      {
-        "name": "서머솔트하이",
-        "energy": [
-          "격투",
-          "격투",
-          "격투"
-        ],
-        "damage": "100",
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "레지락 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 61,
-    "regulation": "XY",
-    "illustrator": "PLANETA",
-    "rareGrade": null,
-    "cardNum": "BS201707061",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_061.png?w=512",
-    "hp": 180,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "레지파워",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, 자신의 (격투) 포켓몬(「레지록 EX」는 제외)이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는「+10」이 된다."
-      },
-      {
-        "name": "암반프레스",
-        "energy": [
-          "격투",
-          "격투",
-          "격투"
-        ],
-        "damage": "100",
-        "effect": "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-20」이 된다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "요가램",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "smxy",
-    "order": 60,
-    "regulation": "XY",
-    "illustrator": "Akira Komayama",
-    "rareGrade": null,
-    "cardNum": "BS201707060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_060.png?w=512",
-    "hp": 100,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "순수한힘",
-        "energy": [
-          "격투"
-        ],
-        "damage": null,
-        "effect": "데미지 카운터 4개를 상대의 포켓몬에게 원하는 대로 올린다."
-      },
-      {
-        "name": "풍차킥",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "요가랑",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 59,
-    "regulation": "XY",
-    "illustrator": "sui",
-    "rareGrade": null,
-    "cardNum": "BS201707059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_059.png?w=512",
-    "hp": 50,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "수벽치기",
-        "energy": [
-          "격투"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "후파 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "smxy",
-    "order": 58,
-    "regulation": "XY",
-    "illustrator": "Ryota Murayama",
-    "rareGrade": null,
-    "cardNum": "BS201707058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_058.png?w=512",
-    "hp": 170,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "밴디트링",
-        "energy": [],
-        "damage": null,
-        "effect": "이 특성은 이 카드를 패에서 벤치로 내보냈을 때 한 번 사용할 수 있다. 자신의 덱에서 「포켓몬 EX」(「후파 EX」는 제외)를 3장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "다른차원러시",
-        "energy": [
-          "초",
-          "초",
-          "초"
-        ],
-        "damage": null,
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 트래쉬하고 상대의 포켓몬 1마리에게 100데미지를 준다. (벤치는 약점 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "후파",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 57,
-    "regulation": "XY",
-    "illustrator": "Yoshinobu Saito",
-    "rareGrade": null,
-    "cardNum": "BS201707057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_057.png?w=512",
-    "hp": 130,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "다른차원펀치",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬을 2마리 선택해서 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "싱크홀",
-        "energy": [
-          "초",
-          "초",
-          "초"
-        ],
-        "damage": "130",
-        "effect": "자신의 다음 차례에 이 포켓몬은 「싱크홀」을 사용할 수 없다."
-      }
-    ]
-  },
-  {
-    "name": "호바귀",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 56,
-    "regulation": "XY",
-    "illustrator": "HiRON",
-    "rareGrade": null,
-    "cardNum": "BS201707056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_056.png?w=512",
-    "hp": 60,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "부딪치기",
-        "energy": [
-          "초"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "밤의행진",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "20×",
-        "effect": "자신의 트래쉬에 있는 기술 「밤의행진」을 가진 포켓몬의 장수 × 20데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "대로트 BREAK",
-    "type": "pokemon",
-    "detailedType": [
-      "BREAK진화"
-    ],
-    "goods": "smxy",
-    "order": 55,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707055",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_055.png?w=512",
-    "hp": 160,
-    "monType": [
-      "초"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "BREAK진화 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "BREAK진화 전의 대로트가 가진 「기술 ･ 특성 ･ 약점 ･ 저항력 ･ 후퇴」를 이어받는다."
-      },
-      {
-        "name": "사일런트피어",
-        "energy": [
-          "초",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 포켓몬 전원에게 데미지 카운터를 각각 3개씩 올린다."
-      }
-    ]
-  },
-  {
-    "name": "대로트",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "smxy",
-    "order": 54,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS201707054",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_054.png?w=512",
-    "hp": 110,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "숲의저주",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있는 한 상대는 패에서 아이템을 꺼내서 사용할 수 없다."
-      },
-      {
-        "name": "우드슬램",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "나목령",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 53,
-    "regulation": "XY",
-    "illustrator": "Sumiyoshi Kizuki",
-    "rareGrade": null,
-    "cardNum": "BS201707053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_053.png?w=512",
-    "hp": 50,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "각성",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "램프라",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "smxy",
-    "order": 52,
-    "regulation": "XY",
-    "illustrator": "kawayoo",
-    "rareGrade": null,
-    "cardNum": "BS201707052",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_052.png?w=512",
-    "hp": 70,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "저주의물방울",
-        "energy": [
-          "초"
-        ],
-        "damage": null,
-        "effect": "데미지 카운터 3개를 상대의 포켓몬에게 원하는 대로 올린다."
-      },
-      {
-        "name": "밤의행진",
-        "energy": [
-          "초",
-          "무색",
-          "무색"
-        ],
-        "damage": "20×",
-        "effect": "자신의 트래쉬에 있는 기술 「밤의행진」을 가진 포켓몬의 장수 × 20데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "불켜미",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "smxy",
-    "order": 51,
+    "order": 141,
     "regulation": "XY",
     "illustrator": "Ken Sugimori",
     "rareGrade": null,
-    "cardNum": "BS201707051",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_051.png?w=512",
-    "hp": 50,
-    "monType": [
-      "초"
+    "cardNum": "BS201707141",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_141.png?w=512",
+    "effect": "자신의 패를 모두 덱으로 되돌리고 덱을 섞는다. 그 뒤 덱을 5장 뽑는다."
+  },
+  {
+    "name": "무서운 아가씨",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
     ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "조금태우기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에서 원하는 카드를 2장까지 선택해서 트래쉬한다. 그리고 덱을 섞는다."
-      }
-    ]
+    "goods": "smxy",
+    "order": 140,
+    "regulation": "XY",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": null,
+    "cardNum": "BS201707140",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_140.png?w=512",
+    "effect": "필드에 나와 있는 스타디움을 트래쉬한다. 그 뒤, 상대는 상대 자신의 패를 3장 선택해서 트래쉬한다."
+  },
+  {
+    "name": "대장장이",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "smxy",
+    "order": 139,
+    "regulation": "XY",
+    "illustrator": "Masakazu Fukuda",
+    "rareGrade": null,
+    "cardNum": "BS201707139",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_139.png?w=512",
+    "effect": "자신의 트래쉬에서 (불꽃) 에너지를 2장 선택해서 자신의 (불꽃) 포켓몬 1마리에게 붙인다."
+  },
+  {
+    "name": "N",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "smxy",
+    "order": 138,
+    "regulation": "XY",
+    "illustrator": "Megumi Mizutani",
+    "rareGrade": null,
+    "cardNum": "BS201707138",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_138.png?w=512",
+    "effect": "서로의 플레이어는 각각 패를 모두 덱으로 되돌리고 덱을 섞는다. 그 뒤, 각각 자신의 남은 프라이즈 장수만큼 덱을 뽑는다."
+  },
+  {
+    "name": "AZ",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "smxy",
+    "order": 137,
+    "regulation": "XY",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": null,
+    "cardNum": "BS201707137",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_137.png?w=512",
+    "effect": "자신의 포켓몬을 1마리 선택해서 패로 되돌린다. (포켓몬 이외의 카드는 모두 트래쉬한다.)"
+  },
+  {
+    "name": "후딘 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 136,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707136",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_136.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "폭타 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 135,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707135",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_135.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "썬더볼트 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 134,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707134",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_134.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "샤크니아 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 133,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707133",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_133.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "뮤츠 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 132,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707132",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_132.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "루카리오 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 131,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707131",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_131.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "레쿠쟈 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 130,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707130",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_130.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "나무킹 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 129,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707129",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_129.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "가디안 소울링크",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 128,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707128",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_128.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "힘의머리띠",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 127,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707127",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_127.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "파워메모리",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 126,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707126",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_126.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "파열벌룬",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 125,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707125",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_125.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "투혼의 샅바",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 124,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707124",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_124.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "딱딱한부적",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 123,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707123",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_123.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "기합의띠",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 122,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707122",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_122.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "헤비볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 121,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707121",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_121.png?w=512",
+    "effect": "자신의 덱에서 후퇴에 필요한 에너지의 개수가 「3」이상인 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "페어리드롭",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 120,
+    "regulation": "XY",
+    "illustrator": "Toy스타디움e Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707120",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_120.png?w=512",
+    "effect": "(페어리) 에너지가 붙어있는 자신의 포켓몬을 1마리 선택해서 HP를 「50」회복한다."
+  },
+  {
+    "name": "트레이너스 우편함",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 119,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707119",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_119.png?w=512",
+    "effect": "자신의 덱을 위에서부터 4장 본다. 그 중에서 트레이너스(「트레이너스 우편함」은 제외)를 1장 선택해서 상대에게 보여주고 패로 가져온다. 남은 카드는 덱으로 되돌리고 덱을 섞는다."
+  },
+  {
+    "name": "타깃휘슬(플레어단 기어)",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 118,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707118",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_118.png?w=512",
+    "effect": "상대의 트래쉬에서 기본 포켓몬을 1장 선택해서 상대의 벤치로 내보낸다."
+  },
+  {
+    "name": "시간의퍼즐",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 117,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707117",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_117.png?w=512",
+    "effect": "「시간의 퍼즐」은 동시에 2장까지 사용할 수 있으며 사용한 장수에 따라 효과가 변한다.?1장 사용하면 자신의 덱을 위에서부터 3장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다.?2장 사용하면 자신의 트래쉬에서 원하는 카드를 2장 선택해서 상대에게 보여주고 패로 가져온다. (이 효과는 2장으로 한 번 작용한다.)"
+  },
+  {
+    "name": "스페셜차지",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 116,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707116",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_116.png?w=512",
+    "effect": "자신의 트래쉬에서 특수 에너지를 2장 선택해서 상대에게 보여주고 덱으로 되돌린다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "배틀컴프레서(플레어단 기어)",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 115,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": null,
+    "cardNum": "BS201707115",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_115.png?w=512",
+    "effect": "자신의 덱에서 원하는 카드를 3장까지 선택해서 트래쉬한다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "배틀서처",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "smxy",
+    "order": 114,
+    "regulation": "XY",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "BS201707114",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SMXY/SMXY_114.png?w=512",
+    "effect": "자신의 트래쉬에서 서포트를 1장 선택해서 상대에게 보여주고 패로 가져온다."
   }
 ]
