@@ -1,5 +1,199 @@
 [
   {
+    "name": "저지맨",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SVI",
+    "order": 64,
+    "regulation": "G",
+    "illustrator": "Hideki Ishikawa",
+    "rareGrade": null,
+    "cardNum": "BS2024006022",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_064_N.png?w=512",
+    "effect": "서로의 플레이어는 각각 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 각각 덱을 4장 뽑는다."
+  },
+  {
+    "name": "피크닉걸",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SVI",
+    "order": 66,
+    "regulation": "H",
+    "illustrator": "Susumu Maeya",
+    "rareGrade": null,
+    "cardNum": "BS2024006023",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_066_N.png?w=512",
+    "effect": "동전을 1번 던진다. 앞면이 나오면 4장 뒷면이 나오면 2장 자신의 덱을 뽑는다."
+  },
+  {
+    "name": "피카츄 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 ex"
+    ],
+    "goods": "SVI",
+    "order": 18,
+    "regulation": "H",
+    "illustrator": "takuyoa",
+    "rareGrade": null,
+    "cardNum": "BS2024006026",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_018_P.png?w=512",
+    "hp": 200,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "10만볼트",
+        "energy": [
+          "번개",
+          "번개",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": null
+      },
+      {
+        "name": "ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "메리프",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SVI",
+    "order": 19,
+    "regulation": "H",
+    "illustrator": "Orca",
+    "rareGrade": null,
+    "cardNum": "BS2024006027",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_019_P.png?w=512",
+    "hp": 60,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "박치기",
+        "energy": [
+          "번개"
+        ],
+        "damage": "10",
+        "effect": null
+      },
+      {
+        "name": "번쩍구슬",
+        "energy": [
+          "번개",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "보송송",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SVI",
+    "order": 20,
+    "regulation": "H",
+    "illustrator": "Akira Komayama",
+    "rareGrade": null,
+    "cardNum": "BS2024006028",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_020_P.png?w=512",
+    "hp": 90,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "박치기",
+        "energy": [
+          "번개"
+        ],
+        "damage": "20",
+        "effect": null
+      },
+      {
+        "name": "일렉트릭볼",
+        "energy": [
+          "번개",
+          "무색"
+        ],
+        "damage": "50",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "전룡",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "SVI",
+    "order": 21,
+    "regulation": "H",
+    "illustrator": "GIDORA",
+    "rareGrade": null,
+    "cardNum": "BS2024006029",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_021_P.png?w=512",
+    "hp": 160,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "라이트닝볼",
+        "energy": [
+          "번개",
+          "무색"
+        ],
+        "damage": "110",
+        "effect": null
+      }
+    ]
+  },
+  {
     "name": "빠모",
     "type": "pokemon",
     "detailedType": [
@@ -564,316 +758,6 @@
         ],
         "damage": "60",
         "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "개구마르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SVI",
-    "order": 15,
-    "regulation": "H",
-    "illustrator": "MINAMINAMI Take",
-    "rareGrade": null,
-    "cardNum": "BS2024006052",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_015_G.png?w=512",
-    "hp": 60,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "물뿌리기",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "개굴반장",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SVI",
-    "order": 16,
-    "regulation": "H",
-    "illustrator": "Ryuta Fuse",
-    "rareGrade": null,
-    "cardNum": "BS2024006053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_016_G.png?w=512",
-    "hp": 90,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "스플래시",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "개굴닌자 ex",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화",
-      "포켓몬 ex"
-    ],
-    "goods": "SVI",
-    "order": 17,
-    "regulation": "H",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS2024006054",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_017_G.png?w=512",
-    "hp": 300,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "변환수리검",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "100+",
-        "effect": "동전을 1번 던져서 앞면이 나오면 100데미지를 추가한다."
-      },
-      {
-        "name": "ex 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "다크라이 ex",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 ex"
-    ],
-    "goods": "SVI",
-    "order": 34,
-    "regulation": "H",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "BS2024006055",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_034_G.png?w=512",
-    "hp": 210,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "어둠의바람",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      },
-      {
-        "name": "나이트임팩트",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "110",
-        "effect": null
-      },
-      {
-        "name": "ex 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "자망칼",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SVI",
-    "order": 35,
-    "regulation": "H",
-    "illustrator": "matazo",
-    "rareGrade": null,
-    "cardNum": "BS2024006056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_035_G.png?w=512",
-    "hp": 70,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "궤찌르기",
-        "energy": [
-          "악"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "절각참",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SVI",
-    "order": 36,
-    "regulation": "H",
-    "illustrator": "AKIRA EGAWA",
-    "rareGrade": null,
-    "cardNum": "BS2024006057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_036_G.png?w=512",
-    "hp": 100,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "풀베기",
-        "energy": [
-          "악"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "대도각참",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "SVI",
-    "order": 37,
-    "regulation": "H",
-    "illustrator": "nagimiso",
-    "rareGrade": null,
-    "cardNum": "BS2024006058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_037_G.png?w=512",
-    "hp": 170,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "팔꿈치치기",
-        "energy": [
-          "악"
-        ],
-        "damage": "40",
-        "effect": null
-      },
-      {
-        "name": "슬라이스 블레이드",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "떨구새",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SVI",
-    "order": 38,
-    "regulation": "H",
-    "illustrator": "Aya Kusube",
-    "rareGrade": null,
-    "cardNum": "BS2024006059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVI/SVI_038_G.png?w=512",
-    "hp": 100,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "돌격",
-        "energy": [
-          "악",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": "이 포켓몬에게도 20데미지를 준다."
       }
     ]
   }

@@ -1,5 +1,142 @@
 [
   {
+    "name": "체렌",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "td",
+    "order": 13,
+    "regulation": "none",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": null,
+    "cardNum": "ST2012003013",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_013.jpg?w=512",
+    "effect": "자신의 덱을 3장 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
+  },
+  {
+    "name": "벨",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "td",
+    "order": 12,
+    "regulation": "none",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": null,
+    "cardNum": "ST2012003012",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_012.jpg?w=512",
+    "effect": "자신의 패가 6장이 되도록 덱을 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
+  },
+  {
+    "name": "포켓몬 캐처",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "td",
+    "order": 11,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2012003011",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_011.jpg?w=512",
+    "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
+  },
+  {
+    "name": "포켓몬 교체",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "td",
+    "order": 10,
+    "regulation": "none",
+    "illustrator": "Ayaka Yoshida",
+    "rareGrade": null,
+    "cardNum": "ST2012003010",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_010.jpg?w=512",
+    "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다"
+  },
+  {
+    "name": "에너지 전송",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "td",
+    "order": 9,
+    "regulation": "none",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": null,
+    "cardNum": "ST2012003009",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_009.jpg?w=512",
+    "effect": "자신의 덱에서 기본 에너지를 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "수퍼볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "td",
+    "order": 8,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2012003008",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_008.jpg?w=512",
+    "effect": "자신의 덱을 위에서부터 7장 본다. 그 중에서 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져와도 좋다. 남은 카드는 덱으로 되돌리고 덱을 섞는다.아이템은 자신의 차례에 몇 장이라도 사용할 수 있다."
+  },
+  {
+    "name": "토네로스",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "td",
+    "order": 7,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2012003007",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_007.jpg?w=512",
+    "hp": 110,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "에너지휠",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 벤치 포켓몬에게 붙어 있는 에너지를 1개 선택해서 이 포켓몬에게 붙인다."
+      },
+      {
+        "name": "폭풍",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": "이 포켓몬에게 붙어 있는 기본 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다."
+      }
+    ]
+  },
+  {
     "name": "절각참",
     "type": "pokemon",
     "detailedType": [
@@ -614,206 +751,5 @@
         "effect": "이 포켓몬에게도 10데미지를 준다."
       }
     ]
-  },
-  {
-    "name": "암팰리스",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "bgz",
-    "order": 4,
-    "regulation": "none",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": null,
-    "cardNum": "ST2012002004",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGZ/bw_bgz_004.jpg?w=512",
-    "hp": 110,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "풀베기",
-        "energy": [
-          "풀",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      },
-      {
-        "name": "헤비불릿",
-        "energy": [
-          "풀",
-          "무색",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 벤치 포켓몬을 1마리 선택해서 그 포켓몬에게도 20데미지를 준다. (벤치 포켓몬에게 주는 데미지는 약점 저항력 계산을 하지 않는다.)"
-      }
-    ]
-  },
-  {
-    "name": "돌살이",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bgz",
-    "order": 3,
-    "regulation": "none",
-    "illustrator": "Akira Komayama",
-    "rareGrade": null,
-    "cardNum": "ST2012002003",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGZ/bw_bgz_003.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "때리기",
-        "energy": [
-          "풀"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "풀베기",
-        "energy": [
-          "풀",
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "리피아",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "bgz",
-    "order": 2,
-    "regulation": "none",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": null,
-    "cardNum": "ST2012002002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGZ/bw_bgz_002.jpg?w=512",
-    "hp": 90,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "물",
-      "value": "-20"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "전광석화",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
-      },
-      {
-        "name": "에너지 어시스트",
-        "energy": [
-          "풀",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": "자신의 트래쉬에서 기본 에너지를 1장 선택해서 벤치 포켓몬에게 붙인다."
-      }
-    ]
-  },
-  {
-    "name": "스라크",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bgz",
-    "order": 1,
-    "regulation": "none",
-    "illustrator": "Naoki Saito",
-    "rareGrade": null,
-    "cardNum": "ST2012002001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGZ/bw_bgz_001.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "에어슬래시",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "더블 무색 에너지",
-    "type": "energy",
-    "detailedType": [
-      "특수 에너지"
-    ],
-    "goods": "bgr",
-    "order": 18,
-    "regulation": "none",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "ST2012001018",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_bgr_018.jpg?w=512",
-    "effect": ""
-  },
-  {
-    "name": "체렌",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "bgr",
-    "order": 17,
-    "regulation": "none",
-    "illustrator": "Kanako Eo",
-    "rareGrade": null,
-    "cardNum": "ST2012001017",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_bgr_017.jpg?w=512",
-    "effect": "자신의 덱을 3장 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
   }
 ]
