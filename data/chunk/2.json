@@ -1,75 +1,282 @@
 [
   {
-    "name": "레파르다스",
-    "type": "pokemon",
+    "name": "미스터리 가든",
+    "type": "trainers",
     "detailedType": [
-      "1진화"
+      "스타디움"
     ],
-    "goods": "SV11W",
-    "order": 53,
+    "goods": "M1S",
+    "order": 61,
     "regulation": "I",
-    "illustrator": "Yuu Nishida",
+    "illustrator": "AYUMI ODASHIMA",
     "rareGrade": "U",
-    "cardNum": "BS2025008053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_053.png?w=512",
-    "hp": 110,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "탁쳐서떨구기",
-        "energy": [
-          "악"
-        ],
-        "damage": "50",
-        "effect": "상대의 패에서 앞면을 보지 않고 1장 선택해서 트래쉬한다."
-      }
-    ]
+    "cardNum": "BS2025010061",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1S/M1S_061.png?w=512",
+    "effect": "서로의 플레이어는 자신의 차례마다 1번 패에서 에너지를 1장 트래쉬한다면 자신의 패의 장수가 자신의 필드의 (초) 포켓몬의 수와 같은 장수가 되도록 덱을 뽑아도 좋다."
   },
   {
-    "name": "곤율랭",
+    "name": "파도타기 비치",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "M1S",
+    "order": 62,
+    "regulation": "I",
+    "illustrator": "AYUMI ODASHIMA",
+    "rareGrade": "U",
+    "cardNum": "BS2025010062",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1S/M1S_062.png?w=512",
+    "effect": "서로의 플레이어는 자신의 차례마다 1번 자신의 배틀필드의 (물) 포켓몬을 벤치의 (물) 포켓몬과 교체해도 좋다."
+  },
+  {
+    "name": "활력의 숲",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "M1S",
+    "order": 63,
+    "regulation": "I",
+    "illustrator": "AYUMI ODASHIMA",
+    "rareGrade": "U",
+    "cardNum": "BS2025010063",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1S/M1S_063.png?w=512",
+    "effect": "서로의 (풀) 포켓몬 전원은 필드에 처음 나왔을 때(자신의 첫 번째 차례는 제외)라도 (풀) 포켓몬으로 진화할 수 있다."
+  },
+  {
+    "name": "이상해씨",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "SV11W",
-    "order": 54,
+    "goods": "M1L",
+    "order": 1,
     "regulation": "I",
-    "illustrator": "osare",
+    "illustrator": "HYOGONOSUKE",
     "rareGrade": "C",
-    "cardNum": "BS2025008054",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_054.png?w=512",
-    "hp": 70,
+    "cardNum": "BS2025009001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_001.png?w=512",
+    "hp": 80,
     "monType": [
-      "악"
+      "풀"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "붙들어매기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "10",
+        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
+      }
+    ]
+  },
+  {
+    "name": "이상해풀",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "M1L",
+    "order": 2,
+    "regulation": "I",
+    "illustrator": "Takumi Wada",
+    "rareGrade": "C",
+    "cardNum": "BS2025009002",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_002.png?w=512",
+    "hp": 110,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "잎날가르기",
+        "energy": [
+          "풀",
+          "풀"
+        ],
+        "damage": "60",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "메가이상해꽃 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화",
+      "메가진화 ex"
+    ],
+    "goods": "M1L",
+    "order": 3,
+    "regulation": "I",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "RR",
+    "cardNum": "BS2025009003",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_003.png?w=512",
+    "hp": 380,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "솔라트랜스",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 「기본 (풀) 에너지」를 1개 선택해서 자신의 다른 포켓몬에게 붙인다."
+      },
+      {
+        "name": "정글덤프",
+        "energy": [
+          "풀",
+          "풀",
+          "풀",
+          "풀"
+        ],
+        "damage": "240",
+        "effect": "이 포켓몬의 HP를 「30」회복한다."
+      },
+      {
+        "name": "메가진화 ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "메가진화 ex가 기절한 경우 상대는 프라이즈를 3장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "아라리",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 4,
+    "regulation": "I",
+    "illustrator": "aspara",
+    "rareGrade": "C",
+    "cardNum": "BS2025009004",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_004.png?w=512",
+    "hp": 60,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 1,
     "tech": [
       {
-        "name": "박치기",
+        "name": "알차지기",
         "energy": [
-          "악"
+          "무색"
         ],
-        "damage": "10",
-        "effect": null
+        "damage": null,
+        "effect": "자신의 덱에서 「기본 (풀) 에너지」를 1장 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다."
+      }
+    ]
+  },
+  {
+    "name": "나시",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "M1L",
+    "order": 5,
+    "regulation": "I",
+    "illustrator": "Kazumasa Yasukuni",
+    "rareGrade": "U",
+    "cardNum": "BS2025009005",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_005.png?w=512",
+    "hp": 140,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "가드프레스",
+        "energy": [
+          "풀"
+        ],
+        "damage": "30",
+        "effect": "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다."
       },
       {
-        "name": "공격해나가기",
+        "name": "우드스탬프",
         "energy": [
-          "악",
-          "악"
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "60+",
+        "effect": "이 포켓몬에게 붙어 있는 (풀) 에너지의 개수 × 30데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "세레비",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 6,
+    "regulation": "I",
+    "illustrator": "Naoki Saito",
+    "rareGrade": "U",
+    "cardNum": "BS2025009006",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_006.png?w=512",
+    "hp": 80,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "시간순회",
+        "energy": [
+          "풀"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 (풀) 포켓몬과 스타디움을 합계 3장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "솔라커터",
+        "energy": [
+          "풀"
         ],
         "damage": "30",
         "effect": null
@@ -77,76 +284,41 @@
     ]
   },
   {
-    "name": "곤율거니",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 55,
-    "regulation": "I",
-    "illustrator": "osare",
-    "rareGrade": "U",
-    "cardNum": "BS2025008055",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_055.png?w=512",
-    "hp": 120,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "건달어택",
-        "energy": [
-          "악",
-          "악"
-        ],
-        "damage": "60×",
-        "effect": "자신의 필드의 (악) 포켓몬의 수만큼 동전을 던져서 앞면이 나온 수 × 60데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "깨봉이",
+    "name": "도토링",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "SV11W",
-    "order": 56,
+    "goods": "M1L",
+    "order": 7,
     "regulation": "I",
-    "illustrator": "OKUBO",
+    "illustrator": "Miki Tanaka",
     "rareGrade": "C",
-    "cardNum": "BS2025008056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_056.png?w=512",
-    "hp": 70,
+    "cardNum": "BS2025009007",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_007.png?w=512",
+    "hp": 60,
     "monType": [
-      "악"
+      "풀"
     ],
     "weakness": {
-      "type": "격투",
+      "type": "불꽃",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "침",
+        "name": "잠시 쉬기",
         "energy": [
-          "악"
+          "무색"
         ],
-        "damage": "10",
-        "effect": null
+        "damage": null,
+        "effect": "이 포켓몬의 HP를 「20」회복한다."
       },
       {
-        "name": "오물폭탄",
+        "name": "씨폭탄",
         "energy": [
-          "악",
+          "풀",
           "무색"
         ],
         "damage": "20",
@@ -155,77 +327,462 @@
     ]
   },
   {
-    "name": "더스트나",
+    "name": "잎새코",
     "type": "pokemon",
     "detailedType": [
       "1진화"
     ],
-    "goods": "SV11W",
-    "order": 57,
+    "goods": "M1L",
+    "order": 8,
     "regulation": "I",
-    "illustrator": "OKUBO",
-    "rareGrade": "U",
-    "cardNum": "BS2025008057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_057.png?w=512",
-    "hp": 140,
+    "illustrator": "takashi shiraishi",
+    "rareGrade": "C",
+    "cardNum": "BS2025009008",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_008.png?w=512",
+    "hp": 100,
     "monType": [
-      "악"
+      "풀"
     ],
     "weakness": {
-      "type": "격투",
+      "type": "불꽃",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 3,
+    "retreat": 2,
     "tech": [
       {
-        "name": "가스로감싸기",
+        "name": "막치기",
         "energy": [
-          "악"
+          "풀"
         ],
-        "damage": "40",
+        "damage": "30",
         "effect": null
       },
       {
-        "name": "더스트슈트",
+        "name": "안다리걸기",
         "energy": [
-          "악",
-          "악",
+          "풀",
           "무색"
         ],
-        "damage": "120",
-        "effect": "상대의 배틀 포켓몬을 독으로 만든다."
+        "damage": "50",
+        "effect": null
       }
     ]
   },
   {
-    "name": "조로아",
+    "name": "다탱구",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "M1L",
+    "order": 9,
+    "regulation": "I",
+    "illustrator": "Uninori",
+    "rareGrade": "U",
+    "cardNum": "BS2025009009",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_009.png?w=512",
+    "hp": 160,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "돌풍반환",
+        "energy": [
+          "풀"
+        ],
+        "damage": null,
+        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 포켓몬을 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 상대의 덱으로 되돌리고 섞는다."
+      },
+      {
+        "name": "혼란시키기",
+        "energy": [
+          "풀",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": "상대의 배틀 포켓몬을 혼란으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "식스테일",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "SV11W",
-    "order": 58,
+    "goods": "M1L",
+    "order": 10,
     "regulation": "I",
-    "illustrator": "akagi",
+    "illustrator": "Naoyo Kimura",
     "rareGrade": "C",
-    "cardNum": "BS2025008058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_058.png?w=512",
+    "cardNum": "BS2025009010",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_010.png?w=512",
     "hp": 70,
     "monType": [
-      "악"
+      "불꽃"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "물",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 1,
     "tech": [
       {
+        "name": "밟기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": null
+      },
+      {
+        "name": "화염",
+        "energy": [
+          "불꽃",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "나인테일",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "M1L",
+    "order": 11,
+    "regulation": "I",
+    "illustrator": "satoma",
+    "rareGrade": "U",
+    "cardNum": "BS2025009011",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_011.png?w=512",
+    "hp": 120,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "괴이변화",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 덱을 위에서부터 1장 트래쉬하고 그 카드가 서포트라면 그 효과를 이 기술의 효과로써 사용한다."
+      },
+      {
+        "name": "화염",
+        "energy": [
+          "불꽃",
+          "무색"
+        ],
+        "damage": "60",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "둔타",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 12,
+    "regulation": "I",
+    "illustrator": "Wintr Wandr",
+    "rareGrade": "C",
+    "cardNum": "BS2025009012",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_012.png?w=512",
+    "hp": 80,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "동료부르기",
+        "energy": [
+          "불꽃"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 기본 포켓몬을 2장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "불꽃",
+        "energy": [
+          "불꽃",
+          "무색",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "메가폭타 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화",
+      "메가진화 ex"
+    ],
+    "goods": "M1L",
+    "order": 13,
+    "regulation": "I",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "RR",
+    "cardNum": "BS2025009013",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_013.png?w=512",
+    "hp": 340,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "그슬려태우기",
+        "energy": [
+          "불꽃"
+        ],
+        "damage": "80+",
+        "effect": "상대의 배틀 포켓몬이 화상이라면 160데미지를 추가한다."
+      },
+      {
+        "name": "볼케이노 메테오",
+        "energy": [
+          "불꽃",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "280",
+        "effect": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다."
+      },
+      {
+        "name": "메가진화 ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "메가진화 ex가 기절한 경우 상대는 프라이즈를 3장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "볼케니온",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 14,
+    "regulation": "I",
+    "illustrator": "GIDORA",
+    "rareGrade": "U",
+    "cardNum": "BS2025009014",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_014.png?w=512",
+    "hp": 130,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "그을리기",
+        "energy": [
+          "불꽃"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 화상으로 만든다."
+      },
+      {
+        "name": "백파이어",
+        "energy": [
+          "불꽃",
+          "불꽃",
+          "무색"
+        ],
+        "damage": "130",
+        "effect": "이 포켓몬에게 붙어 있는 (불꽃) 에너지를 2개 선택해서 패로 되돌린다."
+      }
+    ]
+  },
+  {
+    "name": "염버니",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 15,
+    "regulation": "I",
+    "illustrator": "svlt",
+    "rareGrade": "C",
+    "cardNum": "BS2025009015",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_015.png?w=512",
+    "hp": 70,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "발로차기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "30",
+        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
+      }
+    ]
+  },
+  {
+    "name": "래비풋",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "M1L",
+    "order": 16,
+    "regulation": "I",
+    "illustrator": "Narumi Sato",
+    "rareGrade": "C",
+    "cardNum": "BS2025009016",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_016.png?w=512",
+    "hp": 100,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "뛰어차기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 포켓몬 1마리에게 40데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+      }
+    ]
+  },
+  {
+    "name": "에이스번",
+    "type": "pokemon",
+    "detailedType": [
+      "2진화"
+    ],
+    "goods": "M1L",
+    "order": 17,
+    "regulation": "I",
+    "illustrator": "REND",
+    "rareGrade": "R",
+    "cardNum": "BS2025009017",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_017.png?w=512",
+    "hp": 160,
+    "monType": [
+      "불꽃"
+    ],
+    "weakness": {
+      "type": "물",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 0,
+    "tech": [
+      {
+        "name": "순발력",
+        "energy": [],
+        "damage": null,
+        "effect": "대전 준비에서 포켓몬을 배틀필드에 내보낼 때 이 카드가 패에 있다면 뒷면으로 해서 배틀필드에 내보내도 좋다."
+      },
+      {
+        "name": "플레어터보",
+        "energy": [
+          "무색"
+        ],
+        "damage": "50",
+        "effect": "자신의 덱에서 기본 에너지를 3장까지 선택해서 벤치 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다."
+      }
+    ]
+  },
+  {
+    "name": "가재군",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 18,
+    "regulation": "I",
+    "illustrator": "Sanosuke Sakuma",
+    "rareGrade": "C",
+    "cardNum": "BS2025009018",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_018.png?w=512",
+    "hp": 80,
+    "monType": [
+      "물"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "찝기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": null
+      },
+      {
         "name": "돌진",
         "energy": [
-          "악"
+          "무색",
+          "무색"
         ],
         "damage": "30",
         "effect": "이 포켓몬에게도 10데미지를 준다."
@@ -233,21 +790,58 @@
     ]
   },
   {
-    "name": "조로아크",
+    "name": "모으령",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "기본"
     ],
-    "goods": "SV11W",
-    "order": 59,
+    "goods": "M1L",
+    "order": 19,
     "regulation": "I",
-    "illustrator": "akagi",
-    "rareGrade": "R",
-    "cardNum": "BS2025008059",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_059.png?w=512",
-    "hp": 120,
+    "illustrator": "Takeshi Nakamura",
+    "rareGrade": "C",
+    "cardNum": "BS2025009019",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_019.png?w=512",
+    "hp": 70,
     "monType": [
-      "악"
+      "초"
+    ],
+    "weakness": {
+      "type": "악",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "뺨치기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "모래두지",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 20,
+    "regulation": "I",
+    "illustrator": "Shinji Kanda",
+    "rareGrade": "C",
+    "cardNum": "BS2025009020",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_020.png?w=512",
+    "hp": 70,
+    "monType": [
+      "격투"
     ],
     "weakness": {
       "type": "풀",
@@ -257,108 +851,107 @@
     "retreat": 1,
     "tech": [
       {
-        "name": "마인드잭",
+        "name": "발톱세우기",
         "energy": [
-          "악"
-        ],
-        "damage": "30×",
-        "effect": "상대의 벤치 포켓몬의 수 × 30데미지를 준다."
-      },
-      {
-        "name": "속임수",
-        "energy": [
-          "무색",
-          "무색",
           "무색"
         ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬이 가진 기술을 1개 선택해서 이 기술로써 사용한다."
+        "damage": "10",
+        "effect": null
+      },
+      {
+        "name": "진흙뿌리기",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
       }
     ]
   },
   {
-    "name": "모노두",
+    "name": "고지",
     "type": "pokemon",
     "detailedType": [
-      "기본"
+      "1진화"
     ],
-    "goods": "SV11W",
-    "order": 60,
+    "goods": "M1L",
+    "order": 21,
     "regulation": "I",
-    "illustrator": "kodama",
+    "illustrator": "imoniii",
     "rareGrade": "C",
-    "cardNum": "BS2025008060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_060.png?w=512",
-    "hp": 80,
+    "cardNum": "BS2025009021",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_021.png?w=512",
+    "hp": 120,
     "monType": [
-      "악"
+      "격투"
     ],
     "weakness": {
       "type": "풀",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 2,
+    "retreat": 1,
     "tech": [
       {
-        "name": "누르기",
+        "name": "모래뿌리기",
         "energy": [
           "무색",
           "무색"
         ],
-        "damage": "20",
+        "damage": "50",
+        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬이 기술을 사용할 때 상대는 동전을 1번 던진다. 뒷면이 나오면 그 기술은 실패한다."
+      },
+      {
+        "name": "머드샷",
+        "energy": [
+          "격투",
+          "무색",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "롱스톤",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 22,
+    "regulation": "I",
+    "illustrator": "Uta",
+    "rareGrade": "C",
+    "cardNum": "BS2025009022",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_022.png?w=512",
+    "hp": 120,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "조이기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "30",
         "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
       },
       {
-        "name": "어둠엄니",
-        "energy": [
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "디헤드",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 61,
-    "regulation": "I",
-    "illustrator": "kodama",
-    "rareGrade": "C",
-    "cardNum": "BS2025008061",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_061.png?w=512",
-    "hp": 110,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "더블어택",
+        "name": "괴력",
         "energy": [
           "무색",
-          "무색"
-        ],
-        "damage": "40×",
-        "effect": "동전을 2번 던져서 앞면이 나온 수 × 40데미지를 준다."
-      },
-      {
-        "name": "칠흑엄니",
-        "energy": [
-          "악",
-          "악",
+          "무색",
           "무색",
           "무색"
         ],
@@ -368,814 +961,197 @@
     ]
   },
   {
-    "name": "삼삼드래 ex",
+    "name": "배루키",
     "type": "pokemon",
     "detailedType": [
-      "2진화",
-      "포켓몬 ex"
+      "기본"
     ],
-    "goods": "SV11W",
-    "order": 62,
+    "goods": "M1L",
+    "order": 23,
     "regulation": "I",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "RR",
-    "cardNum": "BS2025008062",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_062.png?w=512",
-    "hp": 330,
+    "illustrator": "OKUBO",
+    "rareGrade": "C",
+    "cardNum": "BS2025009023",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_023.png?w=512",
+    "hp": 30,
     "monType": [
-      "악"
+      "격투"
     ],
     "weakness": {
-      "type": "풀",
+      "type": "초",
       "value": "×2"
     },
     "resistance": null,
-    "retreat": 3,
+    "retreat": 0,
     "tech": [
       {
-        "name": "그리드 이터",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 사용하는 기술의 데미지로 상대의 기본 포켓몬이 기절했다면 프라이즈를 1장 더 가져온다."
-      },
-      {
-        "name": "다크바이트",
+        "name": "투닥투닥치기",
         "energy": [
-          "악",
-          "악",
-          "악",
-          "무색",
-          "무색"
-        ],
-        "damage": "200",
-        "effect": "상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
-      },
-      {
-        "name": "ex 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "철시드",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 63,
-    "regulation": "I",
-    "illustrator": "Hasuno",
-    "rareGrade": "C",
-    "cardNum": "BS2025008063",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_063.png?w=512",
-    "hp": 70,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "따끔",
-        "energy": [
-          "강철"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "메탈클로",
-        "energy": [
-          "강철",
-          "무색",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "너트령",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 64,
-    "regulation": "I",
-    "illustrator": "Hasuno",
-    "rareGrade": "U",
-    "cardNum": "BS2025008064",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_064.png?w=512",
-    "hp": 140,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "파워휩",
-        "energy": [
-          "강철"
-        ],
-        "damage": null,
-        "effect": "상대 포켓몬 1마리에게 이 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
-      },
-      {
-        "name": "메탈클로",
-        "energy": [
-          "강철",
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "130",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "기어르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 65,
-    "regulation": "I",
-    "illustrator": "Amelicart",
-    "rareGrade": "C",
-    "cardNum": "BS2025008065",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_065.png?w=512",
-    "hp": 60,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "단단한기어",
-        "energy": [
-          "강철"
-        ],
-        "damage": "10",
-        "effect": "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-10」이 된다."
-      }
-    ]
-  },
-  {
-    "name": "기기어르",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 66,
-    "regulation": "I",
-    "illustrator": "Amelicart",
-    "rareGrade": "C",
-    "cardNum": "BS2025008066",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_066.png?w=512",
-    "hp": 90,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "단단한기어",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-20」이 된다."
-      }
-    ]
-  },
-  {
-    "name": "기기기어르",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "SV11W",
-    "order": 67,
-    "regulation": "I",
-    "illustrator": "Amelicart",
-    "rareGrade": "R",
-    "cardNum": "BS2025008067",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_067.png?w=512",
-    "hp": 150,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "기어 코팅",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 있는 한, (강철) 에너지가 붙어 있는 자신의 포켓몬 전원이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-20」이 된다."
-      },
-      {
-        "name": "한방 먹이기",
-        "energy": [
-          "강철",
-          "무색",
-          "무색"
-        ],
-        "damage": "120",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "아이앤트",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 68,
-    "regulation": "I",
-    "illustrator": "Yuka Morii",
-    "rareGrade": "U",
-    "cardNum": "BS2025008068",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_068.png?w=512",
-    "hp": 110,
-    "monType": [
-      "강철"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "풀",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "다같이물기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "자신의 벤치에 「아이앤트」가 있다면 20데미지를 추가한다."
-      },
-      {
-        "name": "찝기",
-        "energy": [
-          "강철",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "크리만",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 69,
-    "regulation": "I",
-    "illustrator": "Nurikabe",
-    "rareGrade": "U",
-    "cardNum": "BS2025008069",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_069.png?w=512",
-    "hp": 120,
-    "monType": [
-      "드래곤"
-    ],
-    "weakness": null,
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "찢기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "40",
-        "effect": "이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
-      },
-      {
-        "name": "덮치기",
-        "energy": [
-          "불꽃",
-          "물",
-          "무색"
-        ],
-        "damage": "90+",
-        "effect": "동전을 1번 던져서 앞면이 나오면 60데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "보르쥐",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 70,
-    "regulation": "I",
-    "illustrator": "Ounishi",
-    "rareGrade": "C",
-    "cardNum": "BS2025008070",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_070.png?w=512",
-    "hp": 60,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "조달",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에서 아이템을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "갉기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "보르그",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 71,
-    "regulation": "I",
-    "illustrator": "Ounishi",
-    "rareGrade": "U",
-    "cardNum": "BS2025008071",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_071.png?w=512",
-    "hp": 90,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "기충전",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 다음 차례에 이 포켓몬의 「필살앞니」의 데미지는 「240」이 된다."
-      },
-      {
-        "name": "필살앞니",
-        "energy": [
-          "무색"
-        ],
-        "damage": "80",
-        "effect": "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
-      }
-    ]
-  },
-  {
-    "name": "요테리",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 72,
-    "regulation": "I",
-    "illustrator": "sowsow",
-    "rareGrade": "C",
-    "cardNum": "BS2025008072",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_072.png?w=512",
-    "hp": 60,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "치근거리기",
-        "energy": [
-          "무색"
+          "0코스트"
         ],
         "damage": "10+",
-        "effect": "동전을 1번 던져서 앞면이 나오면 20데미지를 추가한다."
+        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 30데미지를 추가한다."
       }
     ]
   },
   {
-    "name": "하데리어",
+    "name": "마크탕",
     "type": "pokemon",
     "detailedType": [
-      "1진화"
+      "기본"
     ],
-    "goods": "SV11W",
-    "order": 73,
+    "goods": "M1L",
+    "order": 24,
     "regulation": "I",
-    "illustrator": "sowsow",
+    "illustrator": "Jerky",
     "rareGrade": "C",
-    "cardNum": "BS2025008073",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_073.png?w=512",
-    "hp": 90,
+    "cardNum": "BS2025009024",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_024.png?w=512",
+    "hp": 80,
     "monType": [
-      "무색"
+      "격투"
     ],
     "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "울부짖기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
-      },
-      {
-        "name": "넘어뜨리기",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "70",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "바랜드",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화"
-    ],
-    "goods": "SV11W",
-    "order": 74,
-    "regulation": "I",
-    "illustrator": "sowsow",
-    "rareGrade": "U",
-    "cardNum": "BS2025008074",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_074.png?w=512",
-    "hp": 160,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "냄새구별",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": null,
-        "effect": "동전을 3번 던져서 앞면이 나온 수만큼까지 자신의 트래쉬에서 원하는 카드를 선택해서 상대에게 보여주고 패로 가져온다."
-      },
-      {
-        "name": "스페셜팽",
-        "energy": [
-          "무색",
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100+",
-        "effect": "이 포켓몬에게 특수 에너지가 붙어 있다면 100데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "버프론 ex",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 ex"
-    ],
-    "goods": "SV11W",
-    "order": 75,
-    "regulation": "I",
-    "illustrator": "PLANETA Tsuji",
-    "rareGrade": "RR",
-    "cardNum": "BS2025008075",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_075.png?w=512",
-    "hp": 220,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "격투",
+      "type": "초",
       "value": "×2"
     },
     "resistance": null,
     "retreat": 2,
     "tech": [
       {
-        "name": "아프로가드",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 받는 기술의 데미지는 「-30」이 된다."
-      },
-      {
-        "name": "골드브레이크",
+        "name": "쥐어박기",
         "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100+",
-        "effect": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 100데미지를 추가한다."
-      },
-      {
-        "name": "ex 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "수리둥보",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 76,
-    "regulation": "I",
-    "illustrator": "Kedamahadaitai Yawarakai",
-    "rareGrade": "C",
-    "cardNum": "BS2025008076",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_076.png?w=512",
-    "hp": 70,
-    "monType": [
-      "무색"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "쪼기",
-        "energy": [
-          "무색"
+          "격투"
         ],
         "damage": "10",
         "effect": null
       },
       {
-        "name": "활공",
+        "name": "진검승부",
         "energy": [
-          "무색",
-          "무색"
+          "격투",
+          "격투"
         ],
-        "damage": "20",
+        "damage": "30",
         "effect": null
       }
     ]
   },
   {
-    "name": "워글",
+    "name": "하리뭉",
     "type": "pokemon",
     "detailedType": [
       "1진화"
     ],
-    "goods": "SV11W",
-    "order": 77,
+    "goods": "M1L",
+    "order": 25,
     "regulation": "I",
-    "illustrator": "Kedamahadaitai Yawarakai",
-    "rareGrade": "U",
-    "cardNum": "BS2025008077",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_077.png?w=512",
-    "hp": 140,
+    "illustrator": "GOSSAN",
+    "rareGrade": "R",
+    "cardNum": "BS2025009025",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_025.png?w=512",
+    "hp": 150,
     "monType": [
-      "무색"
+      "격투"
     ],
     "weakness": {
-      "type": "번개",
+      "type": "초",
       "value": "×2"
     },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "헤비캐처",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
+      },
+      {
+        "name": "와일드프레스",
+        "energy": [
+          "격투",
+          "격투",
+          "격투"
+        ],
+        "damage": "210",
+        "effect": "이 포켓몬에게도 70데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "루나톤",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "M1L",
+    "order": 26,
+    "regulation": "I",
+    "illustrator": "Whisker",
+    "rareGrade": "R",
+    "cardNum": "BS2025009026",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_026.png?w=512",
+    "hp": 110,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
     },
+    "resistance": null,
     "retreat": 1,
     "tech": [
       {
-        "name": "제비반환",
-        "energy": [
-          "무색"
-        ],
-        "damage": "40+",
-        "effect": "동전을 1번 던져서 앞면이 나오면 40데미지를 추가한다."
+        "name": "루나사이클",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 필드에 「솔록」이 있고 자신의 차례에 자신의 패에서 「기본 (격투) 에너지」를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다. 이 특성은 다른 「루나사이클」을 사용한 차례는 사용할 수 없다."
       },
       {
-        "name": "스피드윙",
+        "name": "파워젬",
         "energy": [
-          "무색",
-          "무색",
-          "무색",
-          "무색"
+          "격투",
+          "격투"
         ],
-        "damage": "130",
+        "damage": "50",
         "effect": null
       }
     ]
   },
   {
-    "name": "토네로스",
+    "name": "솔록",
     "type": "pokemon",
     "detailedType": [
       "기본"
     ],
-    "goods": "SV11W",
-    "order": 78,
+    "goods": "M1L",
+    "order": 27,
     "regulation": "I",
-    "illustrator": "Nisota Niso",
-    "rareGrade": "R",
-    "cardNum": "BS2025008078",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_078.png?w=512",
-    "hp": 120,
+    "illustrator": "Whisker",
+    "rareGrade": "U",
+    "cardNum": "BS2025009027",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/MEGA/M1L/M1L_027.png?w=512",
+    "hp": 110,
     "monType": [
-      "무색"
+      "격투"
     ],
     "weakness": {
-      "type": "번개",
+      "type": "풀",
       "value": "×2"
     },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
+    "resistance": null,
     "retreat": 1,
     "tech": [
       {
-        "name": "바람두르기",
+        "name": "코스믹빔",
         "energy": [
-          "무색"
+          "격투"
         ],
-        "damage": null,
-        "effect": "자신의 패에서 기본 에너지를 1장 선택해서 이 포켓몬에게 붙인다."
-      },
-      {
-        "name": "폭풍",
-        "energy": [
-          "무색",
-          "무색",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "이 포켓몬에게 붙어 있는 기본 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다."
+        "damage": "70",
+        "effect": "자신의 벤치에 「루나톤」이 없다면 이 기술은 실패한다. 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다."
       }
     ]
-  },
-  {
-    "name": "에너지 회수",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SV11W",
-    "order": 79,
-    "regulation": "I",
-    "illustrator": "Studio Bora Inc.",
-    "rareGrade": "U",
-    "cardNum": "BS2025008079",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_079.png?w=512",
-    "effect": "자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 상대에게 보여주고 패로 가져온다."
-  },
-  {
-    "name": "오래된 깃털화석",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SV11W",
-    "order": 80,
-    "regulation": "I",
-    "illustrator": "AYUMI ODASHIMA",
-    "rareGrade": "C",
-    "cardNum": "BS2025008080",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_080.png?w=512",
-    "effect": "이 카드는 HP60의 (무색) 타입의 기본 포켓몬으로서 필드에 내보낼 수 있다. 이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다.\n자신의 차례라면 필드에 나와 있는 이 카드를 트래쉬할 수 있다."
-  },
-  {
-    "name": "툴스크래퍼",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SV11W",
-    "order": 81,
-    "regulation": "I",
-    "illustrator": "Studio Bora Inc.",
-    "rareGrade": "U",
-    "cardNum": "BS2025008081",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_081.png?w=512",
-    "effect": "서로의 필드의 포켓몬에게 붙어 있는 「포켓몬의 도구」를 2장까지 선택해서 트래쉬한다."
-  },
-  {
-    "name": "브레이브뱅글",
-    "type": "trainers",
-    "detailedType": [
-      "포켓몬의 도구"
-    ],
-    "goods": "SV11W",
-    "order": 82,
-    "regulation": "I",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2025008082",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_082.png?w=512",
-    "effect": "이 카드를 붙이고 있는 포켓몬(「룰을 가진 포켓몬」은 제외)이 사용하는 기술이 상대 배틀필드의 「포켓몬 ex」에게 주는 데미지는 「+30」이 된다."
   }
 ]
