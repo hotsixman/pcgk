@@ -1,5 +1,302 @@
 [
   {
+    "name": "포켓몬 교체",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "MG",
+    "order": 12,
+    "regulation": null,
+    "illustrator": "Ayaka Yoshida",
+    "rareGrade": null,
+    "cardNum": "ST2013006012",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_012.png?w=512",
+    "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다."
+  },
+  {
+    "name": "크래시 해머",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "MG",
+    "order": 11,
+    "regulation": null,
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2013006011",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_011.png?w=512",
+    "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
+  },
+  {
+    "name": "울퉁불퉁멧",
+    "type": "trainers",
+    "detailedType": [
+      "포켓몬의 도구"
+    ],
+    "goods": "MG",
+    "order": 10,
+    "regulation": null,
+    "illustrator": "Ryo Ueda",
+    "rareGrade": null,
+    "cardNum": "ST2013006010",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_010.png?w=512",
+    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
+  },
+  {
+    "name": "수퍼볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "MG",
+    "order": 9,
+    "regulation": null,
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2013006009",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_009.png?w=512",
+    "effect": "자신의 덱을 위에서부터 7장 본다. 그 중에서 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져와도 좋다. 남은 카드는 덱으로 되돌리고 덱을 섞는다."
+  },
+  {
+    "name": "유니란",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "MG",
+    "order": 8,
+    "regulation": null,
+    "illustrator": "Kouki Saitou",
+    "rareGrade": null,
+    "cardNum": "ST2013006008",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_008.png?w=512",
+    "hp": 30,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "잠시 쉬기",
+        "energy": [
+          "초"
+        ],
+        "damage": null,
+        "effect": "이 포켓몬의 HP를 「20」회복한다."
+      },
+      {
+        "name": "부딪치기",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "고디탱",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "MG",
+    "order": 7,
+    "regulation": null,
+    "illustrator": "Akira Komayama",
+    "rareGrade": null,
+    "cardNum": "ST2013006007",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_007.png?w=512",
+    "hp": 50,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "걸어 넘어뜨리기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "10+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 20데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "맘박쥐",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "MG",
+    "order": 6,
+    "regulation": null,
+    "illustrator": "Masakazu Fukuda",
+    "rareGrade": null,
+    "cardNum": "ST2013006006",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_006.png?w=512",
+    "hp": 80,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "에너지기프트",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "동전을 한 번 던져서 앞면이 나오면 자신의 덱에서 (초) 에너지를 2장 선택해서 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "하트스탬프",
+        "energy": [
+          "초"
+        ],
+        "damage": "30",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "또르박쥐",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "MG",
+    "order": 5,
+    "regulation": null,
+    "illustrator": "Mizue",
+    "rareGrade": null,
+    "cardNum": "ST2013006005",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_005.png?w=512",
+    "hp": 50,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "듀얼커터",
+        "energy": [
+          "초"
+        ],
+        "damage": "10×",
+        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 10데미지를 준다."
+      }
+    ]
+  },
+  {
+    "name": "깜까미",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "MG",
+    "order": 4,
+    "regulation": null,
+    "illustrator": "Hiroki Asanuma",
+    "rareGrade": null,
+    "cardNum": "ST2013006004",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_004.png?w=512",
+    "hp": 70,
+    "monType": [
+      "초"
+    ],
+    "weakness": null,
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "노려보고물기",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "무우마직",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "MG",
+    "order": 3,
+    "regulation": null,
+    "illustrator": "Sumiyoshi Kizuki",
+    "rareGrade": null,
+    "cardNum": "ST2013006003",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/MG/MG_M_003.png?w=512",
+    "hp": 100,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "악",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "생명흡수",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": "이 포켓몬의 HP를 「10」회복한다."
+      },
+      {
+        "name": "홀로숏",
+        "energy": [
+          "초",
+          "무색",
+          "무색"
+        ],
+        "damage": "70",
+        "effect": null
+      }
+    ]
+  },
+  {
     "name": "무우마",
     "type": "pokemon",
     "detailedType": [
@@ -761,155 +1058,5 @@
     "cardNum": "BS2020011099",
     "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_099.png?w=512",
     "effect": ""
-  },
-  {
-    "name": "스파이크마을",
-    "type": "trainers",
-    "detailedType": [
-      "스타디움"
-    ],
-    "goods": "S3",
-    "order": 98,
-    "regulation": "D",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2020011098",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_098.png?w=512",
-    "effect": "서로의 플레이어는 자신의 차례에 자신의 배틀 포켓몬이 벤치로 돌아갈 때마다 벤치로 돌아간 포켓몬에게 데미지 카운터를 2개 올린다."
-  },
-  {
-    "name": "로즈타워",
-    "type": "trainers",
-    "detailedType": [
-      "스타디움"
-    ],
-    "goods": "S3",
-    "order": 97,
-    "regulation": "D",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2020011097",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_097.png?w=512",
-    "effect": "서로의 플레이어는 자신의 차례마다 1번 자신의 패가 3장이 되도록 덱을 뽑아도 좋다."
-  },
-  {
-    "name": "새 조련사",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S3",
-    "order": 96,
-    "regulation": "D",
-    "illustrator": "Hideki Ishikawa",
-    "rareGrade": "U",
-    "cardNum": "BS2020011096",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_096.png?w=512",
-    "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 그 뒤, 자신의 덱을 3장 뽑는다."
-  },
-  {
-    "name": "로즈",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S3",
-    "order": 95,
-    "regulation": "D",
-    "illustrator": "Yusuke Ohmura",
-    "rareGrade": "U",
-    "cardNum": "BS2020011095",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_095.png?w=512",
-    "effect": "자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 자신의 「포켓몬 VMAX」 1마리에게 붙인다. 그 뒤, 자신의 패를 모두 트래쉬한다."
-  },
-  {
-    "name": "두송",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S3",
-    "order": 94,
-    "regulation": "D",
-    "illustrator": "take",
-    "rareGrade": "U",
-    "cardNum": "BS2020011094",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_094.png?w=512",
-    "effect": "자신의 덱에서 (악) 포켓몬과 에너지를 1장씩 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-  },
-  {
-    "name": "터프니스 망토",
-    "type": "trainers",
-    "detailedType": [
-      "포켓몬의 도구"
-    ],
-    "goods": "S3",
-    "order": 93,
-    "regulation": "D",
-    "illustrator": "inose yukie",
-    "rareGrade": "U",
-    "cardNum": "BS2020011093",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_093.png?w=512",
-    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
-  },
-  {
-    "name": "뭉게뭉게 스모크",
-    "type": "trainers",
-    "detailedType": [
-      "포켓몬의 도구"
-    ],
-    "goods": "S3",
-    "order": 92,
-    "regulation": "D",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2020011092",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_092.png?w=512",
-    "effect": "포켓몬의 도구 룰 \r\n\t\t\t\t\t\t\t포켓몬의 도구는 자신의 포켓몬에게 붙여서 사용한다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다."
-  },
-  {
-    "name": "희귀한화석",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S3",
-    "order": 91,
-    "regulation": "D",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "C",
-    "cardNum": "BS2020011091",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_091.png?w=512",
-    "effect": "이 카드는 HP70의 (무색) 타입의 기본 포켓몬으로서 필드에 내보낼 수 있다.\n자신의 차례라면 필드에 나와 있는 이 카드를 트래쉬해도 좋다.\n\n이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다."
-  },
-  {
-    "name": "터보패치",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S3",
-    "order": 90,
-    "regulation": "D",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "BS2020011090",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_090.png?w=512",
-    "effect": "동전을 1번 던져서 앞면이 나오면 자신의 트래쉬에서 기본 에너지를 1장 선택해서 자신의 기본 포켓몬(「포켓몬 GX」는 제외)에게 붙인다."
-  },
-  {
-    "name": "응원Y나팔",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "S3",
-    "order": 89,
-    "regulation": "D",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "BS2020011089",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S3/S3_089.png?w=512",
-    "effect": "서로의 배틀 포켓몬을 각각 혼란으로 만든다."
   }
 ]
