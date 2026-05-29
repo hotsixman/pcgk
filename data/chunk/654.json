@@ -1,5 +1,141 @@
 [
   {
+    "name": "루기아",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs7",
+    "order": 32,
+    "regulation": "none",
+    "illustrator": "Kazuyuki Kano",
+    "rareGrade": "H",
+    "cardNum": "BS2010007032",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS7/bs7_ko_32.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "20"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "은빛 날갯짓",
+        "energy": [
+          "무색"
+        ],
+        "damage": "20",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 에너지를 1개 상대의 패로 되돌린다."
+      },
+      {
+        "name": "사이코 디스트럭션",
+        "energy": [
+          "초",
+          "무색",
+          "무색"
+        ],
+        "damage": "120",
+        "effect": "상대에게 에너지가 붙어 있다면 이 기술의 데미지는 「40」이 된다."
+      }
+    ]
+  },
+  {
+    "name": "내룸벨트",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "bs7",
+    "order": 31,
+    "regulation": "none",
+    "illustrator": "Kazuyuki Kano",
+    "rareGrade": "R",
+    "cardNum": "BS2010007031",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS7/bs7_ko_31.jpg?w=512",
+    "hp": 110,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "30"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "혀로 감아집기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 포켓몬 1마리를 선택한다. 벤치 포켓몬을 선택했다면 그 포켓몬을 상대의 배틀 포켓몬과 교체한다. 선택한 포켓몬에게 20데미지를 주고 동전을 한 번 던져서 앞면이 나오면 마비로 만든다."
+      },
+      {
+        "name": "저력",
+        "energy": [
+          "무색",
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": "자신의 다음 차례에 자신은 기술을 사용할 수 없다."
+      }
+    ]
+  },
+  {
+    "name": "내루미",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs7",
+    "order": 30,
+    "regulation": "none",
+    "illustrator": "Kagemaru Himeno",
+    "rareGrade": "C",
+    "cardNum": "BS2010007030",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS7/bs7_ko_30.jpg?w=512",
+    "hp": 70,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "20"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "혀로 집기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 카드를 1장 뽑는다."
+      },
+      {
+        "name": "힘껏치기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "20×",
+        "effect": "동전을 두 번 던져서 앞면 × 20데미지를 준다."
+      }
+    ]
+  },
+  {
     "name": "도롱마담 슈레도롱",
     "type": "pokemon",
     "detailedType": [
@@ -1122,104 +1258,5 @@
         "effect": "자신에게 (풀) 에너지가 붙어 있다면 10데미지를 추가한다."
       }
     ]
-  },
-  {
-    "name": "세레비",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs7",
-    "order": 2,
-    "regulation": "none",
-    "illustrator": "Kagemaru Himeno",
-    "rareGrade": "H",
-    "cardNum": "BS2010007002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS7/bs7_ko_2.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "20"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "싹틔우기",
-        "energy": [
-          "0코스트"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에 있는 (풀) 에너지를 1장 자신에게 붙인다. 그 뒤 덱을 섞는다."
-      },
-      {
-        "name": "리프 토네이도",
-        "energy": [
-          "풀",
-          "풀"
-        ],
-        "damage": "30",
-        "effect": "원한다면 자신의 필드에 있는 (풀)  기본 에너지를 원하는 만큼 선택해서 자신의 포켓몬에게 원하는 대로 바꿔 붙여도 좋다."
-      }
-    ]
-  },
-  {
-    "name": "단단지",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs7",
-    "order": 1,
-    "regulation": "none",
-    "illustrator": "Emi Yoshida",
-    "rareGrade": "C",
-    "cardNum": "BS2010007001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS7/bs7_ko_1.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "20"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "포켓바디  항아리 등껍질",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬은 특수 에너지가 붙어 있는 상대의 포켓몬의 기술에 의한 데미지나 효과를 받지 않는다."
-      },
-      {
-        "name": "발효독",
-        "energy": [
-          "풀",
-          "무색"
-        ],
-        "damage": "10",
-        "effect": "상대를 독으로 만든다. 이 기술을 받은 상대는 이 독에서 회복되지 않는 한 포켓바디가 작용하지 않는다."
-      }
-    ]
-  },
-  {
-    "name": "워프 에너지",
-    "type": "energy",
-    "detailedType": [
-      "특수 에너지"
-    ],
-    "goods": "bs6",
-    "order": 60,
-    "regulation": "none",
-    "illustrator": "Takumi Akabane",
-    "rareGrade": "U",
-    "cardNum": "BS2010006060",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS6/bs6_ko_60.jpg?w=512",
-    "effect": ""
   }
 ]

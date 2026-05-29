@@ -1,5 +1,90 @@
 [
   {
+    "name": "동미러",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xyb",
+    "order": 2,
+    "regulation": "XY",
+    "illustrator": "Akira Komayama",
+    "rareGrade": null,
+    "cardNum": "ST2014004002",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XYB/XYB_002.jpg?w=512",
+    "hp": 50,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "몸통박치기",
+        "energy": [
+          "강철"
+        ],
+        "damage": "10",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "무장조",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "xyb",
+    "order": 1,
+    "regulation": "XY",
+    "illustrator": "Sanosuke Sakuma",
+    "rareGrade": null,
+    "cardNum": "ST2014004001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XYB/XYB_001.jpg?w=512",
+    "hp": 100,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "베어가르기",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      },
+      {
+        "name": "아이언윙",
+        "energy": [
+          "강철",
+          "강철",
+          "무색"
+        ],
+        "damage": "90",
+        "effect": "이 포켓몬에게 붙어 있는 (강철) 에너지를 1개 선택해서 트래쉬한다."
+      }
+    ]
+  },
+  {
     "name": "더블 무색 에너지",
     "type": "energy",
     "detailedType": [
@@ -674,82 +759,5 @@
     "cardNum": "ST2014002110",
     "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY30/Y30_010.jpg?w=512",
     "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다."
-  },
-  {
-    "name": "크래시 해머",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "y30",
-    "order": 9,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "ST2014002109",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY30/Y30_009.jpg?w=512",
-    "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 필드의 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-  },
-  {
-    "name": "수퍼볼",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "y30",
-    "order": 8,
-    "regulation": "XY",
-    "illustrator": "Toyste Beach",
-    "rareGrade": "U",
-    "cardNum": "ST2014002108",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY30/Y30_008.jpg?w=512",
-    "effect": "자신의 덱을 위에서부터 7장 본다. 그 중에서 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져와도 좋다. 남은 카드는 덱으로 되돌리고 덱을 섞는다."
-  },
-  {
-    "name": "이벨타르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "y30",
-    "order": 7,
-    "regulation": "XY",
-    "illustrator": "5ban Graphics",
-    "rareGrade": "U",
-    "cardNum": "ST2014002107",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY30/Y30_007.jpg?w=512",
-    "hp": 130,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "데스윙",
-        "energy": [
-          "악"
-        ],
-        "damage": "30",
-        "effect": "자신의 트래쉬에서 (악) 에너지를 1장 선택해서 벤치 포켓몬에게 붙인다."
-      },
-      {
-        "name": "어둠의 칼날",
-        "energy": [
-          "악",
-          "악",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "동전을 한 번 던져서 뒷면이 나오면 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
-      }
-    ]
   }
 ]

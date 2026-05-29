@@ -1,5 +1,115 @@
 [
   {
+    "name": "수퍼볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "td",
+    "order": 8,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2012003008",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_008.jpg?w=512",
+    "effect": "자신의 덱을 위에서부터 7장 본다. 그 중에서 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져와도 좋다. 남은 카드는 덱으로 되돌리고 덱을 섞는다.아이템은 자신의 차례에 몇 장이라도 사용할 수 있다."
+  },
+  {
+    "name": "토네로스",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "td",
+    "order": 7,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2012003007",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_007.jpg?w=512",
+    "hp": 110,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "에너지휠",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 벤치 포켓몬에게 붙어 있는 에너지를 1개 선택해서 이 포켓몬에게 붙인다."
+      },
+      {
+        "name": "폭풍",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": "이 포켓몬에게 붙어 있는 기본 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다."
+      }
+    ]
+  },
+  {
+    "name": "절각참",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "td",
+    "order": 6,
+    "regulation": "none",
+    "illustrator": "Naoki Saito",
+    "rareGrade": null,
+    "cardNum": "ST2012003006",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/TD/bw_td_006.jpg?w=512",
+    "hp": 100,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "제비반환",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "20+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 20데미지를 추가한다."
+      },
+      {
+        "name": "메탈크로우",
+        "energy": [
+          "강철",
+          "강철",
+          "무색"
+        ],
+        "damage": "80",
+        "effect": null
+      }
+    ]
+  },
+  {
     "name": "자망칼",
     "type": "pokemon",
     "detailedType": [
@@ -737,50 +847,5 @@
         "effect": "이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
       }
     ]
-  },
-  {
-    "name": "더블 무색 에너지",
-    "type": "energy",
-    "detailedType": [
-      "특수 에너지"
-    ],
-    "goods": "bgr",
-    "order": 18,
-    "regulation": "none",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "ST2012001018",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_bgr_018.jpg?w=512",
-    "effect": ""
-  },
-  {
-    "name": "체렌",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "bgr",
-    "order": 17,
-    "regulation": "none",
-    "illustrator": "Kanako Eo",
-    "rareGrade": null,
-    "cardNum": "ST2012001017",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_bgr_017.jpg?w=512",
-    "effect": "자신의 덱을 3장 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
-  },
-  {
-    "name": "주박사",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "bgr",
-    "order": 16,
-    "regulation": "none",
-    "illustrator": "Kanako Eo",
-    "rareGrade": null,
-    "cardNum": "ST2012001016",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_bgr_016.jpg?w=512",
-    "effect": "자신의 패를 모두 트래쉬하고 덱을 7장 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
   }
 ]

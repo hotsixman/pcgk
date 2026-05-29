@@ -1,5 +1,116 @@
 [
   {
+    "name": "폭슬라이",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SJ",
+    "order": 8,
+    "regulation": "D",
+    "illustrator": "Akira Komayama",
+    "rareGrade": null,
+    "cardNum": "BS2021019008",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SJ/SJ_008.png?w=512",
+    "hp": 100,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "나쁜음모",
+        "energy": [
+          "악"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 원하는 카드를 2장까지 선택해서 패로 가져온다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "예리한이빨",
+        "energy": [
+          "악",
+          "악"
+        ],
+        "damage": "70",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "훔처우",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SJ",
+    "order": 7,
+    "regulation": "D",
+    "illustrator": "Misa Tsutsui",
+    "rareGrade": null,
+    "cardNum": "BS2021019007",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SJ/SJ_007.png?w=512",
+    "hp": 70,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "꼬리흔들기",
+        "energy": [
+          "악"
+        ],
+        "damage": null,
+        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 기술을 받은 포켓몬은 기술을 사용할 수 없다."
+      }
+    ]
+  },
+  {
+    "name": "후파",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SJ",
+    "order": 6,
+    "regulation": "D",
+    "illustrator": "Souichirou Gunjima",
+    "rareGrade": null,
+    "cardNum": "BS2021019006",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SJ/SJ_006.png?w=512",
+    "hp": 120,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "어솔트게이트",
+        "energy": [
+          "악"
+        ],
+        "damage": "90",
+        "effect": "이 차례에 이 포켓몬이 벤치에서 배틀필드로 나오지 않았다면 이 기술은 실패한다. 이 기술의 데미지는 약점 계산을 하지 않는다."
+      }
+    ]
+  },
+  {
     "name": "다크라이",
     "type": "pokemon",
     "detailedType": [
@@ -833,50 +944,5 @@
     "cardNum": "BS2021013071",
     "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SH/SH_019_D.png?w=512",
     "effect": "자신의 덱을 2장 뽑는다. 동전을 1번 던져서 앞면이 나오면 2장 더 뽑는다."
-  },
-  {
-    "name": "포켓몬 캐처",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SH",
-    "order": 45,
-    "regulation": "D",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": null,
-    "cardNum": "BS2021013070",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SH/SH_018_D.png?w=512",
-    "effect": "동전을 1번 던져서 앞면이 나오면 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
-  },
-  {
-    "name": "포켓몬 교체",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SH",
-    "order": 44,
-    "regulation": "D",
-    "illustrator": "Studio Bora Inc.",
-    "rareGrade": null,
-    "cardNum": "BS2021013069",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SH/SH_017_D.png?w=512",
-    "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다."
-  },
-  {
-    "name": "크래시 해머",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "SH",
-    "order": 43,
-    "regulation": "D",
-    "illustrator": "sadaji",
-    "rareGrade": null,
-    "cardNum": "BS2021013068",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/SH/SH_016_D.png?w=512",
-    "effect": "동전을 1번 던져서 앞면이 나오면 상대 필드의 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
   }
 ]

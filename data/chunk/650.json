@@ -1,5 +1,94 @@
 [
   {
+    "name": "블루",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs10",
+    "order": 32,
+    "regulation": "none",
+    "illustrator": "Atsuko Nishida",
+    "rareGrade": "C",
+    "cardNum": "BS2010010032",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_32.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "10"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "울부짖기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대를 상대의 벤치 포켓몬과 교체한다. 교체하는 벤치 포켓몬은 상대 플레이어가 선택한다."
+      },
+      {
+        "name": "물기",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "레지스틸",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs10",
+    "order": 31,
+    "regulation": "none",
+    "illustrator": "Kazuaki Aihara",
+    "rareGrade": "R",
+    "cardNum": "BS2010010031",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_31.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "초",
+      "value": "-20"
+    },
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "포켓파워  레지힐",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 한 번 사용할 수 있다. 자신의 패를 2장 트래쉬한다. 그 뒤 이 포켓몬의 데미지 카운터를 3개 제거한다. 이 파워는 이 포켓몬이 특수 상태라면 사용할 수 없다."
+      },
+      {
+        "name": "롤링크루",
+        "energy": [
+          "강철",
+          "무색",
+          "무색"
+        ],
+        "damage": "50",
+        "effect": "원한다면 자신의 에너지를 1장 트래쉬해도 좋다. 그 경우 자신의 트래쉬에서 다른 에너지를 1장 선택해서 자신에게 붙인다."
+      }
+    ]
+  },
+  {
     "name": "돈크로우",
     "type": "pokemon",
     "detailedType": [
@@ -1178,101 +1267,5 @@
         "effect": "동전을 한 번 던져서 앞면이 나오면 상대를 혼란으로 만든다."
       }
     ]
-  },
-  {
-    "name": "비나방",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "bs10",
-    "order": 2,
-    "regulation": "none",
-    "illustrator": "Midori Harada",
-    "rareGrade": "C",
-    "cardNum": "BS2010010002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_2.jpg?w=512",
-    "hp": 70,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "20"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "원심력",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "20×",
-        "effect": "상대의 후퇴 에너지의 개수 × 20데미지를 준다."
-      },
-      {
-        "name": "소용돌이 파문",
-        "energy": [
-          "풀",
-          "풀"
-        ],
-        "damage": "30+",
-        "effect": "상대의 필드에 (물) 포켓몬이 있다면 30데미지를 추가하고 상대를 혼란으로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "비구술",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs10",
-    "order": 1,
-    "regulation": "none",
-    "illustrator": "Ken Sugimori",
-    "rareGrade": "C",
-    "cardNum": "BS2010010001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_1.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "10"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "잠듦유인",
-        "energy": [
-          "풀"
-        ],
-        "damage": null,
-        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 상대의 배틀 포켓몬과 교체한다. 그 뒤 새로 나온 포켓몬을 잠듦으로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "호수의 결계",
-    "type": "trainers",
-    "detailedType": [
-      "스타디움"
-    ],
-    "goods": "bs9",
-    "order": 40,
-    "regulation": "none",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": "U",
-    "cardNum": "BS2010009040",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS9/bs9_ko_40.jpg?w=512",
-    "effect": "스타디움은 자신의 차례에 한 번만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.서로의 포켓몬의 약점은 모두 「×2」로 데미지 계산을 한다."
   }
 ]

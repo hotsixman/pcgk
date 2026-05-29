@@ -1,5 +1,65 @@
 [
   {
+    "name": "벨",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "bgt",
+    "order": 14,
+    "regulation": "none",
+    "illustrator": "Yusuke Ohmura",
+    "rareGrade": null,
+    "cardNum": "ST2011005014",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_terrakion/bw1_terrakion_014.jpg?w=512",
+    "effect": "자신의 패가 6장이 되도록 덱을 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
+  },
+  {
+    "name": "테라키온",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bgt",
+    "order": 13,
+    "regulation": "none",
+    "illustrator": "5ban Graphics",
+    "rareGrade": null,
+    "cardNum": "ST2011005013",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_terrakion/bw1_terrakion_013.jpg?w=512",
+    "hp": 120,
+    "monType": [
+      "격투"
+    ],
+    "weakness": {
+      "type": "풀",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 4,
+    "tech": [
+      {
+        "name": "록스매시",
+        "energy": [
+          "격투",
+          "무색"
+        ],
+        "damage": "40",
+        "effect": null
+      },
+      {
+        "name": "아이템 룰",
+        "energy": [
+          "격투",
+          "격투",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": "자신의 다음 차례에 이 포켓몬은 「성스러운칼」을 사용할 수 없다."
+      }
+    ]
+  },
+  {
     "name": "체렌",
     "type": "trainers",
     "detailedType": [
@@ -708,107 +768,5 @@
         "effect": "이 포켓몬의 HP를「10」회복한다."
       }
     ]
-  },
-  {
-    "name": "두르쿤",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "bgv",
-    "order": 2,
-    "regulation": "none",
-    "illustrator": "Naoki Saito",
-    "rareGrade": null,
-    "cardNum": "ST2011004002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_virizion/bw1_virizion_002.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "갉기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      },
-      {
-        "name": "더블 잎날가르기",
-        "energy": [
-          "풀",
-          "무색",
-          "무색"
-        ],
-        "damage": "50×",
-        "effect": "동전을 두 번 던져서 앞면이 나온 수 × 50데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "두르보",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bgv",
-    "order": 1,
-    "regulation": "none",
-    "illustrator": "Naoki Saito",
-    "rareGrade": null,
-    "cardNum": "ST2011004001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_virizion/bw1_virizion_001.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "갉기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "잎날가르기",
-        "energy": [
-          "풀",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "포켓몬 도감",
-    "type": "trainers",
-    "detailedType": [
-      "아이템"
-    ],
-    "goods": "fsb",
-    "order": 34,
-    "regulation": "none",
-    "illustrator": "Noriko Hotta",
-    "rareGrade": null,
-    "cardNum": "ST2011003034",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/FS/bw1_fs_w_034.jpg?w=512",
-    "effect": "자신의 덱을 위에서부터 5장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다."
   }
 ]

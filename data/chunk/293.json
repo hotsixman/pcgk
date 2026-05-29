@@ -1,5 +1,108 @@
 [
   {
+    "name": "맛있는물세트",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "S9",
+    "order": 88,
+    "regulation": "F",
+    "illustrator": "AYUMI ODASHIMA",
+    "rareGrade": "U",
+    "cardNum": "BS2022002088",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_088.png?w=512",
+    "effect": "자신의 포켓몬 전원의 HP를 각각 「20」회복한다."
+  },
+  {
+    "name": "토네로스",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "S9",
+    "order": 87,
+    "regulation": "F",
+    "illustrator": "Shigenori Negishi",
+    "rareGrade": "U",
+    "cardNum": "BS2022002087",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_087.png?w=512",
+    "hp": 120,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "서든사이클론",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)"
+      },
+      {
+        "name": "블라스트윈드",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "100",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "치라치노",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "S9",
+    "order": 86,
+    "regulation": "F",
+    "illustrator": "Atsuko Nishida",
+    "rareGrade": "C",
+    "cardNum": "BS2022002086",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_086.png?w=512",
+    "hp": 90,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "뺨치기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "40",
+        "effect": null
+      },
+      {
+        "name": "트리플악셀",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "50×",
+        "effect": "동전을 3번 던져서 앞면이 나온 수 × 50데미지를 준다."
+      }
+    ]
+  },
+  {
     "name": "치라미",
     "type": "pokemon",
     "detailedType": [
@@ -1156,128 +1259,6 @@
           "무색"
         ],
         "damage": "120",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "골비람",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S9",
-    "order": 58,
-    "regulation": "F",
-    "illustrator": "Eske Yoshinob",
-    "rareGrade": "C",
-    "cardNum": "BS2022002058",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_058.png?w=512",
-    "hp": 100,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "진흙뿌리기",
-        "energy": [
-          "격투"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "막치기",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "타격귀",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S9",
-    "order": 57,
-    "regulation": "F",
-    "illustrator": "Shinji Kanda",
-    "rareGrade": "C",
-    "cardNum": "BS2022002057",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_057.png?w=512",
-    "hp": 90,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "다리후리기",
-        "energy": [
-          "격투"
-        ],
-        "damage": "30",
-        "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다."
-      }
-    ]
-  },
-  {
-    "name": "던지미",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S9",
-    "order": 56,
-    "regulation": "F",
-    "illustrator": "Teeziro",
-    "rareGrade": "C",
-    "cardNum": "BS2022002056",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S9/S9_056.png?w=512",
-    "hp": 120,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "넘어뜨리기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": null
-      },
-      {
-        "name": "지구던지기",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "110",
         "effect": null
       }
     ]

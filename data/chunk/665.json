@@ -1,5 +1,108 @@
 [
   {
+    "name": "모부기",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs1",
+    "order": 2,
+    "regulation": "none",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": "C",
+    "cardNum": "BS2010001002",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_2.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "10"
+    },
+    "resistance": {
+      "type": "물",
+      "value": "-20"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "몸통박치기",
+        "energy": [
+          "0코스트"
+        ],
+        "damage": "10",
+        "effect": null
+      },
+      {
+        "name": "잎날가르기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "헤라크로스",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs1",
+    "order": 1,
+    "regulation": "none",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": "U",
+    "cardNum": "BS2010001001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_1.jpg?w=512",
+    "hp": 80,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "20"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "던져버리기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": "상대를 상대의 벤치 포켓몬과 교체한다. 교체하는 벤치 포켓몬은 상대 플레이어가 선택한다."
+      },
+      {
+        "name": "뿔로 베어가르기",
+        "energy": [
+          "풀",
+          "풀"
+        ],
+        "damage": "30+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "에테르재단 직원",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "promo",
+    "order": 91,
+    "regulation": "B",
+    "illustrator": "take",
+    "rareGrade": null,
+    "cardNum": "SMP000000119",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SMP_119.png?w=512",
+    "effect": "자신의 트래쉬에 있는 카드 이름에 「알로라」가 적힌 포켓몬을 3장 상대에게 보여주고 패로 가져온다."
+  },
+  {
     "name": "보만다 소울링크",
     "type": "trainers",
     "detailedType": [
@@ -912,50 +1015,5 @@
         "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
-  },
-  {
-    "name": "멜리사",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S11",
-    "order": 121,
-    "regulation": "F",
-    "illustrator": "Ryuta Fuse",
-    "rareGrade": "HR",
-    "cardNum": "BS2022014120",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_121.png?w=512",
-    "effect": "이 카드는 자신의 로스트존에 카드가 10장 이상 있을 때만 사용할 수 있다.\n\n상대의 다음 차례에 자신의 포켓몬 전원이 상대의 「포켓몬 V」로부터 받는 기술의 데미지는 「-120」이 된다. (새로 필드에 내보낸 포켓몬도 포함.)"
-  },
-  {
-    "name": "수철",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S11",
-    "order": 122,
-    "regulation": "F",
-    "illustrator": "Hideki Ishikawa",
-    "rareGrade": "HR",
-    "cardNum": "BS2022014121",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_122.png?w=512",
-    "effect": "자신의 트래쉬에서 기본 포켓몬을 1장 선택해서 자신의 필드의 기본 포켓몬 1마리와 교체한다(붙어 있는 카드, 데미지 카운터, 특수 상태, 효과 등은 모두 이어받는다). 교체한 포켓몬은 트래쉬한다."
-  },
-  {
-    "name": "아기씨",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "S11",
-    "order": 123,
-    "regulation": "F",
-    "illustrator": "saino misaki",
-    "rareGrade": "HR",
-    "cardNum": "BS2022014122",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_123.png?w=512",
-    "effect": "자신의 덱에서 기본 에너지를 4장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
   }
 ]

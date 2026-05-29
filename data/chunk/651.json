@@ -1,5 +1,101 @@
 [
   {
+    "name": "비나방",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "bs10",
+    "order": 2,
+    "regulation": "none",
+    "illustrator": "Midori Harada",
+    "rareGrade": "C",
+    "cardNum": "BS2010010002",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_2.jpg?w=512",
+    "hp": 70,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "20"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 0,
+    "tech": [
+      {
+        "name": "원심력",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": "20×",
+        "effect": "상대의 후퇴 에너지의 개수 × 20데미지를 준다."
+      },
+      {
+        "name": "소용돌이 파문",
+        "energy": [
+          "풀",
+          "풀"
+        ],
+        "damage": "30+",
+        "effect": "상대의 필드에 (물) 포켓몬이 있다면 30데미지를 추가하고 상대를 혼란으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "비구술",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs10",
+    "order": 1,
+    "regulation": "none",
+    "illustrator": "Ken Sugimori",
+    "rareGrade": "C",
+    "cardNum": "BS2010010001",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS10/bs10_ko_1.jpg?w=512",
+    "hp": 50,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "10"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "잠듦유인",
+        "energy": [
+          "풀"
+        ],
+        "damage": null,
+        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 상대의 배틀 포켓몬과 교체한다. 그 뒤 새로 나온 포켓몬을 잠듦으로 만든다."
+      }
+    ]
+  },
+  {
+    "name": "호수의 결계",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "bs9",
+    "order": 40,
+    "regulation": "none",
+    "illustrator": "Ryo Ueda",
+    "rareGrade": "U",
+    "cardNum": "BS2010009040",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS9/bs9_ko_40.jpg?w=512",
+    "effect": "스타디움은 자신의 차례에 한 번만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.서로의 포켓몬의 약점은 모두 「×2」로 데미지 계산을 한다."
+  },
+  {
     "name": "포케힐러+",
     "type": "trainers",
     "detailedType": [
@@ -925,142 +1021,6 @@
         ],
         "damage": "60+",
         "effect": "자신의 (물) 에너지 × 10데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "초라기",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs9",
-    "order": 12,
-    "regulation": "none",
-    "illustrator": "Midori Harada",
-    "rareGrade": "C",
-    "cardNum": "BS2010009012",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS9/bs9_ko_12.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "10"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "지느러미 커터",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "아쿠아 스파크",
-        "energy": [
-          "번개",
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "자신에게 (물) 에너지가 붙어 있다면 10데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "눈설왕",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "bs9",
-    "order": 11,
-    "regulation": "none",
-    "illustrator": "Mitsuhiro Arita",
-    "rareGrade": "H",
-    "cardNum": "BS2010009011",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS9/bs9_ko_11.jpg?w=512",
-    "hp": 100,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "30"
-    },
-    "resistance": null,
-    "retreat": 3,
-    "tech": [
-      {
-        "name": "포켓바디  스노베일",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬이 배틀필드에 있는 한 자신의 포켓몬 전원이 받는 상대의 기술의 데미지는 모두 「-20」이 된다."
-      },
-      {
-        "name": "눈장난",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "20",
-        "effect": "상대의 벤치 포켓몬 중 (풀)  또는 (물) 타입 이외의 포켓몬 전원에게도 각각 20데미지를 준다."
-      },
-      {
-        "name": "빙점하",
-        "energy": [
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "60",
-        "effect": "이 차례에 자신이 「눈쓰개」에서 진화했다면 상대를 마비로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "눈쓰개",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs9",
-    "order": 10,
-    "regulation": "none",
-    "illustrator": "Kagemaru Himeno",
-    "rareGrade": "C",
-    "cardNum": "BS2010009010",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS9/bs9_ko_10.jpg?w=512",
-    "hp": 50,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "10"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "숨기",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 다음 차례에 자신은 기술의 데미지나 효과를 받지 않는다."
-      },
-      {
-        "name": "눈싸라기",
-        "energy": [
-          "물"
-        ],
-        "damage": "10",
-        "effect": "상대를 잠듦으로 만든다."
       }
     ]
   }

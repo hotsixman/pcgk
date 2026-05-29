@@ -1,5 +1,148 @@
 [
   {
+    "name": "폴리곤",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "S11",
+    "order": 83,
+    "regulation": "F",
+    "illustrator": "kurumitsu",
+    "rareGrade": "C",
+    "cardNum": "BS2022014083",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_083.png?w=512",
+    "hp": 60,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "분기계산",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신 또는 상대의 덱을 위에서부터 4장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다."
+      },
+      {
+        "name": "빔",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "피죤투 V",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 V"
+    ],
+    "goods": "S11",
+    "order": 82,
+    "regulation": "F",
+    "illustrator": "Saki Hayashiro",
+    "rareGrade": "RR",
+    "cardNum": "BS2022014082",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_082.png?w=512",
+    "hp": 210,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-30"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "사라지는 날개",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬이 벤치에 있다면 자신의 차례에 1번 사용할 수 있다. 이 포켓몬과 붙어 있는 모든 카드를 자신의 덱으로 되돌리고 섞는다."
+      },
+      {
+        "name": "플라이트서핑",
+        "energy": [
+          "무색",
+          "무색",
+          "무색"
+        ],
+        "damage": "80+",
+        "effect": "필드에 자신의 스타디움이 나와 있다면 80데미지를 추가한다."
+      },
+      {
+        "name": "V 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
+    "name": "기라티나 VSTAR",
+    "type": "pokemon",
+    "detailedType": [
+      "V진화",
+      "포켓몬 VSTAR"
+    ],
+    "goods": "S11",
+    "order": 81,
+    "regulation": "F",
+    "illustrator": "5ban Graphics",
+    "rareGrade": "RRR",
+    "cardNum": "BS2022014081",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_081.png?w=512",
+    "hp": 280,
+    "monType": [
+      "드래곤"
+    ],
+    "weakness": null,
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "로스트임팩트",
+        "energy": [
+          "풀",
+          "초",
+          "무색"
+        ],
+        "damage": "280",
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 에너지를 2개 선택해서 로스트존에 둔다."
+      },
+      {
+        "name": "VSTAR 파워\n스타레퀴엠",
+        "energy": [
+          "풀",
+          "초"
+        ],
+        "damage": null,
+        "effect": "이 기술은 자신의 로스트존에 카드가 10장 이상 있을 때만 사용할 수 있다. 상대의 배틀 포켓몬을 기절시킨다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)"
+      },
+      {
+        "name": "VSTAR 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
     "name": "기라티나 V",
     "type": "pokemon",
     "detailedType": [
@@ -1183,126 +1326,6 @@
           "무색"
         ],
         "damage": "120",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "드래런치",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "S11",
-    "order": 53,
-    "regulation": "F",
-    "illustrator": "kurumitsu",
-    "rareGrade": "U",
-    "cardNum": "BS2022014053",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_053.png?w=512",
-    "hp": 90,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "홀로숏",
-        "energy": [
-          "초"
-        ],
-        "damage": "40",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "드라꼰",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S11",
-    "order": 52,
-    "regulation": "F",
-    "illustrator": "Tomokazu Komiya",
-    "rareGrade": "C",
-    "cardNum": "BS2022014052",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_052.png?w=512",
-    "hp": 60,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "돌격",
-        "energy": [
-          "초"
-        ],
-        "damage": "30",
-        "effect": "이 포켓몬에게도 10데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "에써르",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "S11",
-    "order": 51,
-    "regulation": "F",
-    "illustrator": "kodama",
-    "rareGrade": "C",
-    "cardNum": "BS2022014051",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/S/S11/S11_051.png?w=512",
-    "hp": 90,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "악",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "스마트서브",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 기술은 선공 플레이어의 첫 차례라도 사용할 수 있다. 자신의 덱에서 원하는 카드를 1장 선택해서 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "수벽치기",
-        "energy": [
-          "초",
-          "무색"
-        ],
-        "damage": "40",
         "effect": null
       }
     ]

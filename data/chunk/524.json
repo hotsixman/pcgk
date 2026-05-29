@@ -1,5 +1,50 @@
 [
   {
+    "name": "포켓몬 도감",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "fsg",
+    "order": 34,
+    "regulation": "none",
+    "illustrator": "Noriko Hotta",
+    "rareGrade": null,
+    "cardNum": "ST2011001034",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/FS/bw1_fs_g_034.jpg?w=512",
+    "effect": "자신의 덱을 위에서부터 5장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다.아이템은 자신의 차례에 몇 장이라도 사용할 수 있다."
+  },
+  {
+    "name": "포켓몬 교체",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "fsg",
+    "order": 33,
+    "regulation": "none",
+    "illustrator": "Ayaka Yoshida",
+    "rareGrade": null,
+    "cardNum": "ST2011001033",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/FS/bw1_fs_g_033.jpg?w=512",
+    "effect": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다"
+  },
+  {
+    "name": "수퍼 포켓몬 회수",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "fsg",
+    "order": 30,
+    "regulation": "none",
+    "illustrator": "Daisuke Iwamoto",
+    "rareGrade": null,
+    "cardNum": "ST2011001030",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/FS/bw1_fs_g_030.jpg?w=512",
+    "effect": "동전을 한 번 던져서 앞면이 나오면 자신의 포켓몬 1마리와 붙어 있는 모든 카드를 패로 되돌린다.아이템은 자신의 차례에 몇 장이라도 사용할 수 있다."
+  },
+  {
     "name": "상처약",
     "type": "trainers",
     "detailedType": [
@@ -851,138 +896,6 @@
         ],
         "damage": "20",
         "effect": "동전을 한 번 던져서 앞면이 나오면 상대를 혼란으로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "꼬지모",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "st3c",
-    "order": 7,
-    "regulation": "none",
-    "illustrator": "KoUki SaitoU",
-    "rareGrade": null,
-    "cardNum": "ST2010004007",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/ST3/st3_cresselia_ko_7.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "20"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "바둥바둥",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10×",
-        "effect": "자신의 데미지 카운터 × 10데미지를 준다."
-      },
-      {
-        "name": "우드해머",
-        "energy": [
-          "격투",
-          "격투"
-        ],
-        "damage": "50",
-        "effect": "자신에게도 30데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "글라이거",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "st3c",
-    "order": 6,
-    "regulation": "none",
-    "illustrator": "MasakazU FUkUda",
-    "rareGrade": null,
-    "cardNum": "ST2010004006",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/ST3/st3_cresselia_ko_6.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "10"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "라이트 포이즌",
-        "energy": [
-          "0코스트"
-        ],
-        "damage": "10",
-        "effect": "동전을 한 번 던져서 뒷면이 나오면 이 기술은 실패한다. 앞면이 나오면 상대를 독으로 만든다."
-      },
-      {
-        "name": "달려들기",
-        "energy": [
-          "격투"
-        ],
-        "damage": "10+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 10데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "크레세리아",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "st3c",
-    "order": 5,
-    "regulation": "none",
-    "illustrator": "Ryo Ueda",
-    "rareGrade": null,
-    "cardNum": "ST2010004005",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/ST3/st3_cresselia_ko_5.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "초",
-      "value": "20"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "달의 반짝임",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": "필드에 「스타디움」이 있다면 자신의 데미지 카운터를 2개 제거한다."
-      },
-      {
-        "name": "초승달춤",
-        "energy": [
-          "초",
-          "초",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": "원한다면 자신의 에너지를 2개 트래쉬해도 좋다. 그 경우 자신의 벤치 포켓몬 1마리로부터 데미지 카운터를 모두 제거한다."
       }
     ]
   }

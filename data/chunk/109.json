@@ -1,5 +1,117 @@
 [
   {
+    "name": "알로라 닥트리오",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SV8",
+    "order": 116,
+    "regulation": "H",
+    "illustrator": "Yukihiro Tada",
+    "rareGrade": "AR",
+    "cardNum": "BS2024017116",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV8/SV8_116.png?w=512",
+    "hp": 110,
+    "monType": [
+      "강철"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": {
+      "type": "풀",
+      "value": "-30"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "쓰리빙고",
+        "energy": [
+          "0코스트"
+        ],
+        "damage": "120",
+        "effect": "자신의 패가 3장이 아니라면 이 기술은 실패한다."
+      }
+    ]
+  },
+  {
+    "name": "게을로",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV8",
+    "order": 117,
+    "regulation": "H",
+    "illustrator": "Mékayu",
+    "rareGrade": "AR",
+    "cardNum": "BS2024017117",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV8/SV8_117.png?w=512",
+    "hp": 60,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "느긋이지내기",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "이 포켓몬의 HP를 「60」회복한다. 자신의 다음 차례에 이 포켓몬은 후퇴할 수 없다."
+      }
+    ]
+  },
+  {
+    "name": "켈리몬",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV8",
+    "order": 118,
+    "regulation": "H",
+    "illustrator": "Mori Yuu",
+    "rareGrade": "AR",
+    "cardNum": "BS2024017118",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV8/SV8_118.png?w=512",
+    "hp": 70,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "숨기 고수",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬이 기술의 데미지를 받을 때 자신은 동전을 1번 던진다. 앞면이 나오면 이 포켓몬은 그 데미지를 받지 않는다."
+      },
+      {
+        "name": "낼름휩",
+        "energy": [
+          "무색",
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 포켓몬 1마리에게 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+      }
+    ]
+  },
+  {
     "name": "아이앤트 ex",
     "type": "pokemon",
     "detailedType": [
@@ -1008,90 +1120,5 @@
     "cardNum": "SVP000000100",
     "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV-P/SV-P_100.png?w=512",
     "effect": "자신의 패를 모두 트래쉬하고 덱을 7장 뽑는다."
-  },
-  {
-    "name": "빌리오&나리아",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "promo",
-    "order": 101,
-    "regulation": "H",
-    "illustrator": "Sanosuke Sakuma",
-    "rareGrade": null,
-    "cardNum": "SVP000000101",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV-P/SV-P_101.png?w=512",
-    "effect": "자신의 덱을 2장 뽑는다. 그 뒤, 자신의 패가 10장 이상 있다면 2장 더 뽑는다."
-  },
-  {
-    "name": "피카츄",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "promo",
-    "order": 102,
-    "regulation": "H",
-    "illustrator": "Atsushi Furusawa",
-    "rareGrade": null,
-    "cardNum": "SVP000000102",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV-P/SV-P_102.png?w=512",
-    "hp": 70,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "열투스파크",
-        "energy": [
-          "번개",
-          "번개",
-          "무색"
-        ],
-        "damage": "30+",
-        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "아라리",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV7a",
-    "order": 1,
-    "regulation": "H",
-    "illustrator": "Tetsu Kayama",
-    "rareGrade": "C",
-    "cardNum": "BS2024016001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV7a/SV7a_001.png?w=512",
-    "hp": 30,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "조숙진화",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "이 기술은 선공 플레이어의 첫 차례라도 사용할 수 있다. 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택해서 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다."
-      }
-    ]
   }
 ]

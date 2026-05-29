@@ -1,5 +1,123 @@
 [
   {
+    "name": "리그레",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bcv",
+    "order": 12,
+    "regulation": "none",
+    "illustrator": "Naoki Saito",
+    "rareGrade": null,
+    "cardNum": "ST2011007012",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_victini_012.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "초",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "콘택트",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 기본 포켓몬을 2장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다."
+      },
+      {
+        "name": "박치기",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
+    "name": "데스니칸",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "bcv",
+    "order": 11,
+    "regulation": "none",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": null,
+    "cardNum": "ST2011007011",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_victini_011.jpg?w=512",
+    "hp": 90,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "악",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "썩지않는몸",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬이 기술의 데미지를 받아 기절할 때 동전을 한 번 던진다. 앞면이 나오면 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에 남는다."
+      },
+      {
+        "name": "덮치기",
+        "energy": [
+          "초",
+          "무색"
+        ],
+        "damage": "40+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 20데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "데스마스",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bcv",
+    "order": 10,
+    "regulation": "none",
+    "illustrator": "Shin Nagasawa",
+    "rareGrade": null,
+    "cardNum": "ST2011007010",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BGR/bw_victini_010.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "초"
+    ],
+    "weakness": {
+      "type": "악",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "덮치기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 10데미지를 추가한다."
+      }
+    ]
+  },
+  {
     "name": "비크티니",
     "type": "pokemon",
     "detailedType": [
@@ -785,66 +903,6 @@
         ],
         "damage": "20+",
         "effect": "동전을 한 번 던져서 앞면이 나오면 10데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "벨",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "bgt",
-    "order": 14,
-    "regulation": "none",
-    "illustrator": "Yusuke Ohmura",
-    "rareGrade": null,
-    "cardNum": "ST2011005014",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_terrakion/bw1_terrakion_014.jpg?w=512",
-    "effect": "자신의 패가 6장이 되도록 덱을 뽑는다.서포트는 자신의 차례에 1장만 사용할 수 있다."
-  },
-  {
-    "name": "테라키온",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bgt",
-    "order": 13,
-    "regulation": "none",
-    "illustrator": "5ban Graphics",
-    "rareGrade": null,
-    "cardNum": "ST2011005013",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/BW/BG_terrakion/bw1_terrakion_013.jpg?w=512",
-    "hp": 120,
-    "monType": [
-      "격투"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "록스매시",
-        "energy": [
-          "격투",
-          "무색"
-        ],
-        "damage": "40",
-        "effect": null
-      },
-      {
-        "name": "아이템 룰",
-        "energy": [
-          "격투",
-          "격투",
-          "무색"
-        ],
-        "damage": "100",
-        "effect": "자신의 다음 차례에 이 포켓몬은 「성스러운칼」을 사용할 수 없다."
       }
     ]
   }

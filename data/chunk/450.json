@@ -1,5 +1,75 @@
 [
   {
+    "name": "수퍼 포켓몬 회수",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm7a",
+    "order": 46,
+    "regulation": "A",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2018012046",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_046.png?w=512",
+    "effect": "동전을 1번 던져서 앞면이 나오면 자신의 포켓몬 1마리와 붙어 있는 모든 카드를 패로 되돌린다."
+  },
+  {
+    "name": "믹스허브",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "sm7a",
+    "order": 45,
+    "regulation": "B",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "C",
+    "cardNum": "BS2018012045",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_045.png?w=512",
+    "effect": "「믹스허브」는 1장 또는 2장 동시에 사용할 수 있으며 사용한 장수에 따라 효과가 변한다.\n\n◆1장 사용하면 자신의 배틀 포켓몬의 특수 상태를 1가지 회복한다.\n\n◆2장 동시에 사용하면 자신의 배틀 포켓몬의 HP를 「90」회복하고 특수 상태도 모두 회복한다. (이 효과는 2장으로 1번 작용한다.)"
+  },
+  {
+    "name": "켈리몬",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "sm7a",
+    "order": 44,
+    "regulation": "B",
+    "illustrator": "OOYAMA",
+    "rareGrade": "C",
+    "cardNum": "BS2018012044",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_044.png?w=512",
+    "hp": 80,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "유닛컬러1",
+        "energy": [],
+        "damage": null,
+        "effect": "이 포켓몬에게 「유닛 에너지 (풀) (불꽃) (물) 」이 붙어 있는 한, 이 포켓몬은 (풀) (불꽃) (물) 의 3가지 타입이 된다."
+      },
+      {
+        "name": "혀로뺨치기",
+        "energy": [
+          "무색"
+        ],
+        "damage": "10+",
+        "effect": "상대의 배틀 포켓몬이 진화 포켓몬이라면 50데미지를 추가한다."
+      }
+    ]
+  },
+  {
     "name": "메타몽(프리즘스타)",
     "type": "pokemon",
     "detailedType": [
@@ -1193,127 +1263,6 @@
         ],
         "damage": "50",
         "effect": "동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "화염레오",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "sm7a",
-    "order": 16,
-    "regulation": "B",
-    "illustrator": "Hasuno",
-    "rareGrade": "C",
-    "cardNum": "BS2018012016",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_016.png?w=512",
-    "hp": 130,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "깨물어부수기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 트래쉬한다."
-      },
-      {
-        "name": "히트블라스트",
-        "energy": [
-          "불꽃",
-          "무색",
-          "무색"
-        ],
-        "damage": "90",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "레오꼬",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm7a",
-    "order": 15,
-    "regulation": "B",
-    "illustrator": "Akira Komayama",
-    "rareGrade": "C",
-    "cardNum": "BS2018012015",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_015.png?w=512",
-    "hp": 60,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "와일드대시",
-        "energy": [],
-        "damage": null,
-        "effect": "상대의 필드에 「포켓몬 GX・EX」가 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다."
-      },
-      {
-        "name": "돌진",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "이 포켓몬에게도 10데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "비크티니",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "sm7a",
-    "order": 14,
-    "regulation": "B",
-    "illustrator": "sowsow",
-    "rareGrade": "U",
-    "cardNum": "BS2018012014",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/SM7A/SM7A_014.png?w=512",
-    "hp": 70,
-    "monType": [
-      "불꽃"
-    ],
-    "weakness": {
-      "type": "물",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "V비트",
-        "energy": [
-          "불꽃",
-          "무색"
-        ],
-        "damage": "20x",
-        "effect": "자신의 필드의 기본 포켓몬의 수 × 20데미지를 준다."
       }
     ]
   }

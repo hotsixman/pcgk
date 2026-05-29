@@ -1,5 +1,69 @@
 [
   {
+    "name": "투희",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV11W",
+    "order": 85,
+    "regulation": "I",
+    "illustrator": "yuu",
+    "rareGrade": "U",
+    "cardNum": "BS2025008085",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_085.png?w=512",
+    "effect": "자신의 덱에서 진화 포켓몬과 에너지를 1장씩 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "이그니션 에너지",
+    "type": "energy",
+    "detailedType": [
+      "특수 에너지"
+    ],
+    "goods": "SV11W",
+    "order": 86,
+    "regulation": "I",
+    "illustrator": null,
+    "rareGrade": "U",
+    "cardNum": "BS2025008086",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_086.png?w=512",
+    "effect": ""
+  },
+  {
+    "name": "두르보",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "SV11W",
+    "order": 87,
+    "regulation": "I",
+    "illustrator": "nisimono",
+    "rareGrade": "AR",
+    "cardNum": "BS2025008087",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_087.png?w=512",
+    "hp": 50,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "벌레먹기",
+        "energy": [
+          "풀"
+        ],
+        "damage": "20",
+        "effect": null
+      }
+    ]
+  },
+  {
     "name": "두르쿤",
     "type": "pokemon",
     "detailedType": [
@@ -1103,132 +1167,6 @@
         ],
         "damage": "50×",
         "effect": "이 포켓몬에게 붙어 있는 (번개) 에너지를 모두 트래쉬하고 그 장수 × 50데미지를 준다."
-      }
-    ]
-  },
-  {
-    "name": "메더",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 115,
-    "regulation": "I",
-    "illustrator": "Toshinao Aoki",
-    "rareGrade": "AR",
-    "cardNum": "BS2025008115",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_115.png?w=512",
-    "hp": 110,
-    "monType": [
-      "번개"
-    ],
-    "weakness": {
-      "type": "격투",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "머드볼트",
-        "energy": [
-          "무색"
-        ],
-        "damage": "20+",
-        "effect": "이 포켓몬에게 (격투) 에너지가 붙어 있다면 20데미지를 추가한다."
-      },
-      {
-        "name": "돌아다니며 뛰기",
-        "energy": [
-          "번개",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "또르박쥐",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "SV11W",
-    "order": 116,
-    "regulation": "I",
-    "illustrator": "Shibuzoh.",
-    "rareGrade": "AR",
-    "cardNum": "BS2025008116",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_116.png?w=512",
-    "hp": 60,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "하트스탬프",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "맘박쥐",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "SV11W",
-    "order": 117,
-    "regulation": "I",
-    "illustrator": "Saboteri",
-    "rareGrade": "AR",
-    "cardNum": "BS2025008117",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV11W/SV11W_117.png?w=512",
-    "hp": 90,
-    "monType": [
-      "초"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "해피리턴",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "자신의 벤치 포켓몬을 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다."
-      },
-      {
-        "name": "바람일으키기",
-        "energy": [
-          "무색",
-          "무색"
-        ],
-        "damage": "50",
-        "effect": null
       }
     ]
   }

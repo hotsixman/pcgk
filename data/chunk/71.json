@@ -1,5 +1,76 @@
 [
   {
+    "name": "로켓단의 팩토리",
+    "type": "trainers",
+    "detailedType": [
+      "스타디움"
+    ],
+    "goods": "SV10",
+    "order": 97,
+    "regulation": "I",
+    "illustrator": "imoniii",
+    "rareGrade": "U",
+    "cardNum": "BS2025006097",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_097.png?w=512",
+    "effect": "이 차례에 패에서 카드 이름에 「로켓단」이 적힌 서포트를 꺼내서 사용한 플레이어는 자신의 차례마다 1번 자신의 덱을 2장 뽑아도 좋다."
+  },
+  {
+    "name": "로켓단 에너지",
+    "type": "energy",
+    "detailedType": [
+      "특수 에너지"
+    ],
+    "goods": "SV10",
+    "order": 98,
+    "regulation": "I",
+    "illustrator": "aky CG Works",
+    "rareGrade": "U",
+    "cardNum": "BS2025006098",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_098.png?w=512",
+    "effect": ""
+  },
+  {
+    "name": "로켓단의 트래피더",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "SV10",
+    "order": 99,
+    "regulation": "I",
+    "illustrator": "NC Empire",
+    "rareGrade": "AR",
+    "cardNum": "BS2025006099",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_099.png?w=512",
+    "hp": 130,
+    "monType": [
+      "풀"
+    ],
+    "weakness": {
+      "type": "불꽃",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "차지업",
+        "energy": [],
+        "damage": null,
+        "effect": "자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 기본 에너지를 1장 선택해서 이 포켓몬에게 붙인다."
+      },
+      {
+        "name": "로켓러시",
+        "energy": [
+          "풀",
+          "무색"
+        ],
+        "damage": "30×",
+        "effect": "자신의 필드의 「로켓단의 포켓몬」의 수 × 30데미지를 준다."
+      }
+    ]
+  },
+  {
     "name": "로켓단의 헬가",
     "type": "pokemon",
     "detailedType": [
@@ -1112,86 +1183,5 @@
         "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
     ]
-  },
-  {
-    "name": "로켓단의 크로뱃 ex",
-    "type": "pokemon",
-    "detailedType": [
-      "2진화",
-      "포켓몬  ex"
-    ],
-    "goods": "SV10",
-    "order": 127,
-    "regulation": "I",
-    "illustrator": "cochi8i",
-    "rareGrade": "SAR",
-    "cardNum": "BS2025006127",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_127.png?w=512",
-    "hp": 310,
-    "monType": [
-      "악"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": {
-      "type": "격투",
-      "value": "-30"
-    },
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "물고 다니기",
-        "energy": [],
-        "damage": null,
-        "effect": "자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대의 포켓몬 2마리에게 각각 데미지 카운터를 2개 올린다."
-      },
-      {
-        "name": "어새신리턴",
-        "energy": [
-          "악",
-          "악"
-        ],
-        "damage": "120",
-        "effect": "원한다면 이 포켓몬을 패로 되돌린다. (포켓몬 이외의 카드는 모두 트래쉬한다.)"
-      },
-      {
-        "name": "ex 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "로켓단의 비주기",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "SV10",
-    "order": 128,
-    "regulation": "I",
-    "illustrator": "Krgc",
-    "rareGrade": "SAR",
-    "cardNum": "BS2025006128",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_128.png?w=512",
-    "effect": "자신의 배틀필드의 「로켓단의 포켓몬」을 벤치의 「로켓단의 포켓몬」과 교체한다. 그 뒤, 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
-  },
-  {
-    "name": "로켓단의 아테나",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "SV10",
-    "order": 129,
-    "regulation": "I",
-    "illustrator": "Yoshioka",
-    "rareGrade": "SAR",
-    "cardNum": "BS2025006129",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV10/SV10_129.png?w=512",
-    "effect": "자신의 패가 5장이 되도록 덱을 뽑는다. 자신의 필드의 포켓몬 전원이 「로켓단의 포켓몬」이라면 8장이 되도록 뽑는다."
   }
 ]

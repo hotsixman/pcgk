@@ -1,5 +1,75 @@
 [
   {
+    "name": "동굴탈출로프",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 61,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002061",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_061.jpg?w=512",
+    "effect": "서로의 플레이어는 각각 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (교체는 상대부터 한다. 벤치 포켓몬이 없는 플레이어는 교체하지 않는다.）"
+  },
+  {
+    "name": "다이브볼",
+    "type": "trainers",
+    "detailedType": [
+      "아이템"
+    ],
+    "goods": "xy5t",
+    "order": 60,
+    "regulation": "XY",
+    "illustrator": "Toyste Beach",
+    "rareGrade": "U",
+    "cardNum": "BS2015002060",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_060.jpg?w=512",
+    "effect": "자신의 덱에서 (물) 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "비버통",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "xy5t",
+    "order": 59,
+    "regulation": "XY",
+    "illustrator": "kirisAki",
+    "rareGrade": "C",
+    "cardNum": "BS2015002059",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_059.jpg?w=512",
+    "hp": 120,
+    "monType": [
+      "무색"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "하품",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
+      },
+      {
+        "name": "연속박치기",
+        "energy": [],
+        "damage": "80×",
+        "effect": "뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 80데미지를 준다."
+      }
+    ]
+  },
+  {
     "name": "비버니",
     "type": "pokemon",
     "detailedType": [
@@ -319,17 +389,17 @@
       },
       {
         "name": "브릴리언트 애로",
-        "energy": [],
-        "damage": "30×",
-        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (페어리) 에너지를 합한 수 × 30데미지를 준다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
         "energy": [
           "페어리",
           "무색",
           "무색"
         ],
+        "damage": "30×",
+        "effect": "자신의 필드의 포켓몬에게 붙어 있는 (페어리) 에너지를 합한 수 × 30데미지를 준다."
+      },
+      {
+        "name": "포켓몬 EX 룰",
+        "energy": [],
         "damage": null,
         "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
       }
@@ -1146,143 +1216,6 @@
         "energy": [],
         "damage": null,
         "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "가이오가 EX",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 EX"
-    ],
-    "goods": "xy5t",
-    "order": 31,
-    "regulation": "XY",
-    "illustrator": "Ryota Murayama",
-    "rareGrade": "RR",
-    "cardNum": "BS2015002031",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_031.jpg?w=512",
-    "hp": 180,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 4,
-    "tech": [
-      {
-        "name": "물의파동",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "상대의 배틀 포켓몬을 잠듦으로 만든다."
-      },
-      {
-        "name": "거대한 소용돌이",
-        "energy": [
-          "물",
-          "물",
-          "무색",
-          "무색"
-        ],
-        "damage": "140",
-        "effect": "이 포켓몬에게 붙어 있는 (물) 에너지를 2개 선택해서 패로 되돌린다."
-      },
-      {
-        "name": "포켓몬 EX 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 EX가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
-  },
-  {
-    "name": "분홍장이",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 30,
-    "regulation": "XY",
-    "illustrator": "Kouki Saitou",
-    "rareGrade": "U",
-    "cardNum": "BS2015002030",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_030.jpg?w=512",
-    "hp": 90,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 1,
-    "tech": [
-      {
-        "name": "고대능력【α그로우】",
-        "energy": [],
-        "damage": null,
-        "effect": "이 포켓몬에게 패에서 에너지를 붙일 때 동시에 2장까지 붙일 수 있다. (기술 특성 트레이너스로 붙일 때는 제외한다.)"
-      },
-      {
-        "name": "염동력",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다."
-      }
-    ]
-  },
-  {
-    "name": "분홍장이",
-    "type": "pokemon",
-    "detailedType": [
-      "1진화"
-    ],
-    "goods": "xy5t",
-    "order": 29,
-    "regulation": "XY",
-    "illustrator": "Miki Tanaka",
-    "rareGrade": "U",
-    "cardNum": "BS2015002029",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/XY/XY5/XY5_TS_029.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "풀",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 0,
-    "tech": [
-      {
-        "name": "유혹",
-        "energy": [
-          "무색"
-        ],
-        "damage": null,
-        "effect": "상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
-      },
-      {
-        "name": "사이코키네시스",
-        "energy": [
-          "물",
-          "무색"
-        ],
-        "damage": "30+",
-        "effect": "상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 10데미지를 추가한다."
       }
     ]
   }

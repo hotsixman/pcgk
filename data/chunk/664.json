@@ -1,5 +1,138 @@
 [
   {
+    "name": "썬더볼트",
+    "type": "pokemon",
+    "detailedType": [
+      "1진화"
+    ],
+    "goods": "bs1",
+    "order": 32,
+    "regulation": "none",
+    "illustrator": "Daisuke Ito",
+    "rareGrade": "R",
+    "cardNum": "BS2010001032",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_32.jpg?w=512",
+    "hp": 80,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "20"
+    },
+    "resistance": {
+      "type": "강철",
+      "value": "-20"
+    },
+    "retreat": 0,
+    "tech": [
+      {
+        "name": "전기자석파",
+        "energy": [
+          "번개"
+        ],
+        "damage": "30",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대를 마비로 만든다."
+      },
+      {
+        "name": "볼트 크래시",
+        "energy": [
+          "번개",
+          "무색"
+        ],
+        "damage": "40+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 자신의 에너지를 1개 트래쉬하고 30데미지를 추가한다."
+      }
+    ]
+  },
+  {
+    "name": "썬더라이",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs1",
+    "order": 31,
+    "regulation": "none",
+    "illustrator": "Kouki Saitou",
+    "rareGrade": "C",
+    "cardNum": "BS2010001031",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_31.jpg?w=512",
+    "hp": 60,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "10"
+    },
+    "resistance": {
+      "type": "강철",
+      "value": "-20"
+    },
+    "retreat": 1,
+    "tech": [
+      {
+        "name": "전자방해",
+        "energy": [
+          "번개"
+        ],
+        "damage": "10",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 상대의 다음 차례에 상대 플레이어는 패에서 에너지를 꺼내서 배틀 포켓몬에게 붙일 수 없다."
+      }
+    ]
+  },
+  {
+    "name": "썬더",
+    "type": "pokemon",
+    "detailedType": [
+      "기본"
+    ],
+    "goods": "bs1",
+    "order": 30,
+    "regulation": "none",
+    "illustrator": "Kagemaru Himeno",
+    "rareGrade": "R",
+    "cardNum": "BS2010001030",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_30.jpg?w=512",
+    "hp": 100,
+    "monType": [
+      "번개"
+    ],
+    "weakness": {
+      "type": "번개",
+      "value": "30"
+    },
+    "resistance": {
+      "type": "격투",
+      "value": "-20"
+    },
+    "retreat": 2,
+    "tech": [
+      {
+        "name": "회전부리",
+        "energy": [
+          "번개",
+          "무색",
+          "무색"
+        ],
+        "damage": "30",
+        "effect": null
+      },
+      {
+        "name": "우뢰날개",
+        "energy": [
+          "번개",
+          "번개",
+          "무색",
+          "무색"
+        ],
+        "damage": "50+",
+        "effect": "동전을 한 번 던져서 앞면이 나오면 20데미지를 추가한다."
+      }
+    ]
+  },
+  {
     "name": "라이츄",
     "type": "pokemon",
     "detailedType": [
@@ -1073,108 +1206,5 @@
         "effect": null
       }
     ]
-  },
-  {
-    "name": "모부기",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs1",
-    "order": 2,
-    "regulation": "none",
-    "illustrator": "Ken Sugimori",
-    "rareGrade": "C",
-    "cardNum": "BS2010001002",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_2.jpg?w=512",
-    "hp": 60,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "10"
-    },
-    "resistance": {
-      "type": "물",
-      "value": "-20"
-    },
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "몸통박치기",
-        "energy": [
-          "0코스트"
-        ],
-        "damage": "10",
-        "effect": null
-      },
-      {
-        "name": "잎날가르기",
-        "energy": [
-          "풀"
-        ],
-        "damage": "20",
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "헤라크로스",
-    "type": "pokemon",
-    "detailedType": [
-      "기본"
-    ],
-    "goods": "bs1",
-    "order": 1,
-    "regulation": "none",
-    "illustrator": "Ken Sugimori",
-    "rareGrade": "U",
-    "cardNum": "BS2010001001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/DP/BS1/bs1_kr_1.jpg?w=512",
-    "hp": 80,
-    "monType": [
-      "풀"
-    ],
-    "weakness": {
-      "type": "불꽃",
-      "value": "20"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "던져버리기",
-        "energy": [
-          "무색"
-        ],
-        "damage": "10",
-        "effect": "상대를 상대의 벤치 포켓몬과 교체한다. 교체하는 벤치 포켓몬은 상대 플레이어가 선택한다."
-      },
-      {
-        "name": "뿔로 베어가르기",
-        "energy": [
-          "풀",
-          "풀"
-        ],
-        "damage": "30+",
-        "effect": "동전을 한 번 던져서 앞면이 나오면 30데미지를 추가한다."
-      }
-    ]
-  },
-  {
-    "name": "에테르재단 직원",
-    "type": "trainers",
-    "detailedType": [
-      "서포트"
-    ],
-    "goods": "promo",
-    "order": 91,
-    "regulation": "B",
-    "illustrator": "take",
-    "rareGrade": null,
-    "cardNum": "SMP000000119",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SM/PROMO/SMP_119.png?w=512",
-    "effect": "자신의 트래쉬에 있는 카드 이름에 「알로라」가 적힌 포켓몬을 3장 상대에게 보여주고 패로 가져온다."
   }
 ]

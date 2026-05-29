@@ -1,5 +1,86 @@
 [
   {
+    "name": "카시오페아",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV6a",
+    "order": 85,
+    "regulation": "H",
+    "illustrator": "Atsushi Furusawa",
+    "rareGrade": "SR",
+    "cardNum": "BS2024011085",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV6a/SV6a_085.png?w=512",
+    "effect": "이 카드는 자신의 패가 이 카드 1장일 때만 사용할 수 있다.\n\n자신의 덱에서 원하는 카드를 2장까지 선택해서 패로 가져온다. 그리고 덱을 섞는다."
+  },
+  {
+    "name": "크세로시키의 속셈",
+    "type": "trainers",
+    "detailedType": [
+      "서포트"
+    ],
+    "goods": "SV6a",
+    "order": 86,
+    "regulation": "H",
+    "illustrator": "GOSSAN",
+    "rareGrade": "SR",
+    "cardNum": "BS2024011086",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV6a/SV6a_086.png?w=512",
+    "effect": "상대는 상대 자신의 패를 3장이 되도록 트래쉬한다."
+  },
+  {
+    "name": "조타구 ex",
+    "type": "pokemon",
+    "detailedType": [
+      "기본",
+      "포켓몬 ex"
+    ],
+    "goods": "SV6a",
+    "order": 87,
+    "regulation": "H",
+    "illustrator": "kantaro",
+    "rareGrade": "SAR",
+    "cardNum": "BS2024011087",
+    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SV6a/SV6a_087.png?w=512",
+    "hp": 250,
+    "monType": [
+      "악"
+    ],
+    "weakness": {
+      "type": "격투",
+      "value": "×2"
+    },
+    "resistance": null,
+    "retreat": 3,
+    "tech": [
+      {
+        "name": "포이즌머슬",
+        "energy": [
+          "무색"
+        ],
+        "damage": null,
+        "effect": "자신의 덱에서 「기본 (악) 에너지」를 2장까지 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다. 붙였을 경우, 이 포켓몬을 독으로 만든다."
+      },
+      {
+        "name": "크레이지체인",
+        "energy": [
+          "악",
+          "악",
+          "무색"
+        ],
+        "damage": "130+",
+        "effect": "이 포켓몬이 독이라면 130데미지를 추가한다."
+      },
+      {
+        "name": "ex 룰",
+        "energy": [],
+        "damage": null,
+        "effect": "포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다."
+      }
+    ]
+  },
+  {
     "name": "이야후 ex",
     "type": "pokemon",
     "detailedType": [
@@ -800,71 +881,5 @@
     "cardNum": "BS2024009020",
     "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVJL/SVJL_020.png?w=512",
     "effect": "서로의 플레이어는 자신의 차례마다 1번 자신의 덱에서 기본 포켓몬(「룰을 가진 포켓몬」은 제외)을 1장 선택해서 벤치로 내보내도 좋다. 그리고 덱을 섞는다."
-  },
-  {
-    "name": "더블 터보 에너지",
-    "type": "energy",
-    "detailedType": [
-      "특수 에너지"
-    ],
-    "goods": "SVJL",
-    "order": 21,
-    "regulation": "F",
-    "illustrator": null,
-    "rareGrade": null,
-    "cardNum": "BS2024009021",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVJL/SVJL_021.png?w=512",
-    "effect": ""
-  },
-  {
-    "name": "오리진 펄기아 V",
-    "type": "pokemon",
-    "detailedType": [
-      "기본",
-      "포켓몬 V"
-    ],
-    "goods": "SVJP",
-    "order": 1,
-    "regulation": "F",
-    "illustrator": "aky CG Works",
-    "rareGrade": null,
-    "cardNum": "BS2024010001",
-    "featureImage": "https://cards.image.pokemonkorea.co.kr/data/wmimages/SV/SVJP/SVJP_001.png?w=512",
-    "hp": 220,
-    "monType": [
-      "물"
-    ],
-    "weakness": {
-      "type": "번개",
-      "value": "×2"
-    },
-    "resistance": null,
-    "retreat": 2,
-    "tech": [
-      {
-        "name": "영역지배",
-        "energy": [
-          "물"
-        ],
-        "damage": null,
-        "effect": "자신의 덱에서 스타디움을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
-      },
-      {
-        "name": "하이드로 브레이크",
-        "energy": [
-          "물",
-          "물",
-          "무색"
-        ],
-        "damage": "200",
-        "effect": "자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다."
-      },
-      {
-        "name": "V 룰",
-        "energy": [],
-        "damage": null,
-        "effect": "포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다."
-      }
-    ]
   }
 ]
